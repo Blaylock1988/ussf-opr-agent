@@ -1,0 +1,130 @@
+{
+  "kind": "data_currency",
+  "principle": "Everything in this plugin reflects policy as of its published/verified dates. Forms, approved acronyms, competitive categories, Space Force structure, CSO priorities, and what boards value (SECWAR/SECAF/CSO priorities change with leadership and administrations) all drift. data_check.py warns when a dataset was last verified longer ago than its review window or older than the report being written; refresh from the listed source, or override per user in _opr_work/.",
+  "datasets": [
+    {
+      "id": "form",
+      "file": "forms/daf707-20240213.json",
+      "review_months": 12,
+      "volatility": "medium",
+      "source": "e-Publishing: DAF Form 707 (check the form date in the footer)",
+      "refresh": "new form.json profile (sections, line limits, width); re-verify 201.05 mm width against a filled line",
+      "published": "2024-02-13",
+      "verified": "2026-09"
+    },
+    {
+      "id": "approved_lists",
+      "file": "common_acronyms.json + approved_abbreviations.json",
+      "review_months": 12,
+      "volatility": "high",
+      "source": "Built from command (FLDCOM) writing guidance: CFC Writing Guide Attachments, 26 Jun 2026 (not included)",
+      "refresh": "build_approved_lists.py <attachments.pdf> (or --out _opr_work/approved for a unit list)",
+      "published": "2026-06-26",
+      "verified": "2026-09"
+    },
+    {
+      "id": "afpc_acronyms",
+      "file": "afpc_acronyms.json",
+      "review_months": 12,
+      "volatility": "medium",
+      "source": "https://www.afpc.af.mil/Career-Management/Acronyms/",
+      "refresh": "save a new page export into Guidance/ and re-transcribe",
+      "published": "2024-10-28",
+      "verified": "2026-09"
+    },
+    {
+      "id": "competitive_categories",
+      "file": "competitive_categories.json",
+      "review_months": 12,
+      "volatility": "medium",
+      "source": "USSF competitive categories / USAF developmental categories (personnel guidance, board announcements)",
+      "refresh": "edit the JSON when categories are created, split, or combined",
+      "published": "2026-09",
+      "verified": "2026-09"
+    },
+    {
+      "id": "ussf_structure",
+      "file": "ussf_structure.json",
+      "review_months": 6,
+      "volatility": "high",
+      "source": "https://en.wikipedia.org/wiki/Structure_of_the_United_States_Space_Force and spaceforce.mil",
+      "refresh": "add/rename commands and deltas (e.g. SpOC -> CFC, 3 Nov 2025)",
+      "published": "2026-09",
+      "verified": "2026-09"
+    },
+    {
+      "id": "ranks",
+      "file": "ranks.json",
+      "review_months": 24,
+      "volatility": "low",
+      "source": "spaceforce.mil 'Space Force releases service-specific rank names'",
+      "refresh": "edit if grades are renamed",
+      "published": "2021-02",
+      "verified": "2026-09"
+    },
+    {
+      "id": "cso_digest",
+      "file": "cso_digest.json",
+      "review_months": 3,
+      "volatility": "high",
+      "source": "Digest of CSO Selected Works (Gen Saltzman, Nov 2022 - Aug 2026); CSO Leadership Library; Gen Schiess became CSO 3 Sep 2026",
+      "refresh": "add digest entries for new CSO notices and speeches; build_cso_index.py --out <local> lists missing C-Notes",
+      "published": "2026-09",
+      "verified": "2026-09"
+    },
+    {
+      "id": "board_priorities",
+      "file": "board_priorities.json",
+      "review_months": 6,
+      "volatility": "high",
+      "source": "SECWAR/SECAF/CSO guidance, board convening instructions, rating-chain knowledge",
+      "refresh": "research current priorities (impact-research step) and update; user overrides in _opr_work/board_priorities.json",
+      "published": "2026-09",
+      "verified": "2026-09"
+    },
+    {
+      "id": "scod",
+      "file": "scod.json",
+      "review_months": 12,
+      "volatility": "low",
+      "source": "DAFI 36-2406 / SpFI 36-2401 static close-out dates (rating-chain knowledge)",
+      "refresh": "edit scod.json when SCODs change; users verify each lock date with their MPF or myFSS",
+      "published": "2026-09",
+      "verified": "2026-09"
+    },
+    {
+      "id": "space_threats",
+      "file": "space_threats.json",
+      "review_months": 12,
+      "volatility": "high",
+      "source": "S2 Space Threat Fact Sheet (v8, 16 May 2025); canonical page spaceforce.mil Article 4297159",
+      "refresh": "search for a newer edition each run; transcribe new metrics into space_threats.json with its edition and date",
+      "published": "2025-05-16",
+      "verified": "2026-09"
+    },
+    {
+      "id": "tongue_and_quill",
+      "file": "../tongue-and-quill-digest.md",
+      "review_months": 36,
+      "volatility": "low",
+      "source": "Digest of e-Publishing AFH 33-337 (DAFH when renumbered), ch 8, 19, 25-28",
+      "refresh": "build_tq_index.py <new pdf> --out <local>, then update the digest (SKILL.md 'Updating the Tongue and Quill')",
+      "published": "2015-11-19",
+      "verified": "2015-11-19"
+    },
+    {
+      "id": "writing_guide_body",
+      "file": "../writing-rules.md",
+      "review_months": 12,
+      "volatility": "medium",
+      "source": "Rules paraphrased from the SpOC Writing Guide (Sep 2023), Chapter 1 (not included); CFC body not yet supplied",
+      "refresh": "update writing-rules.md from the current command guide",
+      "published": "2023-09",
+      "verified": "2023-09"
+    }
+  ],
+  "fields": {
+    "published": "date of the source document/list",
+    "verified": "when someone last confirmed it is still the current version"
+  }
+}

@@ -1,0 +1,462 @@
+{
+  "kind": "afpc_acronyms",
+  "source": "AFPC 'Air Force Acronym & Abbreviation List' (afpc.af.mil/Career-Management/Acronyms), 28 Oct 24 update; transcribed from a page export (image PDF). Always approved for DAF evaluations (USSF and USAF), only for the listed meaning.",
+  "principles": [
+    "Performance statements avoid acronyms and abbreviations; the default is to spell out.",
+    "Inclusion on the list reflects broad understanding, not frequency of use; inclusion does not mean the term must be used."
+  ],
+  "categories": {
+    "ranks": "Common ranks/tiers across all services (SrA, Maj, Brig Gen, SNCO, etc.)",
+    "office_symbols": "Common office symbols (CC, CMSAF, A4, JA, etc.)",
+    "organizations": "Common organizations at squadron and above (CPTS, AFGSC, DoD, FBI, STARCOM, CCMD, FW, CJTF, etc.)",
+    "weapons_platforms": "Common weapons and platforms (F-16, AIM-9, HH-60, MILSTAR, etc.)",
+    "symbols_measurements": "Common symbols and measurements (lbs, MPH, $25B, 5%, hrs, FY23, etc.)"
+  },
+  "category_note": "Category approval is a judgment call: list the term in draft['acronym_categories'] with its category. Such terms need no Sec X definition, but defining them is never wrong.",
+  "entries": {
+    "ABM": [
+      "Air Battle Manager"
+    ],
+    "ACE": [
+      "Agile Combat Employment"
+    ],
+    "AD": [
+      "Active Duty"
+    ],
+    "ADCON": [
+      "Administrative Control"
+    ],
+    "AFE": [
+      "Aircrew Flight Equipment"
+    ],
+    "AFFORGEN": [
+      "Air Force Force Generation"
+    ],
+    "AFI": [
+      "Air Force Instruction"
+    ],
+    "AFMAN": [
+      "Air Force Manual"
+    ],
+    "AFSC": [
+      "Air Force Specialty Code"
+    ],
+    "AFSO21": [
+      "Air Force Smart Operations for the 21st Century"
+    ],
+    "AGE": [
+      "Aerospace Ground Equipment"
+    ],
+    "AGR": [
+      "Active Guard Reserve"
+    ],
+    "AI": [
+      "Artificial Intelligence"
+    ],
+    "ALQ": [
+      "Airman Leadership Quality"
+    ],
+    "ALS": [
+      "Airman Leadership School"
+    ],
+    "AOC": [
+      "Air Operations Center"
+    ],
+    "AOR": [
+      "Area of Responsibility"
+    ],
+    "APF": [
+      "Appropriated Funds"
+    ],
+    "ART": [
+      "Air Reserve Technician"
+    ],
+    "AT": [
+      "Annual Tour"
+    ],
+    "ATC": [
+      "Air Traffic Control"
+    ],
+    "ATO": [
+      "Air Tasking Order"
+    ],
+    "BMT": [
+      "Basic Military Training"
+    ],
+    "BNR": [
+      "By Name Request"
+    ],
+    "BTZ": [
+      "Below-the-Zone"
+    ],
+    "C2": [
+      "Command and Control"
+    ],
+    "C4ISR": [
+      "Command, Control, Communications, Computers, Intelligence, Surveillance and Reconnaissance"
+    ],
+    "CAOC": [
+      "Combined Air Operations Center"
+    ],
+    "CAS": [
+      "Close Air Support"
+    ],
+    "CAT": [
+      "Crisis Action Team"
+    ],
+    "CATM": [
+      "Combat Arms Training and Maintenance"
+    ],
+    "CBRN": [
+      "Chemical, Biological, Radiological, Nuclear"
+    ],
+    "CBT": [
+      "Computer Based Training"
+    ],
+    "CCAF": [
+      "Community College of the Air Force"
+    ],
+    "CCIP": [
+      "Commander's Inspection Program"
+    ],
+    "CDI": [
+      "Commander Directed Investigation"
+    ],
+    "CFETP": [
+      "Career Field Education and Training Plan"
+    ],
+    "CFM": [
+      "Career Field Manager"
+    ],
+    "CLA": [
+      "Chief Master Sergeant Leadership Academy"
+    ],
+    "CLC": [
+      "Chief Master Sergeant Leadership Course"
+    ],
+    "COA": [
+      "Course of Action"
+    ],
+    "CODEL": [
+      "Congressional Delegation"
+    ],
+    "CONOPS": [
+      "Concept of Operations"
+    ],
+    "CONUS": [
+      "Continental United States"
+    ],
+    "COOP": [
+      "Continuity of Operations"
+    ],
+    "CPI": [
+      "Continuous Process Improvement"
+    ],
+    "CPR": [
+      "Cardiopulmonary Resuscitation"
+    ],
+    "CSAR": [
+      "Combat Search and Rescue"
+    ],
+    "CUI": [
+      "Controlled Unclassified Information"
+    ],
+    "DAFI": [
+      "Department of the Air Force Instruction"
+    ],
+    "DAFMAN": [
+      "Department of the Air Force Manual"
+    ],
+    "DEOCS": [
+      "Defense Equal Opportunity Climate Survey"
+    ],
+    "DG": [
+      "Distinguished Graduate"
+    ],
+    "DHA": [
+      "Defense Health Agency"
+    ],
+    "DSG": [
+      "Drill Status Guardsman"
+    ],
+    "DV": [
+      "Distinguished Visitor"
+    ],
+    "EKIA": [
+      "Enemy Killed in Action"
+    ],
+    "EOC": [
+      "Emergency Operations Center"
+    ],
+    "EOD": [
+      "Explosive Ordnance Disposal"
+    ],
+    "EOY": [
+      "End of Year"
+    ],
+    "EPB": [
+      "Enlisted Performance Brief"
+    ],
+    "EW": [
+      "Electronic Warfare"
+    ],
+    "FAM": [
+      "Functional Area Manager"
+    ],
+    "FHP": [
+      "Flying Hour Program"
+    ],
+    "FMC": [
+      "Fully Mission Capable"
+    ],
+    "FOB": [
+      "Forward Operating Base"
+    ],
+    "FOC": [
+      "Full Operational Capability"
+    ],
+    "FOL": [
+      "Forward Operating Location"
+    ],
+    "FPCON": [
+      "Force Protection Conditions"
+    ],
+    "FTEC": [
+      "First Term Enlisted Course"
+    ],
+    "FTU": [
+      "Formal Training Unit"
+    ],
+    "GPA": [
+      "Grade Point Average"
+    ],
+    "GPS": [
+      "Global Positioning System"
+    ],
+    "GSU": [
+      "Geographically Separated Unit"
+    ],
+    "GTC": [
+      "Government Travel Card"
+    ],
+    "IDT": [
+      "Inactive Duty Training"
+    ],
+    "IDE": [
+      "Intermediate Developmental Education"
+    ],
+    "IED": [
+      "Improvised Explosive Device"
+    ],
+    "IMA": [
+      "Individual Mobilization Augmentee"
+    ],
+    "IOC": [
+      "Initial Operational Capability"
+    ],
+    "IP": [
+      "Instructor Pilot"
+    ],
+    "ISR": [
+      "Intelligence, Surveillance, and Reconnaissance"
+    ],
+    "IT": [
+      "Information Technology"
+    ],
+    "JADC2": [
+      "Joint All Domain Command and Control"
+    ],
+    "JROTC": [
+      "Junior Reserve Officer Training Corps"
+    ],
+    "KIA": [
+      "Killed in Action"
+    ],
+    "LOE": [
+      "Line of Effort"
+    ],
+    "MCA": [
+      "Multi-Capable Airmen"
+    ],
+    "MDS": [
+      "Mission Design Series"
+    ],
+    "MILCON": [
+      "Military Construction"
+    ],
+    "MILPDS": [
+      "Military Personnel Data System"
+    ],
+    "MOA": [
+      "Memorandum of Agreement"
+    ],
+    "MOU": [
+      "Memorandum of Understanding"
+    ],
+    "MTF": [
+      "Medical Treatment Facility"
+    ],
+    "MWR": [
+      "Morale, Welfare, and Recreation"
+    ],
+    "MX": [
+      "Maintenance"
+    ],
+    "NC3": [
+      "Nuclear Command, Control, and Communications"
+    ],
+    "NCOA": [
+      "Noncommissioned Officer Academy"
+    ],
+    "NCR": [
+      "National Capital Region"
+    ],
+    "NDAA": [
+      "National Defense Authorization Act"
+    ],
+    "NDS": [
+      "National Defense Strategy"
+    ],
+    "NEO": [
+      "Noncombatant Evacuation Operation"
+    ],
+    "NIPR": [
+      "Non-Secure Internet Protocol Router"
+    ],
+    "NMC": [
+      "Non Mission Capable"
+    ],
+    "O&M": [
+      "Operations and Maintenance"
+    ],
+    "OCO": [
+      "Overseas Contingency Operations"
+    ],
+    "OCONUS": [
+      "Outside Continental United States"
+    ],
+    "OJT": [
+      "On the Job Training"
+    ],
+    "OPLAN": [
+      "Operations Plan"
+    ],
+    "OPSEC": [
+      "Operational Security"
+    ],
+    "OTS": [
+      "Officer Training School"
+    ],
+    "PCS": [
+      "Permanent Change of Station"
+    ],
+    "PDE": [
+      "Primary Developmental Education"
+    ],
+    "PFA": [
+      "Physical Fitness Assessment"
+    ],
+    "PME": [
+      "Professional Military Education"
+    ],
+    "POC": [
+      "Point of Contact"
+    ],
+    "PT": [
+      "Physical Training"
+    ],
+    "QA": [
+      "Quality Assurance"
+    ],
+    "QoL": [
+      "Quality of Life"
+    ],
+    "ROE": [
+      "Rules of Engagement"
+    ],
+    "ROTC": [
+      "Reserve Officer Training Corps"
+    ],
+    "RPA": [
+      "Remotely Piloted Aircraft"
+    ],
+    "SAPR": [
+      "Sexual Assault Prevention and Response"
+    ],
+    "SCIF": [
+      "Sensitive Compartmented Information Facility"
+    ],
+    "SDE": [
+      "Senior Developmental Education"
+    ],
+    "SERE": [
+      "Survival, Evasion, Resistance, Escape"
+    ],
+    "SIPR": [
+      "Secret Internet Protocol Router"
+    ],
+    "SME": [
+      "Subject Matter Expert"
+    ],
+    "SNCOA": [
+      "Senior Noncommissioned Officer Academy"
+    ],
+    "SOF": [
+      "Special Operations Forces"
+    ],
+    "SOP": [
+      "Standard Operating Procedure"
+    ],
+    "SOS": [
+      "Squadron Officer School"
+    ],
+    "STEM": [
+      "Science, Technology, Engineering, and Mathematics"
+    ],
+    "TACP": [
+      "Tactical Air Control Party"
+    ],
+    "TCCC": [
+      "Tactical Combat Casualty Care"
+    ],
+    "TDY": [
+      "Temporary Duty"
+    ],
+    "TFI": [
+      "Total Force Integration"
+    ],
+    "TR": [
+      "Traditional Reservist"
+    ],
+    "TS": [
+      "Top Secret"
+    ],
+    "TTP": [
+      "Tactics, Techniques, and Procedures"
+    ],
+    "UCI": [
+      "Unit Compliance Inspection"
+    ],
+    "UCMJ": [
+      "Uniform Code of Military Justice"
+    ],
+    "UEI": [
+      "Unit Effectiveness Inspection"
+    ],
+    "UTA": [
+      "Unit Training Assembly"
+    ],
+    "UTC": [
+      "Unit Type Code"
+    ],
+    "UXO": [
+      "Unexploded Ordnance"
+    ],
+    "WRM": [
+      "War Reserve Materiel"
+    ],
+    "XAB": [
+      "Expeditionary Airbase"
+    ]
+  }
+}

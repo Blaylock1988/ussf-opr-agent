@@ -1,0 +1,13 @@
+{
+  "name": "ussf-opr-agent",
+  "owner": {
+    "name": "ussf-opr-agent contributors"
+  },
+  "plugins": [
+    {
+      "name": "ussf-opr-agent",
+      "source": "./",
+      "description": "Write board-ready DAF Form 707 OPRs with Claude Code."
+    }
+  ]
+}

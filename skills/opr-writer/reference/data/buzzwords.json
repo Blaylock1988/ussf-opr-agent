@@ -1,0 +1,14 @@
+{
+  "kind": "buzzwords",
+  "as_of": "2026-09",
+  "principle": "Doctrinal and strategic buzzwords stand out to a board. Each may appear at most once per OPR; a repeat reads as filler. Nothing is special about any one word: extend this list freely, or per user in _opr_work/buzzwords.json (same format).",
+  "terms": [
+    "pacing", "pacing challenge", "pacing threat", "lethality", "lethal", "warfighting", "decisive", "decision advantage",
+    "competitive endurance", "integrated deterrence", "great power competition", "strategic competition",
+    "space superiority", "space control", "mission command", "combat-ready", "combat credible", "force design",
+    "force generation", "force presentation", "readiness", "resilience", "resilient", "joint force", "all-domain",
+    "game-changing", "game changer", "transformational", "unprecedented", "revolutionized", "paradigm", "synergy",
+    "enterprise-wide", "high-end fight", "peer adversary", "data fabric", "digital architecture", "fiscal integrity",
+    "statutory compliance", "automated governance", "accelerated decision cycles"
+  ]
+}

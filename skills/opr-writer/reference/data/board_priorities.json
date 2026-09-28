@@ -1,0 +1,155 @@
+{
+  "kind": "board_priorities",
+  "as_of": "2026-09",
+  "principle": "What promotion boards value shifts with SECWAR/SECAF/CSO priorities and with each administration. This file records what is known NOW, with sources, so drafting can emphasize it. Never treat it as permanent: re-verify each board cycle (impact-research step), and let users override it in _opr_work/board_priorities.json.",
+  "priorities": [
+    {
+      "id": "joint_experience",
+      "weight": "high",
+      "summary": "Joint experience: assignment to a joint staff or combatant-command staff, including component commands serving a CCMD (e.g. U.S. Space Forces-Indo-Pacific) or the joint command itself.",
+      "drafting_effect": "Lead with joint-staff/CCMD impacts; state the joint audience served (CCDR, JTF, component). Push lines can name joint-staff/CCMD jobs as the next assignment.",
+      "signals": [
+        "CCMD",
+        "USINDOPACOM",
+        "INDOPACOM",
+        "USSPACECOM",
+        "USCENTCOM",
+        "USEUCOM",
+        "USSTRATCOM",
+        "USNORTHCOM",
+        "JTF",
+        "CJTF",
+        "Joint Staff",
+        "JS",
+        "SFI",
+        "SFK",
+        "SFJ",
+        "S4S",
+        "USFK",
+        "USFJ",
+        "CFSCC",
+        "JFSCC",
+        "component"
+      ],
+      "source": "rating-chain knowledge (user), Sep 2026; reflects current SECWAR/SECAF emphasis - re-verify each board cycle",
+      "verify": "SECWAR/SECAF memos; board convening instructions"
+    },
+    {
+      "id": "headquarters_staff",
+      "weight": "high",
+      "summary": "Headquarters Space Force / Headquarters Air Force staff time is highly valued.",
+      "drafting_effect": "Surface HQ-level work and staff impact; HQSF/HAF staff is a strong next-assignment push.",
+      "signals": [
+        "HQSF",
+        "HAF",
+        "HQAF",
+        "Headquarters",
+        "Air Staff",
+        "Space Staff"
+      ],
+      "source": "rating-chain knowledge (user), Sep 2026; reflects current SECWAR/SECAF emphasis - re-verify each board cycle",
+      "verify": "board convening instructions"
+    },
+    {
+      "id": "pentagon",
+      "weight": "high",
+      "summary": "Pentagon time (often joint as well) is highly valued.",
+      "drafting_effect": "Name Pentagon/OSD/Joint Staff exposure explicitly; Pentagon staff is a strong push.",
+      "signals": [
+        "Pentagon",
+        "OSD",
+        "OSW",
+        "Joint Staff",
+        "SecWar",
+        "SecAF",
+        "SAF/"
+      ],
+      "source": "rating-chain knowledge (user), Sep 2026; reflects current SECWAR/SECAF emphasis - re-verify each board cycle",
+      "verify": "board convening instructions"
+    },
+    {
+      "id": "indo_pacific",
+      "weight": "high",
+      "summary": "Time and experience in the Indo-Pacific theater is highly valued.",
+      "drafting_effect": "Highlight Indo-Pacific exercises, deployments, and support (USINDOPACOM, SFI, SFK, SFJ, USFK, USFJ; Korea/Japan/Pacific exercises) with joint metrics.",
+      "signals": [
+        "USINDOPACOM",
+        "INDOPACOM",
+        "SFI",
+        "SFK",
+        "SFJ",
+        "USFK",
+        "USFJ",
+        "Korea",
+        "Japan",
+        "Pacific",
+        "Indo-Pacific",
+        "Osan",
+        "Guam",
+        "Hawaii"
+      ],
+      "source": "rating-chain knowledge (user), Sep 2026; reflects current SECWAR/SECAF emphasis - re-verify each board cycle",
+      "verify": "NDS/SECWAR theater priorities"
+    },
+    {
+      "id": "deployments",
+      "weight": "medium",
+      "summary": "Six-month deployments (e.g. CJTF-OIR) are valued, but less than joint, HQ, Pentagon, or Indo-Pacific experience.",
+      "drafting_effect": "Show deployed joint/coalition impact with metrics; don't let a deployment crowd out stronger joint/HQ items.",
+      "signals": [
+        "deployed",
+        "deployment",
+        "CJTF",
+        "OIR",
+        "AOR",
+        "fwd",
+        "coalition"
+      ],
+      "source": "rating-chain knowledge (user), Sep 2026; reflects current SECWAR/SECAF emphasis - re-verify each board cycle",
+      "verify": "board convening instructions"
+    },
+    {
+      "id": "fitness",
+      "weight": "high",
+      "summary": "Physical fitness scores are a NEW board data point (2026): boards are expected to weigh them heavily. Fitness has never appeared on OPRs before; placement on the DAF 707 is not yet published.",
+      "drafting_effect": "Always capture the member's current fitness score/category and test date at intake. Record it in draft.ratee.fitness_score. The DOCX shows it as a Box I 'FITNESS SCORE:' line by default (draft.ratee.fitness_placement: box1 | remarks | both | none) until the official placement is published.",
+      "source": "rating-chain knowledge (user), Sep 2026; driven by current administration/SECWAR emphasis",
+      "verify": "Check the latest DAFI/SpFI 36-2406/36-2401 changes, PFA/fitness guidance, and board convening instructions."
+    },
+    {
+      "id": "cso_priorities",
+      "weight": "medium",
+      "summary": "Alignment with the current Chief of Space Operations' published priorities (C-Notes, speeches, vectors). Gen Schiess became CSO on 3 Sep 2026; Gen Saltzman's C-Notes cover Nov 2022 - Aug 2026.",
+      "drafting_effect": "Tie impacts to the CSO priority in force during the reporting period (ref_lookup.py --source cso).",
+      "source": "cso_digest.json",
+      "verify": "Check the CSO Leadership Library for notices issued after Sep 2026."
+    }
+  ],
+  "career_guidance": {
+    "source": "rating-chain knowledge (user), Sep 2026 - re-verify each board cycle",
+    "fields": {
+      "acquisition": {
+        "specialties": ["62E", "63A"],
+        "notes": [
+          "Materiel Leader (ML) jobs open only at Lt Col, and Senior Materiel Leader (SML) at Col.",
+          "Acquisition has fewer competitively boarded leadership positions than operations, so pushes should name the ML/SML path and the staff jobs that lead to it."
+        ],
+        "push_by_grade": {"O-4": "ML next (opens at Lt Col)", "O-5": "ML; SML next (opens at Col)", "O-6": "SML"}
+      },
+      "operations": {
+        "specialties": ["13S", "13A", "14N", "17X"],
+        "notes": ["Operations has more boarded command: Det CC at Maj, Deputy Sq CC at senior Maj, Sq CC at Lt Col."],
+        "push_by_grade": {"O-4": "Det CC; Deputy Sq CC (senior Maj); Sq CC next (at Lt Col)", "O-5": "Sq CC"}
+      }
+    },
+    "boarded_programs": {
+      "strong_at": ["O-3", "O-4"],
+      "items": ["Space Test Course / Space Test Program", "Acquisitions Instructor Course", "Weapons Instructor Course (USAF Weapons School)", "USSF Targeting Analyst", "other competitively boarded schools and programs"]
+    },
+    "education_gates": [
+      {"for_grade": "O-5", "applies_to": ["O-4"], "requirement": "IDE (as a Maj select or Maj) and an Advanced Academic Degree are required to be competitive for Lt Col."},
+      {"for_grade": "O-6", "applies_to": ["O-5"], "requirement": "SDE (as a Lt Col select or Lt Col) is required to be competitive for Col."}
+    ],
+    "note": "Education gates guide development advice and DE pushes only. Completion of DE or a degree is still prohibited OPR content (unit policy decides degree mentions)."
+  }
+}

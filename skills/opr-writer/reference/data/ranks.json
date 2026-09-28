@@ -1,0 +1,42 @@
+{
+  "kind": "ranks",
+  "source": "spaceforce.mil, 'Space Force releases service-specific rank names' (News Article 2487814); AFH 33-337 Military Ranks and Abbreviations (p. 211). Verify against a saved copy in Guidance/ and override here if grades are renamed.",
+  "rule": "USAF/USSF rank abbreviations are mixed case, never all caps (MAJ/CPT/LTC are Army/USMC style). Ordinals contract only nd/rd: 2d, 3d; 1st and 4th+ are unchanged.",
+  "officer": [
+    {"grade": "O-1", "name": "Second Lieutenant", "abbr": "2d Lt"},
+    {"grade": "O-2", "name": "First Lieutenant", "abbr": "1st Lt"},
+    {"grade": "O-3", "name": "Captain", "abbr": "Capt"},
+    {"grade": "O-4", "name": "Major", "abbr": "Maj"},
+    {"grade": "O-5", "name": "Lieutenant Colonel", "abbr": "Lt Col"},
+    {"grade": "O-6", "name": "Colonel", "abbr": "Col"},
+    {"grade": "O-7", "name": "Brigadier General", "abbr": "Brig Gen"},
+    {"grade": "O-8", "name": "Major General", "abbr": "Maj Gen"},
+    {"grade": "O-9", "name": "Lieutenant General", "abbr": "Lt Gen"},
+    {"grade": "O-10", "name": "General", "abbr": "Gen"}
+  ],
+  "ussf_enlisted": [
+    {"grade": "E-1", "name": "Specialist 1", "abbr": "Spc1"},
+    {"grade": "E-2", "name": "Specialist 2", "abbr": "Spc2"},
+    {"grade": "E-3", "name": "Specialist 3", "abbr": "Spc3"},
+    {"grade": "E-4", "name": "Specialist 4", "abbr": "Spc4"},
+    {"grade": "E-5", "name": "Sergeant", "abbr": "Sgt"},
+    {"grade": "E-6", "name": "Technical Sergeant", "abbr": "TSgt"},
+    {"grade": "E-7", "name": "Master Sergeant", "abbr": "MSgt"},
+    {"grade": "E-8", "name": "Senior Master Sergeant", "abbr": "SMSgt"},
+    {"grade": "E-9", "name": "Chief Master Sergeant", "abbr": "CMSgt"},
+    {"grade": "E-9", "name": "Chief Master Sergeant of the Space Force", "abbr": "CMSSF"}
+  ],
+  "usaf_enlisted": [
+    {"grade": "E-1", "name": "Airman Basic", "abbr": "AB"},
+    {"grade": "E-2", "name": "Airman", "abbr": "Amn"},
+    {"grade": "E-3", "name": "Airman First Class", "abbr": "A1C"},
+    {"grade": "E-4", "name": "Senior Airman", "abbr": "SrA"},
+    {"grade": "E-5", "name": "Staff Sergeant", "abbr": "SSgt"},
+    {"grade": "E-6", "name": "Technical Sergeant", "abbr": "TSgt"},
+    {"grade": "E-7", "name": "Master Sergeant", "abbr": "MSgt"},
+    {"grade": "E-8", "name": "Senior Master Sergeant", "abbr": "SMSgt"},
+    {"grade": "E-9", "name": "Chief Master Sergeant", "abbr": "CMSgt"},
+    {"grade": "E-9", "name": "Chief Master Sergeant of the Air Force", "abbr": "CMSAF"}
+  ],
+  "wrong_case_forms": ["2LT", "1LT", "CPT", "MAJ", "LTC", "COL", "BG", "MG", "LTG", "GEN", "SGT", "SSG", "SFC", "MSG", "SGM", "SPC", "PFC", "PVT", "2ndLt", "2nd Lt", "LtCol", "BrigGen", "MajGen", "LtGen"]
+}

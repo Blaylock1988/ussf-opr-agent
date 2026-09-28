@@ -1,0 +1,18 @@
+{
+  "kind": "static_closeout_dates",
+  "as_of": "2026-09",
+  "source": "rating-chain knowledge (user), Sep 2026; DAFI 36-2406 / SpFI 36-2401 static close-out dates",
+  "caution": "Calendar alignment (e.g. leap years) can shift these dates by 24-48 hours. Always tell the user to verify the lock (accountability) date and SCOD with their MPF or myFSS.",
+  "entries": [
+    {"grades": ["E-3", "E-4", "E-5", "E-6"], "label": "E-3 to E-6 (Spc1-4, Sgt, TSgt)", "accountability": "10-03", "scod": "01-31"},
+    {"grades": ["E-7", "E-8"], "label": "E-7 to E-8 (MSgt, SMSgt)", "accountability": "04-02", "scod": "07-31"},
+    {"grades": ["E-9"], "label": "E-9 (CMSgt)", "accountability": "01-31", "scod": "05-31"},
+    {"grades": ["O-1", "O-2"], "label": "O-1 to O-2 (2d Lt, 1st Lt)", "accountability": "07-03", "scod": "10-31"},
+    {"grades": ["O-3", "O-4", "O-5"], "label": "O-3 to O-5 (Capt, Maj, Lt Col)", "accountability": "08-02", "scod": "11-30"},
+    {"grades": ["O-6"], "label": "O-6 (Col)", "accountability": "12-31", "scod": "04-30"}
+  ],
+  "grade_aliases": {
+    "2d Lt": "O-1", "1st Lt": "O-2", "Capt": "O-3", "Maj": "O-4", "Lt Col": "O-5", "Col": "O-6",
+    "MSgt": "E-7", "SMSgt": "E-8", "CMSgt": "E-9", "TSgt": "E-6", "Sgt": "E-5", "SSgt": "E-5"
+  }
+}

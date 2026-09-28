@@ -1,0 +1,1601 @@
+{
+  "source": "Built from CFC writing guidance (Writing Guide Attachments, 26 Jun 2026). The source document is not included.",
+  "kind": "common_acronyms",
+  "rule": "Commonly accepted acronyms; do not list/define these on evaluations. Approved only for the listed meaning(s).",
+  "entries": {
+    "AAD": [
+      "Advanced Academic Degree"
+    ],
+    "AAR": [
+      "After Action Report"
+    ],
+    "ACA": [
+      "Airman Comprehensive Assessment"
+    ],
+    "ACE": [
+      "Agile Combat Employment"
+    ],
+    "AD": [
+      "Active Duty"
+    ],
+    "ADCON": [
+      "Administrative Control"
+    ],
+    "AEF": [
+      "Air Expeditionary Force"
+    ],
+    "AEW": [
+      "Air Expeditionary Wing"
+    ],
+    "AFAA": [
+      "Air Force Audit Agency"
+    ],
+    "AFB": [
+      "Air Force Base"
+    ],
+    "AFBCMR": [
+      "Air Force Board for Correction of Military Records"
+    ],
+    "AFCEC": [
+      "Air Force Civil Engineering Center"
+    ],
+    "AFCENT": [
+      "Air Force Central Command"
+    ],
+    "AFDW": [
+      "Air Force District of Washington"
+    ],
+    "AFGSC": [
+      "Air Force Global Strike Command"
+    ],
+    "AFI": [
+      "Air Force Instruction"
+    ],
+    "AFIMSC": [
+      "Air Force Installation and Mission Support Center"
+    ],
+    "AFIT": [
+      "Air Force Institute of Technology"
+    ],
+    "AFMC": [
+      "Air Force Materiel Command"
+    ],
+    "AFOSH": [
+      "Air Force Occupational and Environmental Safety, Fire Protection and Health"
+    ],
+    "AFOTEC": [
+      "Air Force Operational Test and Evaluation Center"
+    ],
+    "AFPC": [
+      "Air Force Personnel Center"
+    ],
+    "AFR": [
+      "Air Force Reserve"
+    ],
+    "AFRC": [
+      "Air Force Reserve Command"
+    ],
+    "AFRL": [
+      "Air Force Research Laboratory"
+    ],
+    "AFSC": [
+      "Air Force Specialty Code"
+    ],
+    "AG": [
+      "Adjutant General"
+    ],
+    "AI": [
+      "Artificial Intelligence"
+    ],
+    "AIC": [
+      "Advanced Instructor Course"
+    ],
+    "ALERTORD": [
+      "Alert Order"
+    ],
+    "ALS": [
+      "Airman Leadership School"
+    ],
+    "AMC": [
+      "Air Mobility Command"
+    ],
+    "ANG": [
+      "Air National Guard"
+    ],
+    "AO": [
+      "Action Officer"
+    ],
+    "AOC": [
+      "Air Operations Center"
+    ],
+    "AOR": [
+      "Area of Responsibility"
+    ],
+    "ARPC": [
+      "Air Reserve Personnel Center"
+    ],
+    "ASAP": [
+      "As Soon as Possible"
+    ],
+    "AT": [
+      "Advanced Training; Antiterrorism"
+    ],
+    "AT/FP": [
+      "Antiterrorism/Force Protection"
+    ],
+    "ATO": [
+      "Air Tasking Order"
+    ],
+    "AWFC": [
+      "Air Warfighting Center"
+    ],
+    "AWOL": [
+      "Absent Without Leave"
+    ],
+    "BA": [
+      "Bachelor's of Arts"
+    ],
+    "BAH": [
+      "Basic Allowance for Housing"
+    ],
+    "BBP": [
+      "Bullet Background Paper"
+    ],
+    "BDA": [
+      "Battle Damage Assessment"
+    ],
+    "BMC2": [
+      "Battle Management Command and Control"
+    ],
+    "BOS-I": [
+      "Base Operating Support-Integrator"
+    ],
+    "BS": [
+      "Bachelor's of Science"
+    ],
+    "BTZ": [
+      "Below-the-Zone"
+    ],
+    "C-FLDCOM": [
+      "Component Field Command"
+    ],
+    "C-UAS": [
+      "Counter-Unmanned Aircraft System"
+    ],
+    "C2": [
+      "Command and Control"
+    ],
+    "C4": [
+      "Command, Control, Computer and Communication"
+    ],
+    "C4ISR": [
+      "Command, Control, Computer, Communication and Intelligence, Surveillance, Reconnaissance"
+    ],
+    "C5ISRT": [
+      "Command, Control, Communication, Computers, Cyber, Intelligence, Surveillance, Reconnaissance, and Targeting"
+    ],
+    "CAB": [
+      "Community Action Board"
+    ],
+    "CAF": [
+      "Combat Air Forces"
+    ],
+    "CAOC": [
+      "Combined Air Operations Center"
+    ],
+    "CAP": [
+      "Crisis Action Planning"
+    ],
+    "CAT": [
+      "Crisis Action Team"
+    ],
+    "CBRN": [
+      "Chemical, Biological, Radiological, or Nuclear"
+    ],
+    "CCAF": [
+      "Community College of the Air Force"
+    ],
+    "CCDR": [
+      "Combatant Commander"
+    ],
+    "CCIP": [
+      "Commander's Inspection Program"
+    ],
+    "CCIR": [
+      "Commander's Critical Information Requirement"
+    ],
+    "CCMD": [
+      "Combatant Command"
+    ],
+    "CD": [
+      "Deputy Commander"
+    ],
+    "CDO": [
+      "Contested, Degraded, and Operationally limited"
+    ],
+    "CDRUSSPACECOM": [
+      "Commander, US Space Command"
+    ],
+    "CDRUSSTRATCOM": [
+      "Commander, US Strategic Command"
+    ],
+    "CES": [
+      "Civil Engineering Squadron"
+    ],
+    "CFACC": [
+      "Combined Forces Air Component Commander"
+    ],
+    "CFC": [
+      "Combat Forces Command"
+    ],
+    "CFETP": [
+      "Career Field Education and Training Plan"
+    ],
+    "CFSCC": [
+      "Combined Force Space Component Command Commander"
+    ],
+    "CG": [
+      "Coast Guard"
+    ],
+    "CGO": [
+      "Company Grade Officer"
+    ],
+    "CGOQ": [
+      "Company Grade Officer of the Quarter"
+    ],
+    "CGOY": [
+      "Company Grade Officer of the Year"
+    ],
+    "CI": [
+      "Counterintelligence"
+    ],
+    "CIA": [
+      "Central Intelligence Agency"
+    ],
+    "CID": [
+      "Combat Identification"
+    ],
+    "CJCS": [
+      "Chairman of the Joint Chiefs of Staff"
+    ],
+    "CJTF": [
+      "Combined Joint Task Force"
+    ],
+    "CLC": [
+      "Captain's Leadership Course"
+    ],
+    "CLEP": [
+      "College-Level Examination Program"
+    ],
+    "CMI": [
+      "Classified Message Incident"
+    ],
+    "CMR": [
+      "Combat Mission Ready"
+    ],
+    "CMS": [
+      "Case Management System"
+    ],
+    "CMSAF": [
+      "Chief Master Sergeant of the Air Force"
+    ],
+    "CMSSF": [
+      "Chief Master Sergeant of the Space Force"
+    ],
+    "COA(s)": [
+      "Course(s) of Action"
+    ],
+    "CoC": [
+      "Change of Command"
+    ],
+    "COCOM": [
+      "Combatant Command Command Authority"
+    ],
+    "CODEL": [
+      "Congressional Delegation"
+    ],
+    "COMINT": [
+      "Communications Intelligence"
+    ],
+    "COMSEC": [
+      "Communications Security"
+    ],
+    "CONEMP": [
+      "Concept of Employment"
+    ],
+    "CONOPS": [
+      "Concept of Operations"
+    ],
+    "CONPLAN": [
+      "Contingency Plan"
+    ],
+    "CONS": [
+      "Contracting Squadron"
+    ],
+    "CONUS": [
+      "Continental United States"
+    ],
+    "COOP": [
+      "Continuity of Operations"
+    ],
+    "COP": [
+      "Common Operating Picture"
+    ],
+    "COR": [
+      "Contracting Officer Representative"
+    ],
+    "CoS": [
+      "Chief of Staff"
+    ],
+    "COTS": [
+      "Commercial off-the-shelf"
+    ],
+    "CPT": [
+      "Cyber Protection Team"
+    ],
+    "CPTS": [
+      "Comptroller Squadron"
+    ],
+    "CR": [
+      "Continuing Resolution"
+    ],
+    "CRV": [
+      "Crew Readiness Validation"
+    ],
+    "CSAF": [
+      "Chief of Staff, United States Air Force"
+    ],
+    "CSAR": [
+      "Combat Search and Rescue"
+    ],
+    "CSEL": [
+      "Command Senior Enlisted Leader"
+    ],
+    "CSO": [
+      "Chief of Space Operations"
+    ],
+    "CSpOC": [
+      "Combined Space Operations Center"
+    ],
+    "CSS": [
+      "Commander's Support Staff"
+    ],
+    "CY": [
+      "Calendar Year"
+    ],
+    "CYS": [
+      "Cyber Squadron"
+    ],
+    "DAF": [
+      "Department of the Air Force"
+    ],
+    "DAFH": [
+      "Department of the Air Force Handbook"
+    ],
+    "DAFI": [
+      "Department of the Air Force Instruction"
+    ],
+    "DAFMAN": [
+      "Department of the Air Force Manual"
+    ],
+    "DC": [
+      "Dental Corps"
+    ],
+    "DC4": [
+      "Director of Cyber Forces"
+    ],
+    "DCO": [
+      "Defensive Cyber Operations"
+    ],
+    "DE": [
+      "Developmental Education"
+    ],
+    "DEOCS": [
+      "Defense Organizational Climate Survey"
+    ],
+    "DEPORD": [
+      "Deployment Order"
+    ],
+    "DG": [
+      "Distinguished Graduate"
+    ],
+    "DIA": [
+      "Defense Intelligence Agency"
+    ],
+    "DISA": [
+      "Defense Information Systems Agency"
+    ],
+    "DL": [
+      "Distance Learning"
+    ],
+    "DLA": [
+      "Defense Logistics Agency"
+    ],
+    "DNI": [
+      "Director of National Intelligence"
+    ],
+    "DoD": [
+      "Department of Defense"
+    ],
+    "DoDI": [
+      "Department of Defense Instruction"
+    ],
+    "DOE": [
+      "Department of Energy; not DoE"
+    ],
+    "DoW": [
+      "Department of War"
+    ],
+    "DRRS": [
+      "Defense Readiness Reporting System"
+    ],
+    "DRU": [
+      "Direct Reporting Unit"
+    ],
+    "DSD": [
+      "Developmental Special Duty"
+    ],
+    "DSJA": [
+      "Deputy Judge Staff Advocate"
+    ],
+    "DTS": [
+      "Defense Travel System"
+    ],
+    "DV": [
+      "Distinguished Visitor"
+    ],
+    "EA": [
+      "Electromagnetic Attack"
+    ],
+    "EAP": [
+      "Emergency Action Procedures"
+    ],
+    "ECP": [
+      "Entry Control Point"
+    ],
+    "EiP": [
+      "Employed in Place"
+    ],
+    "EJPME": [
+      "Enlisted Joint Professional Military Education"
+    ],
+    "EKIA": [
+      "Enemy Killed in Action"
+    ],
+    "ELINT": [
+      "Electronic Intelligence"
+    ],
+    "EM": [
+      "Emergency Management"
+    ],
+    "EMI": [
+      "Electromagnetic Interference"
+    ],
+    "EMS": [
+      "Electromagnetic Spectrum"
+    ],
+    "EOC": [
+      "Emergency Operations Center"
+    ],
+    "EPB": [
+      "Enlisted Performance Brief"
+    ],
+    "EPR": [
+      "Enlisted Performance Report"
+    ],
+    "ES": [
+      "Electromagnetic Support"
+    ],
+    "ETMO": [
+      "Enterprise Talent Management Office"
+    ],
+    "EW": [
+      "Electromagnetic Warfare"
+    ],
+    "EWS": [
+      "Electromagnetic Warfare Squadron"
+    ],
+    "EXORD": [
+      "Execution Order"
+    ],
+    "F2T2EA": [
+      "Find, Fix, Track, Target, Engage, and Assess"
+    ],
+    "FAA": [
+      "Federal Aviation Administration"
+    ],
+    "FAO": [
+      "Foreign Area Officer"
+    ],
+    "FCC": [
+      "Functional Combatant Command"
+    ],
+    "FDO": [
+      "Foreign Disclosure Office"
+    ],
+    "FGO": [
+      "Field Grade Officer"
+    ],
+    "FGOQ": [
+      "Field Grade Officer of the Quarter"
+    ],
+    "FGOY": [
+      "Field Grade Officer of the Year"
+    ],
+    "FGS": [
+      "Force Generation Squadron"
+    ],
+    "FISINT": [
+      "Foreign Instrumentation Signals Intelligence"
+    ],
+    "FLDCOM": [
+      "Field Command"
+    ],
+    "FMC": [
+      "Fully Mission Capable"
+    ],
+    "FO": [
+      "Flag Officer"
+    ],
+    "FOA": [
+      "Field Operating Agency"
+    ],
+    "FOC": [
+      "Full Operational Capability"
+    ],
+    "FP": [
+      "Force Protection"
+    ],
+    "FRAGORD": [
+      "Fragmentary Order"
+    ],
+    "FSS": [
+      "Force Support Squadron"
+    ],
+    "FTX": [
+      "Field Training Exercise"
+    ],
+    "FVEY": [
+      "Five Eyes"
+    ],
+    "FY": [
+      "Fiscal Year"
+    ],
+    "G&I": [
+      "Guidance & Intent"
+    ],
+    "GCC": [
+      "Geographic Combatant Command"
+    ],
+    "GEO": [
+      "Geosynchronous Earth Orbit"
+    ],
+    "GEOINT": [
+      "Geospatial Intelligence"
+    ],
+    "GFM": [
+      "Global Force Management"
+    ],
+    "GM": [
+      "Guidance Memorandum"
+    ],
+    "GO": [
+      "General Officer"
+    ],
+    "GPA": [
+      "Grade Point Average"
+    ],
+    "GPC": [
+      "Government Purchase Card"
+    ],
+    "GPS": [
+      "Global Positioning System"
+    ],
+    "GSU": [
+      "Geographically Separated Unit"
+    ],
+    "GTC": [
+      "Government Travel Card"
+    ],
+    "HAF": [
+      "Headquarters Air Force"
+    ],
+    "HAZMAT": [
+      "Hazardous Material"
+    ],
+    "HC": [
+      "Chaplain Corps"
+    ],
+    "HEO": [
+      "Highly Elliptical Orbit"
+    ],
+    "HHQ": [
+      "Higher Headquarters"
+    ],
+    "HQ": [
+      "Headquarters"
+    ],
+    "HQAF": [
+      "Headquarters Air Force"
+    ],
+    "HQSF": [
+      "Headquarters Space Force"
+    ],
+    "HUMINT": [
+      "Human Intelligence"
+    ],
+    "HVA": [
+      "High-Value Asset"
+    ],
+    "HVT": [
+      "High-Valued Target"
+    ],
+    "I&W": [
+      "Indications and Warnings"
+    ],
+    "IA": [
+      "International Affairs"
+    ],
+    "IAW": [
+      "In Accordance With"
+    ],
+    "IC": [
+      "Intelligence Community"
+    ],
+    "ICBM": [
+      "Intercontinental Ballistic Missile"
+    ],
+    "IDE": [
+      "Intermediate Developmental Education"
+    ],
+    "IG": [
+      "Inspector General"
+    ],
+    "ILE": [
+      "Intermediate Leadership Education"
+    ],
+    "IMA": [
+      "Individual Mobilization Augmentee"
+    ],
+    "IMINT": [
+      "Imagery Intelligence"
+    ],
+    "IMR": [
+      "Individual Medical Readiness"
+    ],
+    "IMSC": [
+      "Installation Mission Support Center"
+    ],
+    "IO": [
+      "Information Operation"
+    ],
+    "IOC": [
+      "Initial Operational Capability"
+    ],
+    "IQC": [
+      "Instructor Qualification Course"
+    ],
+    "ISO": [
+      "In Support Of"
+    ],
+    "ISR": [
+      "Intelligence, Surveillance and Reconnaissance"
+    ],
+    "ISRS": [
+      "Intelligence, Surveillance and Reconnaissance Squadron"
+    ],
+    "ISS": [
+      "International Space Station"
+    ],
+    "IST": [
+      "Initial Skills Training"
+    ],
+    "IT": [
+      "Information Technology"
+    ],
+    "ITW/AA": [
+      "Integrated Tactical Warning/Attack Assessment"
+    ],
+    "JA": [
+      "Judge Advocate"
+    ],
+    "JAG": [
+      "Judge Advocate General"
+    ],
+    "JAOC": [
+      "Joint Air Operations Center"
+    ],
+    "JCIDS": [
+      "Joint Capabilities Integration and Development System"
+    ],
+    "JCS": [
+      "Joint Chiefs of Staff"
+    ],
+    "JEFX": [
+      "Joint Expeditionary Force Exercise"
+    ],
+    "JEON": [
+      "Joint Emergent Operational Need"
+    ],
+    "JFACC": [
+      "Joint Forces Air Component Commander"
+    ],
+    "JFSCC": [
+      "Joint Force Space Component Commander"
+    ],
+    "JPME": [
+      "Joint Professional Military Education"
+    ],
+    "JPP": [
+      "Joint Planning Process"
+    ],
+    "JPT": [
+      "Joint Planning Team"
+    ],
+    "JQS": [
+      "Job Qualification Standard"
+    ],
+    "JS": [
+      "Joint Staff"
+    ],
+    "JSOC": [
+      "Joint Special Operations Command"
+    ],
+    "JSOP": [
+      "Joint Space Operations Plan"
+    ],
+    "JTF": [
+      "Joint Task Force"
+    ],
+    "JUON": [
+      "Joint Urgent Operational Need"
+    ],
+    "JWICS": [
+      "Joint Worldwide Intelligence Communications System"
+    ],
+    "KIA": [
+      "Killed in Action"
+    ],
+    "LAF": [
+      "Line of the Air Force"
+    ],
+    "LEO": [
+      "Low Earth Orbit"
+    ],
+    "LFX": [
+      "Large Force Exercise"
+    ],
+    "LIMFAC": [
+      "Limiting Factor"
+    ],
+    "LL": [
+      "Lessons Learned"
+    ],
+    "LNO": [
+      "Liaison Officer"
+    ],
+    "LOA": [
+      "Line of Accounting"
+    ],
+    "LOC": [
+      "Letter of Counseling"
+    ],
+    "LOE": [
+      "Letter of Evaluation; Line of Effort"
+    ],
+    "LOR": [
+      "Letter of Reprimand"
+    ],
+    "LRS": [
+      "Logistics Readiness Squadron"
+    ],
+    "MA": [
+      "Mobilization Assistant; Master's of Arts"
+    ],
+    "MAJCOM": [
+      "Major Command"
+    ],
+    "MASINT": [
+      "Measurement and Signature Intelligence"
+    ],
+    "MC": [
+      "Medical Corps"
+    ],
+    "MD": [
+      "Mission Delta"
+    ],
+    "MDA": [
+      "Missile Defense Agency"
+    ],
+    "MDG": [
+      "Medical Group"
+    ],
+    "MDO": [
+      "Multi-Domain Operations"
+    ],
+    "MDT": [
+      "Mission Defense Team"
+    ],
+    "MEL": [
+      "Master Eligibility List"
+    ],
+    "MEO": [
+      "Medium Earth Orbit"
+    ],
+    "MET": [
+      "Mission Essential Task"
+    ],
+    "METL": [
+      "Mission Essential Task List"
+    ],
+    "MFR": [
+      "Memorandum for Record"
+    ],
+    "MICT": [
+      "Management Internal Control Toolset"
+    ],
+    "MILCON": [
+      "Military Construction"
+    ],
+    "MilPDS": [
+      "Military Personnel Data System"
+    ],
+    "MILSATCOM": [
+      "Military Satellite Communication"
+    ],
+    "MISREP": [
+      "Mission Report"
+    ],
+    "MIT/LL": [
+      "Massachusetts Institute of Technology/Lincoln Labs"
+    ],
+    "ML": [
+      "Materiel Leader of Management Level"
+    ],
+    "MLR": [
+      "Management Level Review"
+    ],
+    "MOA": [
+      "Memorandum of Agreement"
+    ],
+    "MOE": [
+      "Measure of Effectiveness"
+    ],
+    "MOP": [
+      "Measure of Performance"
+    ],
+    "MOU": [
+      "Memorandum of Understanding"
+    ],
+    "MPC": [
+      "Mission Planning Cell"
+    ],
+    "MS": [
+      "Master's of Science"
+    ],
+    "MSC": [
+      "Medical Services Corps"
+    ],
+    "MSE": [
+      "Mission Support Element"
+    ],
+    "MSG": [
+      "Mission Support Group"
+    ],
+    "MTF": [
+      "Military Treatment Facility"
+    ],
+    "MTL": [
+      "Master Task List"
+    ],
+    "MW": [
+      "Missile Warning"
+    ],
+    "MWC": [
+      "Missile Warning Center"
+    ],
+    "MWR": [
+      "Morale, Welfare and Recreation"
+    ],
+    "MWT": [
+      "Missile Warning and Tracking"
+    ],
+    "N-CMR": [
+      "Non-Combat Mission Ready"
+    ],
+    "NAF": [
+      "Numbered Air Force"
+    ],
+    "NASA": [
+      "National Aeronautics and Space Administration"
+    ],
+    "NATO": [
+      "North Atlantic Treaty Organization"
+    ],
+    "NAVWAR": [
+      "Navigation Warfare"
+    ],
+    "NC": [
+      "Nurse Corps"
+    ],
+    "NC3": [
+      "Nuclear Command, Control and Communication"
+    ],
+    "NCO": [
+      "Noncommissioned Officer"
+    ],
+    "NCOIC": [
+      "Noncommissioned Officer in Charge"
+    ],
+    "NCOQ": [
+      "Noncommissioned Officer of the Quarter"
+    ],
+    "NCOY": [
+      "Noncommissioned Officer of the Year"
+    ],
+    "NDAA": [
+      "National Defense Authorization Act"
+    ],
+    "NDS": [
+      "National Defense Strategy"
+    ],
+    "NGA": [
+      "National Geospatial-Intelligence Agency"
+    ],
+    "NGB": [
+      "National Guard Bureau"
+    ],
+    "NIPR": [
+      "Non-Classified Internet Protocol Router"
+    ],
+    "NKE": [
+      "Non-Kinetic Effects"
+    ],
+    "NMC": [
+      "Not Mission Capable"
+    ],
+    "NMS": [
+      "National Military Strategy"
+    ],
+    "Non-EAD": [
+      "Non-Extended Active Duty"
+    ],
+    "NORAD": [
+      "North American Aerospace Defense Command"
+    ],
+    "NRO": [
+      "National Reconnaissance Office"
+    ],
+    "NSA": [
+      "National Security Agency"
+    ],
+    "NSC": [
+      "National Security Council"
+    ],
+    "NSDC": [
+      "National Space Defense Center"
+    ],
+    "NSS": [
+      "National Security Strategy"
+    ],
+    "NUDET": [
+      "Nuclear Detonation"
+    ],
+    "NWS": [
+      "Navigation Warfare Squadron"
+    ],
+    "O&I": [
+      "Operations & Intelligence"
+    ],
+    "O&M": [
+      "Operations and Maintenance"
+    ],
+    "OA": [
+      "Operational Acceptance"
+    ],
+    "OCO": [
+      "Offensive Cyber Operations"
+    ],
+    "OCONUS": [
+      "Outside Continental United States"
+    ],
+    "OCR": [
+      "Office of Coordinating Responsibility"
+    ],
+    "ODNI": [
+      "Office of the Director of National Intelligence"
+    ],
+    "OE": [
+      "Operational Environment"
+    ],
+    "OG": [
+      "Operations Group"
+    ],
+    "OI": [
+      "Operating Instruction"
+    ],
+    "OJT": [
+      "On-the-Job Training"
+    ],
+    "OL": [
+      "Operating Location"
+    ],
+    "OPB": [
+      "Officer Performance Brief"
+    ],
+    "OPCON": [
+      "Operational Control"
+    ],
+    "OPIR": [
+      "Overhead Persistent Infrared"
+    ],
+    "OPLAN": [
+      "Operation Plan"
+    ],
+    "OPORD": [
+      "Operations Order"
+    ],
+    "OPR": [
+      "Officer Performance Report"
+    ],
+    "OPSCAP": [
+      "Operational Capability"
+    ],
+    "OPSEC": [
+      "Operations Security"
+    ],
+    "OPT": [
+      "Operational Planning Team"
+    ],
+    "ORI": [
+      "Operational Readiness Inspection"
+    ],
+    "OSD": [
+      "Office of the Secretary of Defense"
+    ],
+    "OSINT": [
+      "Open-Source Intelligence"
+    ],
+    "OSW": [
+      "Office of the Secretary of War"
+    ],
+    "OT&E": [
+      "Operational Test & Evaluation"
+    ],
+    "OTC": [
+      "Officer Training Course"
+    ],
+    "OTQ": [
+      "Of the Quarter"
+    ],
+    "OTTI": [
+      "Operational Test and Training Infrastructure"
+    ],
+    "OTY": [
+      "Of the Year"
+    ],
+    "OW": [
+      "Orbital Warfare"
+    ],
+    "P&D": [
+      "Protect and Defend"
+    ],
+    "PCA": [
+      "Permanent Change of Assignment"
+    ],
+    "PCM": [
+      "Primary Care Manager"
+    ],
+    "PCS": [
+      "Permanent Change of Station"
+    ],
+    "PDE": [
+      "Primary Developmental Education"
+    ],
+    "PEX": [
+      "Patriot Excalibur"
+    ],
+    "PFA": [
+      "Physical Fitness Assessment"
+    ],
+    "PFT": [
+      "Physical Fitness Test"
+    ],
+    "PHOTINT": [
+      "Photo Intelligence"
+    ],
+    "PII": [
+      "Personally Identifiable Information"
+    ],
+    "PIR": [
+      "Priority Intelligence Requirements"
+    ],
+    "PL": [
+      "Protection Level"
+    ],
+    "PLANORD": [
+      "Planning Order"
+    ],
+    "PLE": [
+      "Professional Leadership Education"
+    ],
+    "PMC": [
+      "Partially Mission Capable"
+    ],
+    "PME": [
+      "Professional Military Education"
+    ],
+    "PMI": [
+      "Preventative Maintenance Inspection"
+    ],
+    "PNT": [
+      "Position, Navigation and Timing"
+    ],
+    "POA&M": [
+      "Plan of Action and Milestones"
+    ],
+    "POC": [
+      "Point of Contact"
+    ],
+    "POI": [
+      "Plan of Instruction"
+    ],
+    "PoL": [
+      "Pattern of Life"
+    ],
+    "POM": [
+      "Program Objective Memorandum"
+    ],
+    "POTUS": [
+      "President of the United States"
+    ],
+    "PRP": [
+      "Personnel Reliability Program"
+    ],
+    "QA": [
+      "Quality Assurance"
+    ],
+    "QC": [
+      "Quality Control"
+    ],
+    "QoL": [
+      "Quality of Life"
+    ],
+    "QRC": [
+      "Quick Reaction Capability"
+    ],
+    "QRF": [
+      "Quick Reaction Force"
+    ],
+    "R&D": [
+      "Research and Development"
+    ],
+    "RegAF": [
+      "Regular Air Force"
+    ],
+    "ResAF": [
+      "Reserve Air Force"
+    ],
+    "RF": [
+      "Radio Frequency"
+    ],
+    "RFF": [
+      "Request for Forces"
+    ],
+    "RFI": [
+      "Request for Information"
+    ],
+    "ROE": [
+      "Rules of Engagement"
+    ],
+    "ROTC": [
+      "Reserve Officer Training Corps"
+    ],
+    "RPA": [
+      "Remotely Piloted Aircraft"
+    ],
+    "RPO": [
+      "Rendezvous Proximity Operations"
+    ],
+    "RSP": [
+      "Ready Spacecrew Program"
+    ],
+    "S4S": [
+      "U.S. Space Forces - Space"
+    ],
+    "SA": [
+      "Situational Awareness"
+    ],
+    "SAF": [
+      "Secretary of the Air Force"
+    ],
+    "SAP": [
+      "Special Access Program"
+    ],
+    "SAPM": [
+      "Self-Assessment Program Manager"
+    ],
+    "SAPR": [
+      "Sexual Assault Prevention and Response"
+    ],
+    "SARC": [
+      "Sexual Assault Response Coordinator"
+    ],
+    "SATCOM": [
+      "Satellite Communication"
+    ],
+    "SBD": [
+      "Space Base Delta"
+    ],
+    "SBIRS": [
+      "Space-Based Infrared System"
+    ],
+    "SBM": [
+      "Space Battle Management"
+    ],
+    "SCG": [
+      "Security Classification Guide"
+    ],
+    "SCI": [
+      "Sensitive Compartmented Information"
+    ],
+    "SCIF": [
+      "Sensitive Compartmented Information Facility"
+    ],
+    "SCN": [
+      "Satellite Control Network"
+    ],
+    "SCS": [
+      "Satellite Communication Squadron"
+    ],
+    "SD": [
+      "Space Delta"
+    ],
+    "SDA": [
+      "Space Domain Awareness"
+    ],
+    "SDE": [
+      "Senior Developmental Education"
+    ],
+    "SDS": [
+      "Space Defense Squadron"
+    ],
+    "SecAF": [
+      "Secretary of the Air Force"
+    ],
+    "SecDef": [
+      "Secretary of Defense"
+    ],
+    "SecWar": [
+      "Secretary of War"
+    ],
+    "SEL": [
+      "Senior Enlisted Leader"
+    ],
+    "SES": [
+      "Senior Executive Service"
+    ],
+    "SEW": [
+      "Space Electromagnetic Warfare"
+    ],
+    "SF": [
+      "Security Forces"
+    ],
+    "SFA": [
+      "Space Forces Association"
+    ],
+    "SFELM": [
+      "Space Force Element"
+    ],
+    "SFS": [
+      "Security Forces Squadron"
+    ],
+    "SFSC": [
+      "Space Force Specialty Code"
+    ],
+    "SG": [
+      "Surgeon General"
+    ],
+    "SIGINT": [
+      "Signals Intelligence"
+    ],
+    "SIPR": [
+      "Secret Internet Protocol Router"
+    ],
+    "SITREP": [
+      "Situation Report"
+    ],
+    "SJA": [
+      "Staff Judge Advocate"
+    ],
+    "SLC": [
+      "Space Launch Complex"
+    ],
+    "SLE": [
+      "Senior Level Education"
+    ],
+    "SME": [
+      "Subject Matter Expert"
+    ],
+    "SML": [
+      "Senior Materiel Leader"
+    ],
+    "SNCO": [
+      "Senior Noncommissioned Officer"
+    ],
+    "SNCOQ": [
+      "Senior Noncommissioned Officer of the Quarter"
+    ],
+    "SNCOY": [
+      "Senior Noncommissioned Officer of the Year"
+    ],
+    "SOF": [
+      "Special Operations Forces"
+    ],
+    "SOI": [
+      "Signal of Interest"
+    ],
+    "SoM": [
+      "Scheme of Maneuver"
+    ],
+    "SOP": [
+      "Standard Operating Procedure"
+    ],
+    "SOSI": [
+      "Space Object Surveillance and Identification"
+    ],
+    "SPACEFOR-NORTH": [
+      "U.S. Space Forces-Northern"
+    ],
+    "SPACEFOR-SOUTH": [
+      "U.S. Space Forces-Southern"
+    ],
+    "SPACEFORCENT": [
+      "U.S. Space Forces - Central"
+    ],
+    "SPACEFOREUR-AF": [
+      "U.S. Space Forces in Europe - Africa"
+    ],
+    "SPACEFORINDO-PAC": [
+      "U.S. Space Forces-Indo-Pacific"
+    ],
+    "SPAFORGEN": [
+      "Space Force Generation"
+    ],
+    "SPFI": [
+      "Space Force Instruction"
+    ],
+    "SPINS": [
+      "Special Instructions"
+    ],
+    "SpRCO": [
+      "Space Rapid Capabilities Office"
+    ],
+    "SPT": [
+      "Space Planning Team"
+    ],
+    "SR": [
+      "Senior Rater"
+    ],
+    "SRID": [
+      "Senior Rater Identification"
+    ],
+    "SSA": [
+      "Space Situational Awareness"
+    ],
+    "SSC": [
+      "Space Systems Command"
+    ],
+    "SSN": [
+      "Social Security Number; Space Surveillance Network"
+    ],
+    "STAFDEL": [
+      "Staff Delegation"
+    ],
+    "STARCOM": [
+      "Space Training and Readiness Command"
+    ],
+    "START": [
+      "Strategic Arms Reduction Treaty"
+    ],
+    "STEM": [
+      "Science, Technology, Engineering and Mathematics"
+    ],
+    "STO": [
+      "Special Technical Operations"
+    ],
+    "STS": [
+      "Sustainment Squadron"
+    ],
+    "SWS": [
+      "Space Warning Squadron"
+    ],
+    "SYD": [
+      "System Delta"
+    ],
+    "TACON": [
+      "Tactical Control"
+    ],
+    "TAG": [
+      "The Adjutant General"
+    ],
+    "TASKORD": [
+      "Tasking Order"
+    ],
+    "TDY": [
+      "Temporary Duty"
+    ],
+    "TECHINT": [
+      "Technical Intelligence"
+    ],
+    "TFI": [
+      "Total Force Integration"
+    ],
+    "TIS": [
+      "Tactical Intelligence Squadron"
+    ],
+    "TO": [
+      "Technical or Tech Order"
+    ],
+    "TPL": [
+      "Threat Priorities List"
+    ],
+    "TS": [
+      "Top Secret"
+    ],
+    "TT&C": [
+      "Telemetry, Tracking, and Commanding"
+    ],
+    "TTP": [
+      "Tactics, Techniques and Procedures"
+    ],
+    "TTX": [
+      "Tabletop Exercise"
+    ],
+    "UAS": [
+      "Unmanned Aircraft System"
+    ],
+    "UCC": [
+      "Unit Control Center"
+    ],
+    "UCMJ": [
+      "Uniform Code of Military Justice"
+    ],
+    "UDM": [
+      "Unit Deployment Manager"
+    ],
+    "UEI": [
+      "Unit Effectiveness Inspection"
+    ],
+    "UFPM": [
+      "Unit Fitness Program Manager"
+    ],
+    "UFR": [
+      "Unfunded Request"
+    ],
+    "UMD": [
+      "Unit Manning Document"
+    ],
+    "UON": [
+      "Urgent Operational Need"
+    ],
+    "UPMR": [
+      "Unit Personnel Management Roster"
+    ],
+    "UPS": [
+      "Uninterrupted Power Supply"
+    ],
+    "US": [
+      "United States"
+    ],
+    "USA": [
+      "United States Army"
+    ],
+    "USAF": [
+      "United States Air Force"
+    ],
+    "USAFA": [
+      "United States Air Force Academy"
+    ],
+    "USAFRICOM": [
+      "United States Africa Command"
+    ],
+    "USCENTCOM": [
+      "United States Central Command"
+    ],
+    "USCYBERCOM": [
+      "US Cyber Command"
+    ],
+    "USEUCOM": [
+      "US European Command"
+    ],
+    "USFJ": [
+      "US Forces Japan"
+    ],
+    "USFK": [
+      "US Forces Korea"
+    ],
+    "USMC": [
+      "US Marine Corps"
+    ],
+    "USN": [
+      "US Navy"
+    ],
+    "USNORTHCOM": [
+      "US Northern Command"
+    ],
+    "USPACOM": [
+      "US Pacific Command"
+    ],
+    "USSC": [
+      "US Space Command"
+    ],
+    "USSF": [
+      "US Space Force"
+    ],
+    "USSOCOM": [
+      "US Special Operations Command"
+    ],
+    "USSOUTHCOM": [
+      "US Southern Command"
+    ],
+    "USSPACECOM": [
+      "US Space Command"
+    ],
+    "USSTRANSCOM": [
+      "US Transportation Command"
+    ],
+    "USSTRATCOM": [
+      "US Strategic Command"
+    ],
+    "UTC": [
+      "Unit Type Code"
+    ],
+    "UTM": [
+      "Unit Training Manager"
+    ],
+    "VCJCS": [
+      "Vice Chairman of the Joint Chiefs of Staff"
+    ],
+    "VCSO": [
+      "Vice Chief of Space Operations"
+    ],
+    "VPOTUS": [
+      "Vice President of the United States"
+    ],
+    "VTC": [
+      "Video Teleconference"
+    ],
+    "WARNORD": [
+      "Warning Order"
+    ],
+    "WG": [
+      "Working Group"
+    ],
+    "WH": [
+      "White House"
+    ],
+    "WIC": [
+      "Weapons Instructor Course"
+    ],
+    "WIT": [
+      "Wing Inspection Team"
+    ],
+    "WMD": [
+      "Weapons(s) of Mass Destruction"
+    ],
+    "WSA": [
+      "Wing Staff Agency"
+    ],
+    "WSI": [
+      "Weapon System Infrastructure"
+    ],
+    "WSS": [
+      "Weapon System Sustainment"
+    ]
+  },
+  "notes": {
+    "MD": "Proper usage is MD #, NOT MD# Ex: MD 2",
+    "SD": "Proper usage is SD #, NOT SD# Ex: SD 7"
+  }
+}

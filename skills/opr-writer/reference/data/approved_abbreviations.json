@@ -1,0 +1,2436 @@
+{
+  "source": "Built from CFC writing guidance (Writing Guide Attachments, 26 Jun 2026). The source document is not included.",
+  "kind": "approved_abbreviations",
+  "rules": {
+    "exact_form": "Abbreviations must be written as listed (case-sensitive).",
+    "suffixes": [
+      "'d",
+      "'s",
+      "s",
+      "es"
+    ],
+    "no_plural_on_verbs": "-s and -es cannot be added to abbreviated verbs; allowed on abbreviated nouns.",
+    "consistency": "Once abbreviated, use the abbreviation everywhere in the evaluation.",
+    "no_space_after_slash": [
+      "f/",
+      "w/"
+    ]
+  },
+  "entries": [
+    {
+      "listed": "1st Sgt",
+      "forms": [
+        "1st Sgt"
+      ],
+      "meaning": "First Sergeant",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "acct",
+      "forms": [
+        "acct"
+      ],
+      "meaning": "account",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "acft",
+      "forms": [
+        "acft"
+      ],
+      "meaning": "aircraft",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "achv",
+      "forms": [
+        "achv"
+      ],
+      "meaning": "achieve",
+      "pos": "verb",
+      "d_form_allowed": true,
+      "d_forms": [
+        "achv'd"
+      ],
+      "note": ""
+    },
+    {
+      "listed": "acq",
+      "forms": [
+        "acq"
+      ],
+      "meaning": "acquisition",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "add'l",
+      "forms": [
+        "add'l"
+      ],
+      "meaning": "additional",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "admin",
+      "forms": [
+        "admin"
+      ],
+      "meaning": "administration",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "adv",
+      "forms": [
+        "adv"
+      ],
+      "meaning": "advanced",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "afld",
+      "forms": [
+        "afld"
+      ],
+      "meaning": "airfield",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "alft",
+      "forms": [
+        "alft"
+      ],
+      "meaning": "airlift",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "alt",
+      "forms": [
+        "alt"
+      ],
+      "meaning": "alternate",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "Amn",
+      "forms": [
+        "Amn"
+      ],
+      "meaning": "Airman; Airmen",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "appt",
+      "forms": [
+        "appt"
+      ],
+      "meaning": "appointment",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "art",
+      "forms": [
+        "art"
+      ],
+      "meaning": "article",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "atty",
+      "forms": [
+        "atty"
+      ],
+      "meaning": "attorney",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "auth",
+      "forms": [
+        "auth"
+      ],
+      "meaning": "authority; authorize",
+      "pos": "verb",
+      "d_form_allowed": true,
+      "d_forms": [
+        "auth'd"
+      ],
+      "note": ""
+    },
+    {
+      "listed": "asst",
+      "forms": [
+        "asst"
+      ],
+      "meaning": "assistant",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "avg",
+      "forms": [
+        "avg"
+      ],
+      "meaning": "average",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "awd",
+      "forms": [
+        "awd"
+      ],
+      "meaning": "award",
+      "pos": "verb",
+      "d_form_allowed": true,
+      "d_forms": [
+        "awd'd"
+      ],
+      "note": ""
+    },
+    {
+      "listed": "B",
+      "forms": [
+        "B"
+      ],
+      "meaning": "Billion",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "bilat",
+      "forms": [
+        "bilat"
+      ],
+      "meaning": "bilateral",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "bldg",
+      "forms": [
+        "bldg"
+      ],
+      "meaning": "building",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "b/w",
+      "forms": [
+        "b/w"
+      ],
+      "meaning": "between",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "cnx",
+      "forms": [
+        "cnx"
+      ],
+      "meaning": "cancel",
+      "pos": "verb",
+      "d_form_allowed": true,
+      "d_forms": [
+        "cnx'd"
+      ],
+      "note": ""
+    },
+    {
+      "listed": "capes",
+      "forms": [
+        "capes"
+      ],
+      "meaning": "capabilities",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "CC/Cmdr/Cdr",
+      "forms": [
+        "CC",
+        "Cmdr",
+        "Cdr"
+      ],
+      "meaning": "commander",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "CDet",
+      "forms": [
+        "CDet"
+      ],
+      "meaning": "Combat Detachment",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "cert",
+      "forms": [
+        "cert"
+      ],
+      "meaning": "certification; certify",
+      "pos": "verb",
+      "d_form_allowed": true,
+      "d_forms": [
+        "cert'd"
+      ],
+      "note": ""
+    },
+    {
+      "listed": "chg",
+      "forms": [
+        "chg"
+      ],
+      "meaning": "change",
+      "pos": "verb",
+      "d_form_allowed": true,
+      "d_forms": [
+        "chg'd"
+      ],
+      "note": ""
+    },
+    {
+      "listed": "chklst",
+      "forms": [
+        "chklst"
+      ],
+      "meaning": "checklist",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "civ",
+      "forms": [
+        "civ"
+      ],
+      "meaning": "civilian",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "cmbt",
+      "forms": [
+        "cmbt"
+      ],
+      "meaning": "combat",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "cmte",
+      "forms": [
+        "cmte"
+      ],
+      "meaning": "committee",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "collab",
+      "forms": [
+        "collab"
+      ],
+      "meaning": "collaborate",
+      "pos": "verb",
+      "d_form_allowed": true,
+      "d_forms": [
+        "collab'd"
+      ],
+      "note": ""
+    },
+    {
+      "listed": "conf",
+      "forms": [
+        "conf"
+      ],
+      "meaning": "conference",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "config",
+      "forms": [
+        "config"
+      ],
+      "meaning": "configuration",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "comm",
+      "forms": [
+        "comm"
+      ],
+      "meaning": "communication",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "cmd",
+      "forms": [
+        "cmd"
+      ],
+      "meaning": "command",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "constr",
+      "forms": [
+        "constr"
+      ],
+      "meaning": "construction",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "coord",
+      "forms": [
+        "coord"
+      ],
+      "meaning": "coordinate",
+      "pos": "verb",
+      "d_form_allowed": true,
+      "d_forms": [
+        "coord'd"
+      ],
+      "note": ""
+    },
+    {
+      "listed": "crit",
+      "forms": [
+        "crit"
+      ],
+      "meaning": "critical",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "crs",
+      "forms": [
+        "crs"
+      ],
+      "meaning": "course",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "CSq",
+      "forms": [
+        "CSq"
+      ],
+      "meaning": "Combat Squadron",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "ctr",
+      "forms": [
+        "ctr"
+      ],
+      "meaning": "center",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "ctrl",
+      "forms": [
+        "ctrl"
+      ],
+      "meaning": "control",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "dec",
+      "forms": [
+        "dec"
+      ],
+      "meaning": "decoration",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "decr",
+      "forms": [
+        "decr"
+      ],
+      "meaning": "decrease",
+      "pos": "verb",
+      "d_form_allowed": true,
+      "d_forms": [
+        "decr'd"
+      ],
+      "note": ""
+    },
+    {
+      "listed": "def",
+      "forms": [
+        "def"
+      ],
+      "meaning": "defense",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "DEL/Del",
+      "forms": [
+        "DEL",
+        "Del"
+      ],
+      "meaning": "delta",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "Del/CC",
+      "forms": [
+        "Del/CC"
+      ],
+      "meaning": "Delta Commander",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "demo",
+      "forms": [
+        "demo"
+      ],
+      "meaning": "demonstration",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "dep",
+      "forms": [
+        "dep"
+      ],
+      "meaning": "deputy",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "dept",
+      "forms": [
+        "dept"
+      ],
+      "meaning": "department",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "Det/det",
+      "forms": [
+        "Det",
+        "det"
+      ],
+      "meaning": "detachment",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "dlvr",
+      "forms": [
+        "dlvr"
+      ],
+      "meaning": "deliver",
+      "pos": "verb",
+      "d_form_allowed": true,
+      "d_forms": [
+        "dlvr'd"
+      ],
+      "note": ""
+    },
+    {
+      "listed": "dir",
+      "forms": [
+        "dir"
+      ],
+      "meaning": "direct",
+      "pos": "verb",
+      "d_form_allowed": true,
+      "d_forms": [
+        "dir'd"
+      ],
+      "note": ""
+    },
+    {
+      "listed": "Dir",
+      "forms": [
+        "Dir"
+      ],
+      "meaning": "Director, Directorate",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "div",
+      "forms": [
+        "div"
+      ],
+      "meaning": "division",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "dply(mnt)",
+      "forms": [
+        "dply",
+        "dplymnt"
+      ],
+      "meaning": "deploy(ment)",
+      "pos": "verb",
+      "d_form_allowed": true,
+      "d_forms": [
+        "dply'd"
+      ],
+      "note": ""
+    },
+    {
+      "listed": "doc",
+      "forms": [
+        "doc"
+      ],
+      "meaning": "document",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "Dr",
+      "forms": [
+        "Dr"
+      ],
+      "meaning": "doctor",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "dvlp(mnt)",
+      "forms": [
+        "dvlp",
+        "dvlpmnt"
+      ],
+      "meaning": "develop(ment)",
+      "pos": "verb",
+      "d_form_allowed": true,
+      "d_forms": [
+        "dvlp'd"
+      ],
+      "note": ""
+    },
+    {
+      "listed": "ea",
+      "forms": [
+        "ea"
+      ],
+      "meaning": "each",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "edu",
+      "forms": [
+        "edu"
+      ],
+      "meaning": "education; educate",
+      "pos": "verb",
+      "d_form_allowed": true,
+      "d_forms": [
+        "edu'd"
+      ],
+      "note": ""
+    },
+    {
+      "listed": "engr",
+      "forms": [
+        "engr"
+      ],
+      "meaning": "engineer",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "enl",
+      "forms": [
+        "enl"
+      ],
+      "meaning": "enlisted",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "equip",
+      "forms": [
+        "equip"
+      ],
+      "meaning": "equipment",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "est",
+      "forms": [
+        "est"
+      ],
+      "meaning": "estimate; establish",
+      "pos": "verb",
+      "d_form_allowed": true,
+      "d_forms": [
+        "est'd"
+      ],
+      "note": ""
+    },
+    {
+      "listed": "evac",
+      "forms": [
+        "evac"
+      ],
+      "meaning": "evacuate; evacuation",
+      "pos": "verb",
+      "d_form_allowed": true,
+      "d_forms": [
+        "evac'd"
+      ],
+      "note": ""
+    },
+    {
+      "listed": "eval",
+      "forms": [
+        "eval"
+      ],
+      "meaning": "evaluation; evaluate",
+      "pos": "verb",
+      "d_form_allowed": true,
+      "d_forms": [
+        "eval'd"
+      ],
+      "note": ""
+    },
+    {
+      "listed": "ex/Ex",
+      "forms": [
+        "ex",
+        "Ex"
+      ],
+      "meaning": "exercise or Exercise",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "exec",
+      "forms": [
+        "exec"
+      ],
+      "meaning": "executive",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "f/",
+      "forms": [
+        "f/"
+      ],
+      "meaning": "for",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": "do not use a space after slash"
+    },
+    {
+      "listed": "flt",
+      "forms": [
+        "flt"
+      ],
+      "meaning": "flight",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "Flt/CC",
+      "forms": [
+        "Flt/CC"
+      ],
+      "meaning": "Flight Commander",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "freq",
+      "forms": [
+        "freq"
+      ],
+      "meaning": "frequency",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "ft",
+      "forms": [
+        "ft"
+      ],
+      "meaning": "feet",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "fwd",
+      "forms": [
+        "fwd"
+      ],
+      "meaning": "forward",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "G",
+      "forms": [
+        "G"
+      ],
+      "meaning": "Guardian",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "GB",
+      "forms": [
+        "GB"
+      ],
+      "meaning": "Gigabyte",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "gen",
+      "forms": [
+        "gen"
+      ],
+      "meaning": "generate",
+      "pos": "verb",
+      "d_form_allowed": true,
+      "d_forms": [
+        "gen'd"
+      ],
+      "note": ""
+    },
+    {
+      "listed": "govt",
+      "forms": [
+        "govt"
+      ],
+      "meaning": "government",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "gp/grp",
+      "forms": [
+        "gp",
+        "grp"
+      ],
+      "meaning": "group",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "Gp/CC",
+      "forms": [
+        "Gp/CC"
+      ],
+      "meaning": "Group Commander",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "grad",
+      "forms": [
+        "grad"
+      ],
+      "meaning": "graduate",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "grnd",
+      "forms": [
+        "grnd"
+      ],
+      "meaning": "ground",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "hi-vis",
+      "forms": [
+        "hi-vis"
+      ],
+      "meaning": "high-visibility",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "hi-pri",
+      "forms": [
+        "hi-pri"
+      ],
+      "meaning": "high priority",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "hlth",
+      "forms": [
+        "hlth"
+      ],
+      "meaning": "health",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "hrs",
+      "forms": [
+        "hrs"
+      ],
+      "meaning": "hours",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "h/w",
+      "forms": [
+        "h/w"
+      ],
+      "meaning": "hardware",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "ID'd/Id'd",
+      "forms": [
+        "ID'd",
+        "Id'd"
+      ],
+      "meaning": "identified",
+      "pos": "verb_form",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "incr",
+      "forms": [
+        "incr"
+      ],
+      "meaning": "increase",
+      "pos": "verb",
+      "d_form_allowed": true,
+      "d_forms": [
+        "incr'd"
+      ],
+      "note": ""
+    },
+    {
+      "listed": "indoc",
+      "forms": [
+        "indoc"
+      ],
+      "meaning": "indoctrination",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "info",
+      "forms": [
+        "info"
+      ],
+      "meaning": "information",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "infstr",
+      "forms": [
+        "infstr"
+      ],
+      "meaning": "infrastructure",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "inop",
+      "forms": [
+        "inop"
+      ],
+      "meaning": "inoperable",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "insp",
+      "forms": [
+        "insp"
+      ],
+      "meaning": "inspection",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "instr",
+      "forms": [
+        "instr"
+      ],
+      "meaning": "instruction or instructor",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "intel",
+      "forms": [
+        "intel"
+      ],
+      "meaning": "intelligence",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "int'l",
+      "forms": [
+        "int'l"
+      ],
+      "meaning": "international",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "jr",
+      "forms": [
+        "jr"
+      ],
+      "meaning": "junior",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "Jt",
+      "forms": [
+        "Jt"
+      ],
+      "meaning": "joint",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "K",
+      "forms": [
+        "K"
+      ],
+      "meaning": "thousand",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "kt(s)",
+      "forms": [
+        "kt",
+        "kts"
+      ],
+      "meaning": "contract(s)",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "ktr(s)",
+      "forms": [
+        "ktr",
+        "ktrs"
+      ],
+      "meaning": "contractor(s)",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "ldr(s)",
+      "forms": [
+        "ldr",
+        "ldrs"
+      ],
+      "meaning": "leader(s)",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "ldrship/ldrshp",
+      "forms": [
+        "ldrship",
+        "ldrshp"
+      ],
+      "meaning": "leadership",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "log",
+      "forms": [
+        "log"
+      ],
+      "meaning": "logistics",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "lrgst",
+      "forms": [
+        "lrgst"
+      ],
+      "meaning": "largest",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "lvl",
+      "forms": [
+        "lvl"
+      ],
+      "meaning": "level",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "M",
+      "forms": [
+        "M"
+      ],
+      "meaning": "Million",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "max",
+      "forms": [
+        "max"
+      ],
+      "meaning": "maximum; maximize",
+      "pos": "verb",
+      "d_form_allowed": true,
+      "d_forms": [
+        "max'd"
+      ],
+      "note": ""
+    },
+    {
+      "listed": "mbr",
+      "forms": [
+        "mbr"
+      ],
+      "meaning": "member",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "med",
+      "forms": [
+        "med"
+      ],
+      "meaning": "medical",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "mgmt",
+      "forms": [
+        "mgmt"
+      ],
+      "meaning": "management",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "mil",
+      "forms": [
+        "mil"
+      ],
+      "meaning": "military",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "min",
+      "forms": [
+        "min"
+      ],
+      "meaning": "minimum",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "mng",
+      "forms": [
+        "mng"
+      ],
+      "meaning": "manage",
+      "pos": "verb",
+      "d_form_allowed": true,
+      "d_forms": [
+        "mng'd"
+      ],
+      "note": ""
+    },
+    {
+      "listed": "mgr",
+      "forms": [
+        "mgr"
+      ],
+      "meaning": "manager",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "mod",
+      "forms": [
+        "mod"
+      ],
+      "meaning": "modification",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "mnpwr",
+      "forms": [
+        "mnpwr"
+      ],
+      "meaning": "manpower",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "msg",
+      "forms": [
+        "msg"
+      ],
+      "meaning": "message",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "msl",
+      "forms": [
+        "msl"
+      ],
+      "meaning": "missile",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "msn",
+      "forms": [
+        "msn"
+      ],
+      "meaning": "mission",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "mtg",
+      "forms": [
+        "mtg"
+      ],
+      "meaning": "meeting",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "mth",
+      "forms": [
+        "mth"
+      ],
+      "meaning": "month",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "mvmt",
+      "forms": [
+        "mvmt"
+      ],
+      "meaning": "movement",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "multi",
+      "forms": [
+        "multi"
+      ],
+      "meaning": "multiple",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "multi-nat'l",
+      "forms": [
+        "multi-nat'l"
+      ],
+      "meaning": "multi-national",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "Mx/mx",
+      "forms": [
+        "Mx",
+        "mx"
+      ],
+      "meaning": "maintenance",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "nat'l/natl",
+      "forms": [
+        "nat'l",
+        "natl"
+      ],
+      "meaning": "national",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "nav",
+      "forms": [
+        "nav"
+      ],
+      "meaning": "navigation",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "next-gen",
+      "forms": [
+        "next-gen"
+      ],
+      "meaning": "next-generation",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "nom",
+      "forms": [
+        "nom"
+      ],
+      "meaning": "nominee; nomination",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "ntwrk",
+      "forms": [
+        "ntwrk"
+      ],
+      "meaning": "network",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "obj",
+      "forms": [
+        "obj"
+      ],
+      "meaning": "object or objective",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "ofc",
+      "forms": [
+        "ofc"
+      ],
+      "meaning": "office",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "ofcr",
+      "forms": [
+        "ofcr"
+      ],
+      "meaning": "officer",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "op(s)",
+      "forms": [
+        "op",
+        "ops"
+      ],
+      "meaning": "operation(s)",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "org(s)",
+      "forms": [
+        "org",
+        "orgs"
+      ],
+      "meaning": "organization; organize",
+      "pos": "verb",
+      "d_form_allowed": true,
+      "d_forms": [
+        "org'd"
+      ],
+      "note": ""
+    },
+    {
+      "listed": "pax",
+      "forms": [
+        "pax"
+      ],
+      "meaning": "passengers",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "pers",
+      "forms": [
+        "pers"
+      ],
+      "meaning": "person or personal",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "pkg",
+      "forms": [
+        "pkg"
+      ],
+      "meaning": "package",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "prep",
+      "forms": [
+        "prep"
+      ],
+      "meaning": "prepare",
+      "pos": "verb",
+      "d_form_allowed": true,
+      "d_forms": [
+        "prep'd"
+      ],
+      "note": ""
+    },
+    {
+      "listed": "prgm/prog",
+      "forms": [
+        "prgm",
+        "prog"
+      ],
+      "meaning": "program",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "pri",
+      "forms": [
+        "pri"
+      ],
+      "meaning": "priority",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "pro",
+      "forms": [
+        "pro"
+      ],
+      "meaning": "professional",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "Pro Dev",
+      "forms": [
+        "Pro Dev"
+      ],
+      "meaning": "Professional Development",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "proj",
+      "forms": [
+        "proj"
+      ],
+      "meaning": "project",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "prsnl",
+      "forms": [
+        "prsnl"
+      ],
+      "meaning": "personnel",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "psn",
+      "forms": [
+        "psn"
+      ],
+      "meaning": "position",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "pub",
+      "forms": [
+        "pub"
+      ],
+      "meaning": "publish; publication",
+      "pos": "verb",
+      "d_form_allowed": true,
+      "d_forms": [
+        "pub'd"
+      ],
+      "note": ""
+    },
+    {
+      "listed": "pwr",
+      "forms": [
+        "pwr"
+      ],
+      "meaning": "power",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "qb'd",
+      "forms": [
+        "qb'd"
+      ],
+      "meaning": "quarterbacked",
+      "pos": "verb_form",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "qtr",
+      "forms": [
+        "qtr"
+      ],
+      "meaning": "quarter",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "qtrly",
+      "forms": [
+        "qtrly"
+      ],
+      "meaning": "quarterly",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "qual",
+      "forms": [
+        "qual"
+      ],
+      "meaning": "qualify; qualification",
+      "pos": "verb",
+      "d_form_allowed": true,
+      "d_forms": [
+        "qual'd"
+      ],
+      "note": ""
+    },
+    {
+      "listed": "rdy",
+      "forms": [
+        "rdy"
+      ],
+      "meaning": "ready",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "rec",
+      "forms": [
+        "rec"
+      ],
+      "meaning": "recommendation; recommend",
+      "pos": "verb",
+      "d_form_allowed": true,
+      "d_forms": [
+        "rec'd"
+      ],
+      "note": ""
+    },
+    {
+      "listed": "rec'd/recd",
+      "forms": [
+        "rec'd",
+        "recd"
+      ],
+      "meaning": "received",
+      "pos": "verb_form",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "recon",
+      "forms": [
+        "recon"
+      ],
+      "meaning": "reconnaissance",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "reg",
+      "forms": [
+        "reg"
+      ],
+      "meaning": "regulation; regulate",
+      "pos": "verb",
+      "d_form_allowed": true,
+      "d_forms": [
+        "reg'd"
+      ],
+      "note": ""
+    },
+    {
+      "listed": "reorg",
+      "forms": [
+        "reorg"
+      ],
+      "meaning": "reorganize; reorganization",
+      "pos": "verb",
+      "d_form_allowed": true,
+      "d_forms": [
+        "reorg'd"
+      ],
+      "note": ""
+    },
+    {
+      "listed": "rep",
+      "forms": [
+        "rep"
+      ],
+      "meaning": "representative",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "rqmt",
+      "forms": [
+        "rqmt"
+      ],
+      "meaning": "requirement",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "rvw",
+      "forms": [
+        "rvw"
+      ],
+      "meaning": "review",
+      "pos": "verb",
+      "d_form_allowed": true,
+      "d_forms": [
+        "rvw'd"
+      ],
+      "note": ""
+    },
+    {
+      "listed": "Rx(s)",
+      "forms": [
+        "Rx",
+        "Rxs"
+      ],
+      "meaning": "prescription(s)",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "sat",
+      "forms": [
+        "sat"
+      ],
+      "meaning": "satellite",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "sched",
+      "forms": [
+        "sched"
+      ],
+      "meaning": "schedule",
+      "pos": "verb",
+      "d_form_allowed": true,
+      "d_forms": [
+        "sched'd"
+      ],
+      "note": ""
+    },
+    {
+      "listed": "sim",
+      "forms": [
+        "sim"
+      ],
+      "meaning": "simulate; simulator",
+      "pos": "verb",
+      "d_form_allowed": true,
+      "d_forms": [
+        "sim'd"
+      ],
+      "note": ""
+    },
+    {
+      "listed": "spec",
+      "forms": [
+        "spec"
+      ],
+      "meaning": "specification",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "spt",
+      "forms": [
+        "spt"
+      ],
+      "meaning": "support",
+      "pos": "verb",
+      "d_form_allowed": true,
+      "d_forms": [
+        "spt'd"
+      ],
+      "note": ""
+    },
+    {
+      "listed": "sq",
+      "forms": [
+        "sq"
+      ],
+      "meaning": "squadron",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "Sq/CC",
+      "forms": [
+        "Sq/CC"
+      ],
+      "meaning": "Squadron Commander",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "sr",
+      "forms": [
+        "sr"
+      ],
+      "meaning": "senior",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "stan/eval",
+      "forms": [
+        "stan/eval"
+      ],
+      "meaning": "standardization and evaluation",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "std",
+      "forms": [
+        "std"
+      ],
+      "meaning": "standard",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "strat",
+      "forms": [
+        "strat"
+      ],
+      "meaning": "strategic",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "Supt",
+      "forms": [
+        "Supt"
+      ],
+      "meaning": "Superintendent",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "svc",
+      "forms": [
+        "svc"
+      ],
+      "meaning": "service",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "svs",
+      "forms": [
+        "svs"
+      ],
+      "meaning": "services",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "s/w",
+      "forms": [
+        "s/w"
+      ],
+      "meaning": "software",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "sync",
+      "forms": [
+        "sync"
+      ],
+      "meaning": "synchronize",
+      "pos": "verb",
+      "d_form_allowed": true,
+      "d_forms": [
+        "sync'd"
+      ],
+      "note": ""
+    },
+    {
+      "listed": "sys",
+      "forms": [
+        "sys"
+      ],
+      "meaning": "system",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "TB",
+      "forms": [
+        "TB"
+      ],
+      "meaning": "Terabyte",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "tech",
+      "forms": [
+        "tech"
+      ],
+      "meaning": "technology or technician",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "tgt",
+      "forms": [
+        "tgt"
+      ],
+      "meaning": "target",
+      "pos": "verb",
+      "d_form_allowed": true,
+      "d_forms": [
+        "tgt'd"
+      ],
+      "note": ""
+    },
+    {
+      "listed": "thru",
+      "forms": [
+        "thru"
+      ],
+      "meaning": "through",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "tm",
+      "forms": [
+        "tm"
+      ],
+      "meaning": "team",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "tmwrk",
+      "forms": [
+        "tmwrk"
+      ],
+      "meaning": "teamwork",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "trans",
+      "forms": [
+        "trans"
+      ],
+      "meaning": "transportation",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "trn'd",
+      "forms": [
+        "trn'd"
+      ],
+      "meaning": "trained",
+      "pos": "verb_form",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "trng/tng",
+      "forms": [
+        "trng",
+        "tng"
+      ],
+      "meaning": "training",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "US",
+      "forms": [
+        "US"
+      ],
+      "meaning": "United States",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "veh",
+      "forms": [
+        "veh"
+      ],
+      "meaning": "vehicle",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "vol('d)",
+      "forms": [
+        "vol",
+        "vol'd"
+      ],
+      "meaning": "volunteer(ed)",
+      "pos": "verb_form",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "vs",
+      "forms": [
+        "vs"
+      ],
+      "meaning": "versus",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "vsn",
+      "forms": [
+        "vsn"
+      ],
+      "meaning": "vision",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "w/",
+      "forms": [
+        "w/"
+      ],
+      "meaning": "with",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": "do not use a space after slash"
+    },
+    {
+      "listed": "w/in",
+      "forms": [
+        "w/in"
+      ],
+      "meaning": "within",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "w/o",
+      "forms": [
+        "w/o"
+      ],
+      "meaning": "without",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "wg",
+      "forms": [
+        "wg"
+      ],
+      "meaning": "wing",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "Wg/CC",
+      "forms": [
+        "Wg/CC"
+      ],
+      "meaning": "Wing Commander",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "wk",
+      "forms": [
+        "wk"
+      ],
+      "meaning": "week",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "wkly",
+      "forms": [
+        "wkly"
+      ],
+      "meaning": "weekly",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "wpn(s)",
+      "forms": [
+        "wpn",
+        "wpns"
+      ],
+      "meaning": "weapon(s)",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "wx",
+      "forms": [
+        "wx"
+      ],
+      "meaning": "weather",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "xfer(s)",
+      "forms": [
+        "xfer",
+        "xfers"
+      ],
+      "meaning": "transfer(s)",
+      "pos": "verb",
+      "d_form_allowed": true,
+      "d_forms": [
+        "xfer'd"
+      ],
+      "note": ""
+    },
+    {
+      "listed": "yr",
+      "forms": [
+        "yr"
+      ],
+      "meaning": "year",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    },
+    {
+      "listed": "yrly",
+      "forms": [
+        "yrly"
+      ],
+      "meaning": "yearly",
+      "pos": "noun",
+      "d_form_allowed": false,
+      "d_forms": [],
+      "note": ""
+    }
+  ]
+}

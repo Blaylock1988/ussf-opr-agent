@@ -1,0 +1,67 @@
+{
+  "id": "daf707-20240213",
+  "title": "DAF Form 707, 20240213 - Officer Performance Report (Lt thru Col)",
+  "font": "Times New Roman",
+  "font_size_pt": 12,
+  "line_width_mm": 201.05,
+  "tolerance_mm": 0.30,
+  "width_source": "AF-Tools/bullet-buddy OPR width; calibrated against 2025 OPR lines (200.78-201.02 mm)",
+  "sections": [
+    {
+      "key": "job_description",
+      "label": "II. JOB DESCRIPTION",
+      "max_lines": 4,
+      "kind": "job_description",
+      "required": true,
+      "has_duty_title": true
+    },
+    {
+      "key": "rater",
+      "label": "IV. RATER OVERALL ASSESSMENT",
+      "max_lines": 6,
+      "kind": "assessment",
+      "strat_line": "last",
+      "required": true
+    },
+    {
+      "key": "additional_rater",
+      "label": "V. ADDITIONAL RATER OVERALL ASSESSMENT",
+      "max_lines": 4,
+      "kind": "assessment",
+      "strat_line": "last",
+      "required": true
+    },
+    {
+      "key": "reviewer",
+      "label": "VI. REVIEWER",
+      "max_lines": 3,
+      "kind": "reviewer",
+      "required": false
+    }
+  ],
+  "remarks": {
+    "key": "remarks",
+    "label": "X. REMARKS (use this section to spell out acronyms from the front)"
+  },
+  "identification_fields": [
+    "name", "grade", "dafsc", "reason", "pas_code", "organization",
+    "period_from", "period_thru", "days_supervised", "days_non_rated", "srid", "duty_title",
+    "last_feedback_date"
+  ],
+  "optional_blocks": {
+    "fitness": {
+      "enabled": true,
+      "placement": "box1",
+      "template": "FITNESS SCORE: {score}",
+      "note": "Boards weigh fitness heavily in 2026, but the 20240213 form has no fitness block. Rendered as a Box I identification line by default; draft.ratee.fitness_placement (box1 | remarks | both | none) overrides per report. Revisit when official placement is published."
+    }
+  },
+  "prohibitions": [
+    "Promotion recommendations (specific or implied)",
+    "Completion of or enrollment in Developmental Education or advanced academic degrees",
+    "Previous or anticipated DAF Form 709 promotion recommendations",
+    "OPR endorsement levels",
+    "Family activities, marital status, race, sex, ethnic origin, age, religion, sexual orientation",
+    "Classified information (the OPR is CUI when filled out)"
+  ]
+}

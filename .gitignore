@@ -1,0 +1,53 @@
+# --- OPR data: never commit a ratee's inputs or outputs (PII, possibly CUI) ---
+# root-anchored: Git on Windows ignores case, so a bare "Data/" would also hide reference/data/
+_opr_work/
+/Output/
+/Data/
+/Guidance/
+*.docx
+*.doc
+*.pdf
+*.xlsx
+*.xls
+*.pptx
+*.msg
+*.eml
+# test plans and reports reference real records; keep them outside the repo
+*TEST PLAN*.md
+*TEST REPORT*.md
+
+# full-text reference indexes stay local; the skill ships digests only
+skills/opr-writer/reference/tq/
+skills/opr-writer/reference/cso/
+*.chunks/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+*.egg-info/
+build/
+dist/
+
+# --- skill install manifest (written only into installed copies) ---
+.installed_from.json
+
+# --- Claude Code / Antigravity local state ---
+.claude/settings.local.json
+.claude/*.local.*
+.claude/*.lock
+.gemini/
+
+# --- editors and OS ---
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log

@@ -1,0 +1,66 @@
+{
+  "kind": "banned_phrases",
+  "note": "Regexes matched case-insensitively against each line. severity defaults to error. Entries with 'policy' are unit-dependent: draft.settings.policies[policy] = allow | warn | forbid (default warn). Users may append entries in _opr_work/banned_phrases.json.",
+  "entries": [
+    {
+      "pattern": "\\bshows? (great |tremendous |strong )?potential\\b",
+      "reason": "Implies the ratee is not already performing at the higher level."
+    },
+    {
+      "pattern": "\\bhas (great |tremendous |strong )?potential\\b",
+      "reason": "Implies the ratee is not already performing at the higher level."
+    },
+    {
+      "pattern": "\\bpotential (to|for)\\b",
+      "reason": "Implies the ratee is not already performing at the higher level."
+    },
+    {
+      "pattern": "\\bpromot(e|ed|ion|able)\\b",
+      "reason": "Promotion recommendations (specific or implied) are prohibited on OPRs. (A commander's promotion CEREMONY the ratee ran is fine; reword or confirm.)",
+      "severity": "warning"
+    },
+    {
+      "pattern": "\\b(below|above)[- ]the[- ]zone\\b|\\bBTZ\\b",
+      "reason": "Implied promotion recommendation."
+    },
+    {
+      "pattern": "\\bdefinitely promote\\b|\\b(709|PRF)\\b",
+      "reason": "Previous/anticipated promotion recommendations are prohibited."
+    },
+    {
+      "pattern": "\\bin[- ]res(idence)?\\b",
+      "reason": "Do not write 'in-res' with a PME push (in-residence is presumed) (SpOC 1.5.2.4); in-residence schools get a training report, not OPR content."
+    },
+    {
+      "pattern": "\\b(completed|graduated|enrolled|finished|attended)\\b.{0,40}\\b(IDE|SDE|PDE|ACSC|AWC|SOS|ILE|SLE|JPME|DE|course|school)\\b",
+      "reason": "DE/in-residence schooling is documented on a training report (AF Form 475), not the OPR (DAF 707 instructions; SpOC 1.2.4.10)."
+    },
+    {
+      "pattern": "\\b(DG|distinguished graduate)\\b",
+      "reason": "School recognition belongs on the training report, not the OPR."
+    },
+    {
+      "pattern": "\\b(earned|completed|conferred|awarded|finished)\\b.{0,40}\\b(degree|master'?s|MA|MS|MBA|MPA|PhD|doctorate)\\b|\\b(master'?s|MBA|MPA|PhD)\\b.{0,20}\\b(earned|complete|conferred)",
+      "reason": "Degree completion: acceptance varies by unit. The DAF 707 instructions and SpOC 1.2.4.10 prohibit comments on completion of advanced education; some units accept a significant online/correspondence degree in the strat/push line.",
+      "policy": "degree_completion"
+    },
+    {
+      "pattern": "\\b(space force association|SFA|AFA|booster club|kickball|softball|5k|fun run|little league|toys for tots|habitat for humanity|church|sunday school)\\b",
+      "reason": "Extracurricular activity: keep it out of the OPR (put it in an award nomination and reference the nomination/win instead).",
+      "severity": "warning"
+    },
+    {
+      "pattern": "\\bvolunteer(ed|s)?\\b",
+      "reason": "Check this is work-related (e.g. ran a commander's program) and not an extracurricular; extracurriculars go in award noms.",
+      "severity": "judgment"
+    },
+    {
+      "pattern": "\\b(wife|husband|spouse|married|divorc|child|children|kids|religio)",
+      "reason": "Family, marital status and religion are prohibited topics."
+    },
+    {
+      "pattern": "\\bQB'?d\\b|\\bquarterback(ed)?\\b",
+      "reason": "Banned overused verb."
+    }
+  ]
+}

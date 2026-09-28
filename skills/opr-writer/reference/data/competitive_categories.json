@@ -1,0 +1,40 @@
+{
+  "kind": "competitive_categories",
+  "source": "USAF officer developmental categories and USSF officer competitive categories (reference table supplied by a user; transcribed). Verify against current AFPC/SF personnel guidance each board cycle.",
+  "principle": "Promotion boards are held within a category, so the category's officers are the OPR's audience. Jargon native to the category's career fields reads as familiar; jargon from other career fields (e.g., an acquisition officer's operations tour) should be spelled out, generalized, or put in plain language.",
+  "ussf_competitive_categories": [
+    {"grades": ["O-1", "O-2", "O-3"], "categories": [
+      {"code": "LSF", "name": "Line of the Space Force", "specialties": ["13A", "13S", "14N", "17X", "62E", "63A"]}]},
+    {"grades": ["O-4", "O-5"], "categories": [
+      {"code": "LSF-O", "name": "Operations", "specialties": ["13A", "13S", "14N", "17X"]},
+      {"code": "LSF-F", "name": "Force Modernization", "specialties": ["62E", "63A"]}]},
+    {"grades": ["O-6", "O-7", "O-8"], "categories": [
+      {"code": "LSF", "name": "Line of the Space Force", "specialties": ["13A", "13S", "14N", "17X", "62E", "63A"]}]}
+  ],
+  "usaf_developmental_categories": [
+    {"code": "LAF-A", "name": "Air Operations and Special Warfare", "specialties": ["11X", "12X", "13B", "19ZXA", "19ZXC", "19ZXB", "18X"]},
+    {"code": "LAF-C", "name": "Combat Support", "specialties": ["13H", "13M", "21A", "21M", "21R", "31P", "32E", "38F", "64P", "65X"]},
+    {"code": "LAF-F", "name": "Force Modernization", "specialties": ["61C", "61D", "62E", "63A"]},
+    {"code": "LAF-I", "name": "Information Warfare", "specialties": ["14F", "14N", "15W", "17X", "35X", "15A", "71S"]},
+    {"code": "LAF-N", "name": "Nuclear and Missile Operations", "specialties": ["13N"]},
+    {"code": "LAF-X", "name": "Cross Functional Operations", "specialties": ["16F", "16Z", "13A", "13O", "13Z"]}
+  ],
+  "specialty_names": {
+    "11X": "Pilot", "12X": "Combat Systems", "13B": "Air Battle Manager", "19ZXA": "Special Tactics", "19ZXC": "Combat Rescue",
+    "19ZXB": "Tactical Air Control Party", "18X": "Remotely Piloted Aircraft Pilot", "13H": "Aerospace Physiologist",
+    "13M": "Airfield Operations", "21A": "Aircraft Maintenance", "21M": "Munitions and Missile Maintenance",
+    "21R": "Logistics Readiness", "31P": "Security Forces", "32E": "Civil Engineering", "38F": "Force Support",
+    "64P": "Contracting", "65X": "Financial Management", "61C": "Chemist", "61D": "Physicist/Nuclear Engineer",
+    "62E": "Developmental Engineer", "63A": "Acquisition Management", "14F": "Information Operations", "14N": "Intelligence",
+    "15W": "Weather", "17X": "Cyber Operations", "35X": "Public Affairs", "15A": "Operations Research Analyst",
+    "71S": "Special Investigations", "13N": "Nuclear and Missile Operations", "16F": "Foreign Area Officer",
+    "16Z": "Rated Foreign Area Officer", "13A": "Astronaut", "13O": "Multi-Domain Warfare Officer",
+    "13Z": "Operational Warfare Planner", "13S": "Space Operations"
+  },
+  "specialty_fields": {
+    "13S": ["space_ops"], "13A": ["space_ops"], "14N": ["intel"], "17X": ["cyber"],
+    "62E": ["acquisition"], "63A": ["acquisition"], "64P": ["acquisition"], "65X": ["financial"],
+    "61C": ["acquisition"], "61D": ["acquisition"], "13Z": ["joint_planning"], "13O": ["joint_planning"],
+    "11X": ["air_ops"], "12X": ["air_ops"], "13B": ["air_ops"], "18X": ["air_ops"], "13N": ["nuclear_ops"]
+  }
+}

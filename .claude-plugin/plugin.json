@@ -1,0 +1,10 @@
+{
+  "name": "ussf-opr-agent",
+  "version": "0.1.0",
+  "description": "Write board-ready DAF Form 707 OPRs: fact ledger, impact research, OPR bullet language, exact-width line fitting, command-list linting, and a DOCX that mirrors the form.",
+  "author": {
+    "name": "ussf-opr-agent contributors"
+  },
+  "license": "MIT",
+  "keywords": ["opr", "daf-707", "space-force", "air-force", "performance-report", "bullets"]
+}

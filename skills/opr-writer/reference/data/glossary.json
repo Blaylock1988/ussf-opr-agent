@@ -1,0 +1,3615 @@
+{
+  "kind": "glossary",
+  "rule": "DECODER ONLY. Use to understand inputs and advise users. Never use to decide whether a term is approved for an OPR; approval comes from the command guide / AFPC / user lists.",
+  "source": "Built from a compiled list of SpOC and USAF acronyms and abbreviations seen in guidance. The source file is not included.",
+  "entries": {
+    "1stSgt": [
+      {
+        "long": "First Sergeant",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "AAD": [
+      {
+        "long": "Advanced Academic Degree",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "ACA": [
+      {
+        "long": "Airman Comprehensive Assessment",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "acct": [
+      {
+        "long": "account",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "acft": [
+      {
+        "long": "aircraft",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "acq": [
+      {
+        "long": "acquisition",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "AD": [
+      {
+        "long": "Active Duty",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "ADCON": [
+      {
+        "long": "Administrative Control",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "add'l": [
+      {
+        "long": "additional",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "ADL": [
+      {
+        "long": "Active Duty List",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "admin": [
+      {
+        "long": "administration",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "ADP": [
+      {
+        "long": "Automated Data Processing",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "adv": [
+      {
+        "long": "advanced",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "AEF": [
+      {
+        "long": "Air Expeditionary Force",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "AEW": [
+      {
+        "long": "Air Expeditionary Wing",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "AF": [
+      {
+        "long": "Air Force",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "AFAA": [
+      {
+        "long": "Air Force Audit Agency",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "AFB": [
+      {
+        "long": "Air Force Base",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "AFBCMR": [
+      {
+        "long": "Air Force Board for Correction of Military Records",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "AFCEC": [
+      {
+        "long": "Air Force Civil Engineering Center",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "AFCENT": [
+      {
+        "long": "Air Force Central Command",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "AFDW": [
+      {
+        "long": "Air Force District of Washington",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "AFFOR": [
+      {
+        "long": "Air Force Forces",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "AFGSC": [
+      {
+        "long": "Air Force Global Strike Command",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "AFI": [
+      {
+        "long": "Air Force Instruction",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "AFIT": [
+      {
+        "long": "Air Force Institute of Technology",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "afld": [
+      {
+        "long": "airfield",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "AFOSH": [
+      {
+        "long": "Air Force Occupational and Environmental Safety, Fire Protection and Health",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "AFOTEC": [
+      {
+        "long": "Air Force Operational Test and Evaluation Center",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "AFPC": [
+      {
+        "long": "Air Force Personnel Center",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "AFR": [
+      {
+        "long": "Air Force Reserve",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "AFRC": [
+      {
+        "long": "Air Force Reserve Command",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "AFRL": [
+      {
+        "long": "Air Force Research Laboratory",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "AFSC": [
+      {
+        "long": "Air Force Specialty Code",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "AG": [
+      {
+        "long": "Adjutant General",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "alft": [
+      {
+        "long": "airlift",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "ALS": [
+      {
+        "long": "Airman Leadership School",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "alt": [
+      {
+        "long": "alternate",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "AMC": [
+      {
+        "long": "Air Mobility Command",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "Amn": [
+      {
+        "long": "Airman",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "ANG": [
+      {
+        "long": "Air National Guard",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "AO": [
+      {
+        "long": "Action Officer",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "AOC": [
+      {
+        "long": "Air Operations Center",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "AOR": [
+      {
+        "long": "Area of Responsibility",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "appt": [
+      {
+        "long": "appointment",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "APZ": [
+      {
+        "long": "Above-the-Promotion Zone",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "ARPC": [
+      {
+        "long": "Air Reserve Personnel Center",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "art": [
+      {
+        "long": "article",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "ASAP": [
+      {
+        "long": "As Soon as Possible",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "AT": [
+      {
+        "long": "Antiterrorism",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "AT/FP": [
+      {
+        "long": "Antiterrorism/Force Protection",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "ATO": [
+      {
+        "long": "Air Tasking Order",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "atty": [
+      {
+        "long": "attorney",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "auth": [
+      {
+        "long": "authority",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "avg": [
+      {
+        "long": "average",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "awd": [
+      {
+        "long": "award",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "AWFC": [
+      {
+        "long": "Air Warfighting Center",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "AWOL": [
+      {
+        "long": "Absent Without Leave",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "bldg": [
+      {
+        "long": "building",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "BMC2": [
+      {
+        "long": "Battle Management Command and Control",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "BPZ": [
+      {
+        "long": "Below the Primary Zone",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "BTZ": [
+      {
+        "long": "Below-the-Zone",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "C-UAS": [
+      {
+        "long": "Counter-Unmanned Aircraft System",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "C2": [
+      {
+        "long": "Command and Control",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "C4": [
+      {
+        "long": "Command, Control, Computer and Communication",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "C4I": [
+      {
+        "long": "Command, Control, Computer, Communication and Intelligence",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "CAF": [
+      {
+        "long": "Combat Air Forces",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "CAOC": [
+      {
+        "long": "Combined Air Operations Center",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "CAP": [
+      {
+        "long": "Crisis Action Planning",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "capes": [
+      {
+        "long": "capabilities",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "cc": [
+      {
+        "long": "commander",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "CCAF": [
+      {
+        "long": "Community College of the Air Force",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "CCDR": [
+      {
+        "long": "Combatant Commander",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "CCIP": [
+      {
+        "long": "Commander's Inspection Program",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "CCMD": [
+      {
+        "long": "Combatant Command",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "CD": [
+      {
+        "long": "Deputy Commander",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "cdr": [
+      {
+        "long": "commander",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "CDRUSSTRATCOM": [
+      {
+        "long": "Commander, US Strategic Command",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "CE": [
+      {
+        "long": "Civil Engineering",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "CENTAF": [
+      {
+        "long": "USAF Central Command",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "cert": [
+      {
+        "long": "certification",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "cert'd": [
+      {
+        "long": "certified",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "CES": [
+      {
+        "long": "Civil Engineering Squadron",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "CFACC": [
+      {
+        "long": "Combined Forces Air Component Commander",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "CFSCC": [
+      {
+        "long": "Combined Force Space Component Command/Commander",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "CG": [
+      {
+        "long": "Coast Guard",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "CGO": [
+      {
+        "long": "Company Grade Officer",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "CGOQ": [
+      {
+        "long": "Company Grade Officer of the Quarter",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "CGOY": [
+      {
+        "long": "Company Grade Officer of the Year",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "chg": [
+      {
+        "long": "change",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "chklst": [
+      {
+        "long": "checklist",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "CIA": [
+      {
+        "long": "Central Intelligence Agency",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "civ": [
+      {
+        "long": "civilian",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "CJCS": [
+      {
+        "long": "Chairman of the Joint Chiefs of Staff",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "CJTF": [
+      {
+        "long": "Combined Joint Task Force",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "cmbt": [
+      {
+        "long": "combat",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "cmd": [
+      {
+        "long": "command",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "cmdr": [
+      {
+        "long": "commander",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "CMI": [
+      {
+        "long": "Classified Message Incident",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "CMS": [
+      {
+        "long": "Case Management System",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "cmte": [
+      {
+        "long": "committee",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "CoA": [
+      {
+        "long": "Course of Action",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "CoC": [
+      {
+        "long": "Change of Command",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "comm": [
+      {
+        "long": "communication",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "COMSEC": [
+      {
+        "long": "Communications Security",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "conf": [
+      {
+        "long": "conference",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "config": [
+      {
+        "long": "configuration",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "CONOPS": [
+      {
+        "long": "Concept of Operations",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "CONS": [
+      {
+        "long": "Contracting Squadron",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "constr": [
+      {
+        "long": "construction",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "CONUS": [
+      {
+        "long": "Continental United States",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "coord": [
+      {
+        "long": "coordinate",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "COR": [
+      {
+        "long": "Contracting Officer Representative",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "CPI": [
+      {
+        "long": "Continuous Process Improvement",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "CPTS": [
+      {
+        "long": "Comptroller Squadron",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "crit": [
+      {
+        "long": "critical",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "crs": [
+      {
+        "long": "course",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "CSAF": [
+      {
+        "long": "Chief of Staff, United States Air Force",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "CSO": [
+      {
+        "long": "Chief of Space Operations",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "CSpOC": [
+      {
+        "long": "Combined Space Operations Center",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "CSS": [
+      {
+        "long": "Commander's Support Staff",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "ctr": [
+      {
+        "long": "center",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "ctrl": [
+      {
+        "long": "control",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "CUI": [
+      {
+        "long": "Consolidated Unit Inspection",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "CV": [
+      {
+        "long": "Vice Commander",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "CY": [
+      {
+        "long": "Calendar Year",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "DAF": [
+      {
+        "long": "Department of the Air Force",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "DC": [
+      {
+        "long": "Dental Corps",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "DC4": [
+      {
+        "long": "Director of Cyber Forces",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "DE": [
+      {
+        "long": "Developmental Education",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "def": [
+      {
+        "long": "defense",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "demo": [
+      {
+        "long": "demonstration",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "dep": [
+      {
+        "long": "deputy",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "dept": [
+      {
+        "long": "department",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "det": [
+      {
+        "long": "detachment",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "DG": [
+      {
+        "long": "Distinguished Graduate",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "DIA": [
+      {
+        "long": "Defense Intelligence Agency",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "dir": [
+      {
+        "long": "director",
+        "type": "abbreviation",
+        "source": "SpOC"
+      },
+      {
+        "long": "direct",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "div": [
+      {
+        "long": "division",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "DL": [
+      {
+        "long": "Distance Learning",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "DLA": [
+      {
+        "long": "Defense Logistics Agency",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "DO": [
+      {
+        "long": "Operations Officer",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "DoD": [
+      {
+        "long": "Department of Defense",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "DOE": [
+      {
+        "long": "Department of Energy; not DoE",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "dplymnt": [
+      {
+        "long": "deployment",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "Dr": [
+      {
+        "long": "doctor",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "DRRS": [
+      {
+        "long": "Defense Readiness Reporting System",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "DRU": [
+      {
+        "long": "Direct Reporting Unit",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "DS4": [
+      {
+        "long": "Director of Space Forces",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "DSD": [
+      {
+        "long": "Developmental Special Duty",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "DSJA": [
+      {
+        "long": "Deputy Judge Staff Advocate",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "DTS": [
+      {
+        "long": "Defense Travel System",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "DV": [
+      {
+        "long": "Distinguished Visitor",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "dvlp": [
+      {
+        "long": "develop",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "ea": [
+      {
+        "long": "each",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "ECP": [
+      {
+        "long": "Entry Control Point",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "edu": [
+      {
+        "long": "education",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "EKIA": [
+      {
+        "long": "Enemy Killed in Action",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "EM": [
+      {
+        "long": "Emergency Management",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "EMI": [
+      {
+        "long": "Electromagnetic Interference",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "engr": [
+      {
+        "long": "engineer",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "enl": [
+      {
+        "long": "enlisted",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "EOC": [
+      {
+        "long": "Emergency Operations Center",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "EPR": [
+      {
+        "long": "Enlisted Performance Report",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "equip": [
+      {
+        "long": "equipment",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "est": [
+      {
+        "long": "estimate",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "eval": [
+      {
+        "long": "evaluation",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "eval'd": [
+      {
+        "long": "evaluated",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "EW": [
+      {
+        "long": "Electronic Warfare",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "Ex": [
+      {
+        "long": "exercise",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "ex": [
+      {
+        "long": "exercise",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "exec": [
+      {
+        "long": "executive",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "f/": [
+      {
+        "long": "for",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "FCC": [
+      {
+        "long": "Functional Combatant Command",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "FGO": [
+      {
+        "long": "Field Grade Officer",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "FGOQ": [
+      {
+        "long": "Field Grade Officer of the Quarter",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "FGOY": [
+      {
+        "long": "Field Grade Officer of the Year",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "flt": [
+      {
+        "long": "flight",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "Flt/CC": [
+      {
+        "long": "Flight Commander",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "FO": [
+      {
+        "long": "Flag Officer",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "FOA": [
+      {
+        "long": "Field Operating Agency",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "FOUO": [
+      {
+        "long": "For Official Use Only",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "freq": [
+      {
+        "long": "frequency",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "FSS": [
+      {
+        "long": "Force Support Squadron",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "FY": [
+      {
+        "long": "Fiscal Year",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "GCC": [
+      {
+        "long": "Geographic Combatant Command",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "GO": [
+      {
+        "long": "General Officer",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "govt": [
+      {
+        "long": "government",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "gp": [
+      {
+        "long": "group",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "Gp/CC": [
+      {
+        "long": "Group Commander",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "GPA": [
+      {
+        "long": "Grade Point Average",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "GPC": [
+      {
+        "long": "Government Purchase Card",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "GPS": [
+      {
+        "long": "Global Positioning System",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "grnd": [
+      {
+        "long": "ground",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "grp": [
+      {
+        "long": "group",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "GSU": [
+      {
+        "long": "Geographically Separated Unit",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "GTC": [
+      {
+        "long": "Government Travel Card",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "h/w": [
+      {
+        "long": "hardware",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "HAF": [
+      {
+        "long": "Headquarters Air Force",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "HC": [
+      {
+        "long": "Chaplain Corps",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "HHQ": [
+      {
+        "long": "Higher Headquarters",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "hi-vis": [
+      {
+        "long": "high-visibility",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "hlth": [
+      {
+        "long": "health",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "HQ": [
+      {
+        "long": "Headquarters",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "hrs": [
+      {
+        "long": "hours",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "HVT": [
+      {
+        "long": "High-Valued Target",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "I&W": [
+      {
+        "long": "Indications and Warnings",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "I/APZ": [
+      {
+        "long": "In-or-Above-the-Promotion Zone",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "IAW": [
+      {
+        "long": "In Accordance With",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "IC": [
+      {
+        "long": "Intelligence Community",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "ICBM": [
+      {
+        "long": "Intercontinental Ballistic Missile",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "ID": [
+      {
+        "long": "identify",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "Id": [
+      {
+        "long": "identify",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "IDE": [
+      {
+        "long": "Intermediate Developmental Education",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "IG": [
+      {
+        "long": "Inspector General",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "IMA": [
+      {
+        "long": "Individual Mobilization Augmentee",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "IMR": [
+      {
+        "long": "Individual Medical Readiness",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "IMSC": [
+      {
+        "long": "Installation Mission Support Center",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "incr": [
+      {
+        "long": "increase",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "indoc": [
+      {
+        "long": "indoctrination",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "info": [
+      {
+        "long": "information",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "infstr": [
+      {
+        "long": "infrastructure",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "inop": [
+      {
+        "long": "inoperable",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "insp": [
+      {
+        "long": "inspection",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "instr": [
+      {
+        "long": "instruction",
+        "type": "abbreviation",
+        "source": "SpOC"
+      },
+      {
+        "long": "instructor",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "int'l": [
+      {
+        "long": "international",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "intel": [
+      {
+        "long": "intelligence",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "IOT": [
+      {
+        "long": "In Order To",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "IPZ": [
+      {
+        "long": "In-the-Promotion Zone",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "ISO": [
+      {
+        "long": "In Support Of",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "ISR": [
+      {
+        "long": "Intelligence, Surveillance and Reconnaissance",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "ISS": [
+      {
+        "long": "International Space Station",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "IT": [
+      {
+        "long": "Information Technology",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "ITW/AA": [
+      {
+        "long": "Integrated Tactical Warning/Attack Assessment",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "JA": [
+      {
+        "long": "Judge Advocate",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "JAG": [
+      {
+        "long": "Judge Advocate General",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "JAOC": [
+      {
+        "long": "Joint Air Operations Center",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "JCIDS": [
+      {
+        "long": "Joint Capabilities Integration and Development System",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "JCS": [
+      {
+        "long": "Joint Chiefs of Staff",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "JEFX": [
+      {
+        "long": "Joint Expeditionary Force Exercise",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "JEON": [
+      {
+        "long": "Joint Emergent Operational Need",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "JFACC": [
+      {
+        "long": "Joint Forces Air Component Commander",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "JFSCC": [
+      {
+        "long": "Joint Force Space Component Commander",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "JPT": [
+      {
+        "long": "Joint Planning Team",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "Jt": [
+      {
+        "long": "joint services",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "JTF": [
+      {
+        "long": "Joint Task Force",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "JUON": [
+      {
+        "long": "Joint Urgent Operational Need",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "KIA": [
+      {
+        "long": "Killed in Action",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "kt": [
+      {
+        "long": "contract",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "ktr": [
+      {
+        "long": "contractor",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "LAF": [
+      {
+        "long": "Line of the Air Force",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "ldr": [
+      {
+        "long": "leader",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "ldrship": [
+      {
+        "long": "leadership",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "ldrshp": [
+      {
+        "long": "leadership",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "LIMFAC": [
+      {
+        "long": "Limiting Factor",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "LL": [
+      {
+        "long": "Lessons Learned",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "LOE": [
+      {
+        "long": "Letter of Evaluation",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "log": [
+      {
+        "long": "logistic",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "LOR": [
+      {
+        "long": "Letter of Reprimand",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "LRDR": [
+      {
+        "long": "Long-Range Discrimination Radar",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "lrgst": [
+      {
+        "long": "largest",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "LRS": [
+      {
+        "long": "Logistics Readiness Squadron",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "lvl": [
+      {
+        "long": "level",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "MAJCOM": [
+      {
+        "long": "Major Command",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "max": [
+      {
+        "long": "maximum",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "mbr": [
+      {
+        "long": "member",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "MC": [
+      {
+        "long": "Medical Corps",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "MD": [
+      {
+        "long": "Missile Defense",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "MDA": [
+      {
+        "long": "Missile Defense Agency",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "MDG": [
+      {
+        "long": "Medical Group",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "MDO": [
+      {
+        "long": "Multi-Domain Operations",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "MDT": [
+      {
+        "long": "Mission Defense Team",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "med": [
+      {
+        "long": "medical",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "MEL": [
+      {
+        "long": "Master Eligibility List",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "mgmt": [
+      {
+        "long": "management",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "MICT": [
+      {
+        "long": "Management Internal Control Toolset",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "MILCON": [
+      {
+        "long": "Military Construction",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "MilPDS": [
+      {
+        "long": "Military Personnel Data System",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "MILSATCOM": [
+      {
+        "long": "Military Satellite Communication",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "ML": [
+      {
+        "long": "Materiel Leader of Management Level",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "MLR": [
+      {
+        "long": "Management Level Review",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "mnx": [
+      {
+        "long": "maintenance",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "MOA": [
+      {
+        "long": "Memorandum of Agreement",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "mod": [
+      {
+        "long": "modification",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "MOU": [
+      {
+        "long": "Memorandum of Understanding",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "MSC": [
+      {
+        "long": "Medical Services Corps",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "MSG": [
+      {
+        "long": "Mission Support Group",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "msg": [
+      {
+        "long": "message",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "msl": [
+      {
+        "long": "missile",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "msn": [
+      {
+        "long": "mission",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "MTF": [
+      {
+        "long": "Military Treatment Facility",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "mtg": [
+      {
+        "long": "meeting",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "mths": [
+      {
+        "long": "months",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "mtn": [
+      {
+        "long": "mountain",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "multi-nat'l": [
+      {
+        "long": "multi-national",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "MW": [
+      {
+        "long": "Missile Warning",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "MWC": [
+      {
+        "long": "Missile Warning Center",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "MWR": [
+      {
+        "long": "Morale, Welfare and Recreation",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "NAF": [
+      {
+        "long": "Numbered Air Force",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "NASA": [
+      {
+        "long": "National Aeronautics and Space Administration",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "nat'l": [
+      {
+        "long": "national",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "natl": [
+      {
+        "long": "national",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "NATO": [
+      {
+        "long": "North Atlantic Treaty Organization",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "nav": [
+      {
+        "long": "navigation",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "NC": [
+      {
+        "long": "Nurse Corps",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "NC3": [
+      {
+        "long": "Nuclear Command, Control and Communication",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "NCO": [
+      {
+        "long": "Noncommissioned Officer",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "NCOIC": [
+      {
+        "long": "Noncommissioned Officer in Charge",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "NCOQ": [
+      {
+        "long": "Noncommissioned Officer of the Quarter",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "NCOY": [
+      {
+        "long": "Noncommissioned Officer of the Year",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "NDAA": [
+      {
+        "long": "National Defense Authorization Act",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "next-gen": [
+      {
+        "long": "next-generation",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "NGA": [
+      {
+        "long": "National Geospatial-Intelligence Agency",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "NGB": [
+      {
+        "long": "National Guard Bureau",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "NIPRNet": [
+      {
+        "long": "Non-Classified Internet Protocol Router Network",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "Non-EAD": [
+      {
+        "long": "Non-Extended Active Duty",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "NORAD": [
+      {
+        "long": "North American Aerospace Defense Command",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "NRO": [
+      {
+        "long": "National Reconnaissance Office",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "NSA": [
+      {
+        "long": "National Security Agency",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "NSC": [
+      {
+        "long": "National Security Council",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "NSDC": [
+      {
+        "long": "National Space Defense Center",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "ntwrk": [
+      {
+        "long": "network",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "O&M": [
+      {
+        "long": "Operations and Maintenance",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "obj": [
+      {
+        "long": "object or objective",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "OCO": [
+      {
+        "long": "Overseas Contingency Operations",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "OCONUS": [
+      {
+        "long": "Outside Contential United States",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "OCR": [
+      {
+        "long": "Office of Coordinating Responsibility",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "OCSO": [
+      {
+        "long": "Office of Chief of Space Operations",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "OEF": [
+      {
+        "long": "Operation ENDURING FREEDOM",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "ofc": [
+      {
+        "long": "office",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "ofcr": [
+      {
+        "long": "officer",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "OG": [
+      {
+        "long": "Operations Group",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "OIF": [
+      {
+        "long": "Operation IRAQI FREEDOM",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "OJT": [
+      {
+        "long": "On-the-Job Training",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "OND": [
+      {
+        "long": "Operation NEW DAWN",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "op": [
+      {
+        "long": "operation",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "OPCON": [
+      {
+        "long": "Operational Control",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "OPIR": [
+      {
+        "long": "Overhead Persistent Infrared",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "OPLAN": [
+      {
+        "long": "Operation Plan",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "OPR": [
+      {
+        "long": "Officer Performance Report",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "OPSEC": [
+      {
+        "long": "Operations Security",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "org": [
+      {
+        "long": "organization",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "ORI": [
+      {
+        "long": "Operational Readiness Inspection",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "OSD": [
+      {
+        "long": "Office of the Secretary of Defense",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "OTY": [
+      {
+        "long": "Of the Year",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "pax": [
+      {
+        "long": "passengers",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "PCA": [
+      {
+        "long": "Permanent Change of Assignment",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "PCM": [
+      {
+        "long": "Primary Care Manager",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "PCS": [
+      {
+        "long": "Permanent Change of Station",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "PDE": [
+      {
+        "long": "Primary Developmental Education",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "pers": [
+      {
+        "long": "person or personal",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "PII": [
+      {
+        "long": "Personally Identifiable Information",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "pkg": [
+      {
+        "long": "package",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "PL": [
+      {
+        "long": "Protection Level",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "PME": [
+      {
+        "long": "Professional Military Education",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "PNT": [
+      {
+        "long": "Position, Navigation and Timing",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "POC": [
+      {
+        "long": "Point of Contact",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "POTUS": [
+      {
+        "long": "President of the United States",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "prep": [
+      {
+        "long": "prepared",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "prgm": [
+      {
+        "long": "program",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "pro": [
+      {
+        "long": "professional",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "prog": [
+      {
+        "long": "program",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "proj": [
+      {
+        "long": "project",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "PRP": [
+      {
+        "long": "Personnel Reliability Program",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "prsnl": [
+      {
+        "long": "personnel",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "psn": [
+      {
+        "long": "position",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "pwr": [
+      {
+        "long": "power",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "QA": [
+      {
+        "long": "Quality Assurance",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "qb'd": [
+      {
+        "long": "quarterbacked",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "QC": [
+      {
+        "long": "Quality Control",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "QoL": [
+      {
+        "long": "Quality of Life",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "qtr": [
+      {
+        "long": "quarter",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "qtrly": [
+      {
+        "long": "quarterly",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "R&D": [
+      {
+        "long": "Research and Development",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "rdy": [
+      {
+        "long": "ready",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "rec": [
+      {
+        "long": "recommendation",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "rec'd": [
+      {
+        "long": "received",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "recd": [
+      {
+        "long": "received",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "reg": [
+      {
+        "long": "regulation",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "RegAF": [
+      {
+        "long": "Regular Air Force",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "rep": [
+      {
+        "long": "representative",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "res": [
+      {
+        "long": "residence",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "ResAF": [
+      {
+        "long": "Reserve Air Force",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "RFI": [
+      {
+        "long": "Request for Information",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "rng": [
+      {
+        "long": "range",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "ROE": [
+      {
+        "long": "Rules of Engagement",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "RPA": [
+      {
+        "long": "Remotely Piloted Aircraft",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "rpt": [
+      {
+        "long": "report",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "rqmt": [
+      {
+        "long": "requirement",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "Rx": [
+      {
+        "long": "prescription",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "s/w": [
+      {
+        "long": "software",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "SA": [
+      {
+        "long": "Situational Awareness",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "SAASS": [
+      {
+        "long": "School of Advanced Air and Space Studies",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "SAF": [
+      {
+        "long": "Secretary of the Air Force",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "SAP": [
+      {
+        "long": "Special Access Program",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "SAPM": [
+      {
+        "long": "Self-Assessment Program Manager",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "SAPR": [
+      {
+        "long": "Sexual Assault Prevention and Response",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "SARC": [
+      {
+        "long": "Sexual Assault Response Coordinator",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "sat": [
+      {
+        "long": "satellite",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "SATCOM": [
+      {
+        "long": "Satellite Communication",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "SAWS": [
+      {
+        "long": "School of Advanced Warfighting Studies",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "SBIRS": [
+      {
+        "long": "Space-Based Infrared System",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "SCG": [
+      {
+        "long": "Security Classification Guide",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "sched": [
+      {
+        "long": "schedule",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "SCI": [
+      {
+        "long": "Sensitive Compartmented Information",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "SCIF": [
+      {
+        "long": "Sensitive Compartmented Information Facility",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "SDA": [
+      {
+        "long": "Space Domain Awareness",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "SDE": [
+      {
+        "long": "Senior Developmental Education",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "SECAF": [
+      {
+        "long": "Secretary of the Air Force",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "SECDEF": [
+      {
+        "long": "Secretary of Defense",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "SES": [
+      {
+        "long": "Senior Executive Service",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "SF": [
+      {
+        "long": "Security Forces",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "SFS": [
+      {
+        "long": "Security Forces Squadron",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "SG": [
+      {
+        "long": "Surgeon General",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "SIPRNet": [
+      {
+        "long": "Secret Internet Protocol Router Network",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "SITREP": [
+      {
+        "long": "Situation Report",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "SJA": [
+      {
+        "long": "Staff Judge Advocate",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "SLC": [
+      {
+        "long": "Space Launch Complex",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "SME": [
+      {
+        "long": "Subject Matter Expert",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "SML": [
+      {
+        "long": "Senior Materiel Leader",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "SNCO": [
+      {
+        "long": "Senior Noncommissioned Officer",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "SNCOQ": [
+      {
+        "long": "Senior Noncommissioned Officer of the Quarter",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "SNCOY": [
+      {
+        "long": "Senior Noncommissioned Officer of the Year",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "SOF": [
+      {
+        "long": "Special Operations Forces",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "SOP": [
+      {
+        "long": "Standard Operating Procedure",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "SOS": [
+      {
+        "long": "Squadron Officer School",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "spc": [
+      {
+        "long": "space",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "spec": [
+      {
+        "long": "specification",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "SpOC": [
+      {
+        "long": "Space Operations Command",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "spt": [
+      {
+        "long": "support",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "sq": [
+      {
+        "long": "squadron",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "Sq/CC": [
+      {
+        "long": "Squadron Commander",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "SR": [
+      {
+        "long": "Senior Rater",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "sr": [
+      {
+        "long": "senior",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "SRID": [
+      {
+        "long": "Senior Rater Identification",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "SSA": [
+      {
+        "long": "Space Situational Awareness",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "SSC": [
+      {
+        "long": "Space Systems Command",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "SSN": [
+      {
+        "long": "Social Security Number or Space Surveillance Network",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "stan/eval": [
+      {
+        "long": "standardization and evaluation",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "STARCOM": [
+      {
+        "long": "Space Training and Readiness Command",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "START": [
+      {
+        "long": "Strategic Arms Reduction Treaty",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "std": [
+      {
+        "long": "standard",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "STO": [
+      {
+        "long": "Special Technical Operations",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "Supt": [
+      {
+        "long": "Superintendent",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "svc": [
+      {
+        "long": "service",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "svs": [
+      {
+        "long": "service",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "SW": [
+      {
+        "long": "Space Wing",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "SWS": [
+      {
+        "long": "Space Warning Squadron",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "sync": [
+      {
+        "long": "synchronize",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "sys": [
+      {
+        "long": "system",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "TACON": [
+      {
+        "long": "Tactical Control",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "TAG": [
+      {
+        "long": "The Adjutant General",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "TDY": [
+      {
+        "long": "Temporary Duty",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "tech": [
+      {
+        "long": "technology or technician",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "tgt": [
+      {
+        "long": "target",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "thru": [
+      {
+        "long": "through",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "tm": [
+      {
+        "long": "team",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "tmwrk": [
+      {
+        "long": "teamwork",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "tng": [
+      {
+        "long": "training",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "TO": [
+      {
+        "long": "Technical or Tech Order",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "trans": [
+      {
+        "long": "transportation",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "trn'd": [
+      {
+        "long": "trained",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "trng": [
+      {
+        "long": "training",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "TS": [
+      {
+        "long": "Top Secret",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "TTP": [
+      {
+        "long": "Tactics, Techniques and Procedures",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "UAS": [
+      {
+        "long": "Unmanned Aircraft System",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "UCC": [
+      {
+        "long": "Unit Control Center",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "UCMJ": [
+      {
+        "long": "Uniform Code of Military Justice",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "UEI": [
+      {
+        "long": "Unit Effectiveness Inspection",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "US": [
+      {
+        "long": "UnitedStates",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "USA": [
+      {
+        "long": "United States Army",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "USAF": [
+      {
+        "long": "United States Air Force",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "USAFA": [
+      {
+        "long": "United States Air Force Academy",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "USAFRICOM": [
+      {
+        "long": "United States Africa Command",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "USAFWS": [
+      {
+        "long": "United States Air Force Weapons School",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "USCENTCOM": [
+      {
+        "long": "United States Central Command",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "USCYBERCOM": [
+      {
+        "long": "United States Cyber Command",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "USEUCOM": [
+      {
+        "long": "United States European Command",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "USFJ": [
+      {
+        "long": "United States Forces Japan",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "USFK": [
+      {
+        "long": "United States Forces Korea",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "USINDOPACOM": [
+      {
+        "long": "United States Indo- Pacific Command",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "USMC": [
+      {
+        "long": "United States Marine Corps",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "USN": [
+      {
+        "long": "United States Navy",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "USNORTHCOM": [
+      {
+        "long": "United States Northern Command",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "USSF": [
+      {
+        "long": "United States Space Force",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "USSOCOM": [
+      {
+        "long": "United States Special Operations Command",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "USSOUTHCOM": [
+      {
+        "long": "United States Southern Command",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "USSPACECOM": [
+      {
+        "long": "United States Space Command",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "USSTRANSCOM": [
+      {
+        "long": "United States Transportation Command",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "USSTRATCOM": [
+      {
+        "long": "United States Strategic Command",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "UTC": [
+      {
+        "long": "Unit Type Code",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "VCJCS": [
+      {
+        "long": "Vice Chairman of the Joint Chiefs of Staff",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "veh": [
+      {
+        "long": "vehicle",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "vol": [
+      {
+        "long": "volunteer",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "VPOTUS": [
+      {
+        "long": "Vice President of the United States",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "vs": [
+      {
+        "long": "versus",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "VTC": [
+      {
+        "long": "Video Teleconference",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "w/": [
+      {
+        "long": "with",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "w/in": [
+      {
+        "long": "within",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "w/o": [
+      {
+        "long": "without",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "wg": [
+      {
+        "long": "wing",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "Wg/CC": [
+      {
+        "long": "Wing Commander",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "WH": [
+      {
+        "long": "White House",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "WIC": [
+      {
+        "long": "Weapons Instructor Course",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "WIT": [
+      {
+        "long": "Wing Inspection Team",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "wk": [
+      {
+        "long": "week",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "wkly": [
+      {
+        "long": "weekly",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "WMD": [
+      {
+        "long": "Weapon of Mass Destruction",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "wpn": [
+      {
+        "long": "weapon",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "WSA": [
+      {
+        "long": "Wing Staff Agency",
+        "type": "acronym",
+        "source": "SpOC"
+      }
+    ],
+    "wx": [
+      {
+        "long": "weather",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "xfer": [
+      {
+        "long": "transfer",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "yr": [
+      {
+        "long": "year",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ],
+    "yrly": [
+      {
+        "long": "yearly",
+        "type": "abbreviation",
+        "source": "SpOC"
+      }
+    ]
+  }
+}
