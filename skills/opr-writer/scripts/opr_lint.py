@@ -537,8 +537,14 @@ class Linter:
                         self.add("error", "strat", where, f"secondary #{num}/{den} is below the top half; a secondary strat must be strong")
                     elif len(strats) > 1:
                         # The one exception to "no bad strats": a strong secondary still needs its primary stated.
-                        self.add("judgment", "strat", where, f"bottom-half primary #{num}/{den} stands only because a secondary follows; "
-                                                             "confirm the secondary is strong enough for the board to overlook it")
+                        # Rating-chain practice: a top-third secondary strongly outweighs it; lower in the top half is questionable.
+                        s_num, s_den = strats[1][0], strats[1][1]
+                        if s_num.isdigit() and s_den.isdigit() and s_num != "1" and int(s_num) > int(s_den) / 3:
+                            self.add("warning", "strat", where, f"bottom-half primary #{num}/{den} is kept only for secondary #{s_num}/{s_den}, "
+                                                               "which is below the top third: questionable. Use a top-third secondary or omit both")
+                        else:
+                            self.add("judgment", "strat", where, f"bottom-half primary #{num}/{den} stands only because a secondary follows; "
+                                                                 f"#{s_num}/{s_den} is top third or better, which strongly outweighs it. Confirm with the user")
                     else:
                         self.add("warning", "strat", where,
                                  f"#{num}/{den} is below the top half with no secondary; omit it (a weak strat hurts more than none) and keep the push")

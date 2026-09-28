@@ -1,6 +1,6 @@
 {
   "kind": "cso_digest",
-  "note": "Digest of CSO writings for OPR impact tie-ins: themes, search keywords and short verbatim quotes with printed page numbers from the CSO Selected Works compilation (Gen B. Chance Saltzman, 2d CSO, Nov 2022 - Aug 2026). Gen Douglas Schiess became the 3d CSO on 3 Sep 2026; add his notices as they publish. Search with ref_lookup.py --source cso; never read this file whole. Entries with url=null: cite by number, title and date.",
+  "note": "Digest of CSO writings for OPR impact tie-ins: themes, search keywords and short verbatim quotes with printed page numbers from the CSO Selected Works compilation (Gen B. Chance Saltzman, 2d CSO, Nov 2022 - Aug 2026). Gen Douglas Schiess became the 3d CSO on 3 Sep 2026 and had published no C-Notes as of late Sep 2026; add his notices as they publish. Search with ref_lookup.py --source cso; never read this file whole. Entries with url=null: cite by number, title and date.",
   "sources": {
     "library": "https://www.spaceforce.mil/About-Us/CSO-Leadership-Library/",
     "folder_pattern": "https://www.spaceforce.mil/Portals/2/Documents/CSO%20C-Notes/",

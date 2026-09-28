@@ -303,6 +303,15 @@ class LintTests(unittest.TestCase):
                       additional=["- #1/7 Dir O-4s; MD 8 NSC Schriever nom--Del staff next"]))
         self.assertTrue(any("Schriever" in m for m in msgs(f, "double_credit", "warning")))
 
+    def test_secondary_strength_thresholds(self):
+        body = "- Forged 4 pacts; linked 3 ctrs--armed 9 units"
+        f = run(draft([body, "- #3/4 Del O-4s, #1/9 PMs; sharp--sq CC next"]))  # #1 of any pool: strong
+        self.assertTrue(any("strongly outweighs" in m for m in msgs(f, "strat", "judgment")))
+        f = run(draft([body, "- #3/4 Del O-4s, #2/9 PMs; sharp--sq CC next"]))  # top 22%: strong
+        self.assertTrue(any("strongly outweighs" in m for m in msgs(f, "strat", "judgment")))
+        f = run(draft([body, "- #3/4 Del O-4s, #3/7 PMs; sharp--sq CC next"]))  # top 43%: questionable
+        self.assertTrue(any("questionable" in m for m in msgs(f, "strat", "warning")))
+
     def test_strat_grade_group_wording(self):
         f = run(draft(["- Forged 4 pacts; linked 3 ctrs--armed 9 units", "- #1/3 Majors; sharp--sq CC next"],
                       additional=["- #1/7 Dir O-4s; top FGO--Del staff next"]))
@@ -314,7 +323,7 @@ class LintTests(unittest.TestCase):
 
     def test_next_job_push_recognized(self):
         from career_review import JOB_PUSH
-        for push in ("HQSF staff next, then ML; SDE soonest", "PEM next, SDE ASAP", "sq CC next"):
+        for push in ("HQSF staff next, then ML; SDE soonest", "PEM next, SDE ASAP", "sq CC next", "Exec to SES PAE next"):
             self.assertTrue(JOB_PUSH.search(push), push)
         self.assertFalse(JOB_PUSH.search("SDE soonest"))
 

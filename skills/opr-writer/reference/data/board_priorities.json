@@ -189,6 +189,10 @@
         "requirement": "SDE (as a Lt Col select or Lt Col) is required to be competitive for Col."
       }
     ],
-    "note": "Education gates guide development advice and DE pushes only. Completion of DE or a degree is still prohibited OPR content (unit policy decides degree mentions)."
+    "note": "Education gates guide development advice and DE pushes only. Completion of DE or a degree is still prohibited OPR content (unit policy decides degree mentions).",
+    "all_fields": [
+      "Executive officer (Exec): desirable at every grade, usually two grades below the principal (O-7 -> O-5 Exec; O-5 -> O-3, O-2 accepted). A demanding one-year post with heavy travel that usually brings a very strong strat and by-name requests for competitive jobs.",
+      "Chief of Staff is ambiguous: doctrinally the O-6/O-7 leader over the staff directorates, but also an exec-like role supporting a PAE or commander. Confirm which before rating it or pushing to it."
+    ]
   }
 }

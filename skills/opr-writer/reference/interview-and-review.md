@@ -37,6 +37,9 @@ Run `career_review.py` after the ratee confirms their history. Record each duty 
 - The ratee has some say over the duty title (with supervisor/unit approval). Suggest one that shows growth before closeout.
 - SURF titles cap at 30 characters, so they won't always match the OPR.
 - Regressions often come from reorganizations. Flag them so the commander sees the unintended board impact.
+- **Non-standard titles** vary by unit; confirm their level with the user and record it in `career_profile.json` → `title_levels`. E.g. "Portfolio Manager" or "BizOps chief/lead" can be division-chief level.
+- **Chief of Staff is ambiguous:** doctrinally the O-6/O-7 leader over all staff directorates, but also used for an exec-like role supporting a PAE or commander without being the formal executive officer. Ask which before rating it or using it as a push.
+- **Executive officer (Exec)** is desirable at every grade and usually sits two grades below the principal (O-7 → O-5 Exec; O-5 → O-3, or O-2 accepted). It is a demanding one-year post with heavy travel, but it usually brings a very strong strat and by-name requests for competitive jobs, which makes it a strong push and record builder. Name the principal's level ("Exec to SES PAE").
 
 Then write `_opr_work/record_review.md` with **two lists**:
 1. **Strengthen this OPR.** Data the user can research about work already done (programs, people, systems, the unit), and tasks very likely to finish before closeout. Never suggest new work that can't be completed in time.

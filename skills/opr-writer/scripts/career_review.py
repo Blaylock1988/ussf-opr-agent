@@ -20,7 +20,8 @@ DE_PUSH = re.compile(r"\b(SDE|IDE|ILE|SLE|PDE|IDE/SDE|Senior Developmental|Inter
 # (command, ML/SML, DO, division chief, HQSF/HAF/joint staff, PEM).
 JOB_PUSH = re.compile(r"\b(\w+/CC|CC next|command|cmd|sq (?:ldrs?hi?p|leadership|CC)|Del(?:ta)? (?:ldrs?hi?p|leadership|CC)|"
                       r"Squadron Commander|ML|materiel leader|SML|PEM|staff|HQSF|HAF|Pentagon|Jt|joint|CCMD|DO|"
-                      r"Div(?:ision)? Ch(?:ief)?|Branch Chief|deputy|dir(?:ector)?|ldrs?hi?p|leadership)\b", re.I)
+                      r"Div(?:ision)? Ch(?:ief)?|Branch Chief|deputy|dir(?:ector)?|ldrs?hi?p|leadership|exec|executive officer|"
+                      r"chief of staff|CoS)\b", re.I)
 
 
 # Rough duty-title ladder (higher = more responsibility). Heuristic only: unknown titles are left for judgment.
@@ -28,7 +29,7 @@ TITLE_LEVELS = [
     (6, r"senior materiel leader|\bSML\b|delta (commander|CC)|\bDel(ta)?/CC\b|group (commander|CC)|\bGp/CC\b"),
     (5, r"squadron commander|\bSq/CC\b|\bSq CC\b|materiel leader|\bML\b|deputy director"),
     (4, r"deputy (squadron )?commander|\bDep(uty)? Sq|director of operations|\bDO\b|detachment commander|\bDet/CC\b|"
-        r"division chief|\bDiv(ision)? Ch"),
+        r"division chief|\bDiv(ision)? Ch|BizOps (chief|lead)|business operations (chief|lead)"),
     (3, r"branch chief|\bBr(anch)? Ch|deputy division"),
     (2, r"flight commander|\bFlt/CC\b|flight chief|team (lead|chief)"),
     (1, r"section (lead|chief)|element (lead|chief)|\bOIC\b|crew commander|officer\b|engineer|analyst|instructor"),
@@ -76,7 +77,14 @@ def duty_title_review(profile, draft):
     if unrated:
         notes.append("**UNRATED titles:** " + "; ".join(unrated) + ". The regression check skips them. Ask the user where each "
                      "sits (1 section lead … 3 branch chief, 4 division chief/DO, 5 Sq/CC or ML, 6 Delta/Gp CC or SML) and record it "
-                     "in `career_profile.json` → `title_levels` {title: level}, then rerun.")
+                     "in `career_profile.json` → `title_levels` {title: level}, then rerun. Non-standard titles vary by unit: e.g. "
+                     "a Portfolio Manager or BizOps chief/lead can be division-chief level.")
+    if any(re.search(r"chief of staff|\bCoS\b", t["title"], re.I) for t in titles):
+        notes.append("**Chief of Staff is ambiguous:** doctrinally the O-6/O-7 leader over all staff directorates, but also used for an "
+                     "exec-like role supporting a PAE or commander. Ask which, and rate it accordingly.")
+    if any(re.search(r"\bexec(utive officer)?\b", t["title"], re.I) for t in titles):
+        notes.append("**Exec:** desirable at every grade; usually two grades below the principal (O-7 → O-5 Exec). A demanding one-year "
+                     "post that usually brings a very strong strat and by-name requests; show the principal's level in the OPR.")
     return out + [""] + (notes or ["No regression found (levels are a heuristic; unknown titles need judgment)."])
 
 
@@ -114,6 +122,7 @@ def development_section(draft, prios):
     bp = guide["boarded_programs"]
     if grade in bp["strong_at"]:
         out += ["- **Competitively boarded schools/programs** (strong at this grade): " + "; ".join(bp["items"])]
+    out += [f"- {note}" for note in guide.get("all_fields", [])]
     for gate in guide["education_gates"]:
         if grade in gate["applies_to"]:
             out += [f"- **Education gate:** {gate['requirement']}"]
