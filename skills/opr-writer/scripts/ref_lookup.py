@@ -11,6 +11,7 @@ Usage:  ref_lookup.py "ordinal numbers unit designation" [--source tq]
         ref_lookup.py "hyphen compound" --dir "<folder>/_opr_work/tq" [--chapter 25]
 """
 import argparse
+import math
 import re
 from pathlib import Path
 
@@ -31,7 +32,13 @@ def score(text, terms, bonus_text=""):
 def lookup_tq(terms, max_lines):
     text = (REFERENCE_DIR / "tongue-and-quill-digest.md").read_text(encoding="utf-8")
     sections = re.split(r"(?m)^(?=## )", text)[1:]
-    ranked = sorted(((score(s, terms, s.splitlines()[0]), s) for s in sections), key=lambda x: -x[0])
+    # rarer terms weigh more, so "ordinal numbers" finds the ordinal rule rather than every section on numbers
+    weight = {t: math.log((len(sections) + 1) / (1 + sum(t in s.lower() for s in sections))) + 0.1 for t in terms}
+
+    def sec_score(s):
+        low, head = s.lower(), s.splitlines()[0].lower()
+        return sum(weight[t] * (low.count(t) + 5 * (t in head)) for t in terms)
+    ranked = sorted(((sec_score(s), s) for s in sections), key=lambda x: -x[0])
     out = []
     for sc, sec in ranked[:3]:
         if not sc:

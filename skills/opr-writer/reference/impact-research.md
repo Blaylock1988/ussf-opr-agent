@@ -7,7 +7,7 @@ Boards reward impacts that reach **beyond the unit**: the joint force, the warfi
 - **After the first full draft (mandatory, step 5b):** always research the programs, units and systems named in the draft, even when the user's inputs looked complete. Write the research report (`_opr_work/research.md`, format below) with **links and citations** for every finding, then recommend updated bullets wherever research found a stronger metric or impact. Show the recommendations as proposed alternates; they go through the whole-OPR guard like any other alternate.
 
 ## Space threat context
-`data/space_threats.json` holds the S2 Space Threat Fact Sheet metrics (v8, published 16 May 2025): PRC/Russian counterspace, DA-ASAT and co-orbital weapons, ISR constellations, jamming, lasers, launch rates.
+`data/space_threats.json` holds the S2 Space Threat Fact Sheet metrics (v9, updated 29 Aug 2025): PRC/Russian counterspace, DA-ASAT and co-orbital weapons, ISR constellations, jamming, lasers, launch rates.
 - **Every run:** search for a newer edition (the canonical page is spaceforce.mil Article 4297159, which had no file as of Sep 2026) and ask the user if they have one. Cite the edition and date you used.
 - Index relevant metrics into the ledger as **external impact sources** (`impact_candidates`), e.g. a SATCOM line can cite the PLA's jamming of protected EHF; an SDA line can cite 510+ PLA ISR satellites.
 - The threat is context for *why the work mattered*. Never imply the ratee changed the threat numbers.

@@ -252,7 +252,41 @@ def numbers_in(text, categorized=False):
             continue
         cat = "currency" if m.group(1) else ("percent" if m.group(4) else "count")
         out.append((cat, value + (m.group(3) or ""), m.group(0)))
+    # spelled-out counts ("four divisions") still count toward the repeat rules; "one" is too often a pronoun
+    for m in re.finditer(r"\b(" + "|".join(SMALL_WORDS) + r")\b", t, re.I):
+        value = str(SMALL_WORDS.index(m.group(1).lower()) + 2)
+        out.append(("count", value, m.group(0)) if categorized else value)
     return out
+
+
+SMALL_WORDS = ["two", "three", "four", "five", "six", "seven", "eight", "nine"]
+PLACEHOLDER = re.compile(r"\$\[[^\[\]\n]*\][KMB]?|(?<!#)\[(?![NM]\])[^\[\]\n]*\]")
+UNIT_WORDS = {"hr", "hrs", "hour", "hours", "min", "mins", "sec", "day", "days", "wk", "wks", "week", "weeks", "mo", "mos",
+              "mth", "mths", "month", "months", "yr", "yrs", "year", "years", "mi", "ft", "lb", "lbs", "gal", "km", "nm",
+              "mph", "psi", "rpm", "in", "pct", "x"}
+
+
+def mask_placeholders(text):
+    """Blank out [placeholders] (except the strat's #[N]/[M]) so no scan reads them as acronyms or numbers."""
+    return PLACEHOLDER.sub("…", text)
+
+
+def small_number_issues(text):
+    """Figures the T&Q would spell out (one-nine as standalone counts) and 4+ digit figures missing the comma.
+
+    Exempt: money, percents, units of measure and unit modifiers (5-wk, 3 mi), multipliers (8x), ratios, strats,
+    designators and dates, and every number in a line that also carries a count of 10 or more (a related series).
+    """
+    t = _strip_labels(mask_placeholders(text))
+    counts = [m for m in re.finditer(r"(?<![\w$#.,/:-])(\d[\d,]*)(?![\d.,%:/]|[KMB]\b|x\b|-\w|\+)", t)]
+    if any(int(m.group(1).replace(",", "")) >= 10 for m in counts):
+        small = []
+    else:
+        def next_word(m):
+            return re.sub(r"[^a-z]", "", (t[m.end():].split() or [""])[0].lower())
+        small = [m.group(1) for m in counts if m.group(1).isdigit() and 1 <= int(m.group(1)) <= 9 and next_word(m) not in UNIT_WORDS]
+    no_comma = [m.group(1) for m in counts if re.fullmatch(r"\d{4,}", m.group(1)) and not 1900 <= int(m.group(1)) <= 2100]
+    return small, no_comma
 
 
 # 'cut over 2,317' / 'turned over 40' are phrasal verbs, not an estimate

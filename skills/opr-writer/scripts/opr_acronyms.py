@@ -11,7 +11,7 @@ import sys
 from pathlib import Path
 
 from common import iter_lines, load_form, load_json, normalize_spaces, save_json, utf8_stdout
-from rules import Approvals, acronym_core, is_acronym, tokens
+from rules import Approvals, acronym_core, is_acronym, mask_placeholders, tokens
 
 
 def used_acronyms(draft, form):
@@ -21,7 +21,7 @@ def used_acronyms(draft, form):
     texts = [("duty_title", draft.get("sections", {}).get("job_description", {}).get("duty_title", ""))]
     texts += [(f"{k}[{i + 1}]", line["text"]) for k, i, line in iter_lines(draft, form)]
     for where, text in texts:
-        for tok, _ in tokens(normalize_spaces(text or "")):
+        for tok, _ in tokens(mask_placeholders(normalize_spaces(text or ""))):
             if is_acronym(tok) and tok not in proper.split():
                 found.setdefault(acronym_core(tok), []).append(where)
     return found

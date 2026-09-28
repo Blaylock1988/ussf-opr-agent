@@ -1,32 +1,148 @@
 {
   "kind": "space_threat_metrics",
   "title": "S2 Space Threat Fact Sheet",
-  "edition": "v8",
-  "published": "2025-05-16",
-  "verified": "2026-09-27",
-  "source": "https://nssaspace.org/wp-content/uploads/2025/05/20250516-S2-Space-Threat-Fact-Sheet-v8-RELEASE.pdf",
+  "edition": "v9",
+  "published": "2025-08-29",
+  "verified": "2026-09-28",
+  "source": "https://nssaspace.org/wp-content/uploads/2025/09/20250815-S2-Space-Threat-Fact-Sheet-v9-RELEASE.pdf",
   "canonical": "spaceforce.mil Article 4297159 (no file attached as of Sep 2026)",
   "use": "External impact context only: tie a ratee's work to the threat it counters (e.g. '...hardened SATCOM vs PLA EHF jamming'). Never claim the ratee changed these numbers. At run time, search for a newer edition and ask the user if they have one; cite the edition and date in research.md.",
-  "headline": ["China is the PACING CHALLENGE and is rapidly improving its space capabilities to TRACK & TARGET U.S. military forces.", "China & Russia are pursuing a wide range of counterspace capabilities to DISRUPT & DEGRADE U.S. space capabilities."],
+  "headline": [
+    "China is the PACING CHALLENGE and is rapidly improving its space capabilities to TRACK & TARGET U.S. military forces.",
+    "China & Russia are pursuing a wide range of counterspace capabilities to DISRUPT & DEGRADE U.S. space capabilities."
+  ],
   "metrics": [
-    {"id": "PRC-launch-2024", "actor": "China", "topic": "launch", "fact": "68 launches in 2024 (66 successful), placing 260 payloads in orbit; 67 (26%) were ISR-capable"},
-    {"id": "PRC-growth", "actor": "China", "topic": "on-orbit presence", "fact": "on-orbit presence grew ~520% (+818 satellites) since end of 2015; 1,007+ satellites in orbit as of May 2025"},
-    {"id": "PRC-isr", "actor": "China", "topic": "ISR", "fact": "510+ ISR-capable satellites (optical, multispectral, radar, RF) improving ability to detect U.S. carriers, expeditionary forces and air wings"},
-    {"id": "PRC-pleo", "actor": "China", "topic": "proliferated LEO", "fact": "90 G60 comm satellites launched toward 648 by end-2025 and 14,000 by 2030; China Satellite Network Group launched 29 since 2024 toward 13,000"},
-    {"id": "PRC-ssa", "actor": "China", "topic": "space domain awareness", "fact": "at least 10 on-orbit SSA satellites in LEO"},
-    {"id": "PRC-kill-chain", "actor": "China", "topic": "long-range strike", "fact": "space-based capabilities combined with standoff weapons enable long-range precision strikes against U.S. and allied forces"},
-    {"id": "PRC-spaceplane", "actor": "China", "topic": "spaceplanes", "fact": "3 reusable spaceplane missions (2 days, 9+ months, ~9 months); all released unidentified objects"},
-    {"id": "PRC-da-asat-2007", "actor": "China", "topic": "DA-ASAT", "fact": "2007 DA-ASAT test created 2,700+ pieces of trackable debris; now an operational ground-based system the PLA trains on"},
-    {"id": "PRC-geo-asat", "actor": "China", "topic": "DA-ASAT", "fact": "DIA assesses the PLA probably intends ASAT weapons able to reach GEO (36,000 km); a 2013 ballistic object peaked at 30,000 km"},
-    {"id": "PRC-rpo", "actor": "China", "topic": "on-orbit / RPO", "fact": "Shijian-21 moved a derelict BeiDou satellite to a graveyard orbit (Jan 2022); SJ/TJS satellites perform large, rapid GEO maneuvers; 3 Shiyan-24 satellites conducted LEO proximity ops in 2024"},
-    {"id": "PRC-laser", "actor": "China", "topic": "directed energy", "fact": "multiple ground-based lasers able to disrupt, degrade or damage satellite sensors; higher-power systems possible by mid-to-late 2020s"},
-    {"id": "PRC-jamming", "actor": "China", "topic": "electronic warfare", "fact": "PLA exercises routinely jam space-based comms, radars and GPS; may be developing jammers against SATCOM including U.S. protected EHF"},
-    {"id": "RUS-launch-2024", "actor": "Russia", "topic": "launch", "fact": "17 launches in 2024, vs a 26+/yr average from 1995-2015; only 5 foreign payloads placed"},
-    {"id": "RUS-da-asat-2021", "actor": "Russia", "topic": "DA-ASAT", "fact": "Nov 2021 Nudol DA-ASAT test created 1,500 trackable debris pieces and tens of thousands of non-trackable objects, endangering the ISS and Tiangong"},
-    {"id": "RUS-coorbital", "actor": "Russia", "topic": "co-orbital ASAT", "fact": "orbital ASAT prototypes in LEO: 2019 one followed a U.S. satellite; 2020 one released a projectile; May 2024 a likely counterspace satellite launched into the same orbit as a U.S. satellite"},
-    {"id": "RUS-rpo-2025", "actor": "Russia", "topic": "on-orbit / RPO", "fact": "3 satellites launched Feb 2025 made close approaches under 1 km"},
-    {"id": "RUS-peresvet", "actor": "Russia", "topic": "directed energy", "fact": "Peresvet lasers deployed to 5 strategic missile divisions since 2018 to blind satellite sensors; more powerful lasers possible by 2030"},
-    {"id": "RUS-nuclear-asat", "actor": "Russia", "topic": "nuclear ASAT", "fact": "developing a satellite designed to carry a nuclear weapon, a threat to all satellites and space-enabled services worldwide"},
-    {"id": "RUS-commercial", "actor": "Russia", "topic": "commercial space / cyber / EW", "fact": "says 'quasi-civilian' commercial satellites may be legitimate targets; used cyber attacks on commercial space in Ukraine; ongoing GPS and SATCOM electronic attacks across Europe"}
+    {
+      "id": "PRC-launch-2025",
+      "actor": "China",
+      "topic": "launch",
+      "fact": "42 launches by Jul 2025 (41 successful), placing 112 payloads in orbit; 19 (17%) were ISR-capable"
+    },
+    {
+      "id": "PRC-growth",
+      "actor": "China",
+      "topic": "on-orbit presence",
+      "fact": "on-orbit presence grew ~927% (+1,049 satellites) since end of 2015; 1,189+ satellites in orbit as of Jul 2025"
+    },
+    {
+      "id": "PRC-isr",
+      "actor": "China",
+      "topic": "ISR",
+      "fact": "510+ ISR-capable satellites (optical, multispectral, radar, RF) improving ability to detect U.S. carriers, expeditionary forces and air wings"
+    },
+    {
+      "id": "PRC-pleo",
+      "actor": "China",
+      "topic": "proliferated LEO",
+      "fact": "90 G60 comm satellites launched toward 648 by end-2025 and 15,000 by 2030; China Satellite Network Group launched 67 since Aug 2024 toward 13,000"
+    },
+    {
+      "id": "PRC-ssa",
+      "actor": "China",
+      "topic": "space domain awareness",
+      "fact": "at least 10 on-orbit SSA satellites in LEO"
+    },
+    {
+      "id": "PRC-kill-chain",
+      "actor": "China",
+      "topic": "long-range strike",
+      "fact": "space-based capabilities combined with standoff weapons enable long-range precision strikes against U.S. and allied forces"
+    },
+    {
+      "id": "PRC-spaceplane",
+      "actor": "China",
+      "topic": "spaceplanes",
+      "fact": "3 reusable spaceplane missions (2 days, 9+ months, ~9 months); all released unidentified objects"
+    },
+    {
+      "id": "PRC-da-asat-2007",
+      "actor": "China",
+      "topic": "DA-ASAT",
+      "fact": "2007 DA-ASAT test created 2,700+ pieces of trackable debris; now an operational ground-based system the PLA trains on"
+    },
+    {
+      "id": "PRC-geo-asat",
+      "actor": "China",
+      "topic": "DA-ASAT",
+      "fact": "DIA assesses the PLA probably intends ASAT weapons able to reach GEO (36,000 km); a 2013 ballistic object peaked at 30,000 km"
+    },
+    {
+      "id": "PRC-rpo",
+      "actor": "China",
+      "topic": "on-orbit / RPO",
+      "fact": "SJ-21 and SJ-25 maneuvered into extremely close proximity in GEO for probable satellite refueling experiments; SJ-21 moved a derelict BeiDou satellite to a graveyard orbit (Jan 2022); SJ/TJS satellites perform large, rapid GEO maneuvers; 3 Shiyan-24 satellites conducted LEO proximity ops in 2024"
+    },
+    {
+      "id": "PRC-laser",
+      "actor": "China",
+      "topic": "directed energy",
+      "fact": "multiple ground-based lasers able to disrupt, degrade or damage satellite sensors; higher-power systems possible by mid-to-late 2020s"
+    },
+    {
+      "id": "PRC-jamming",
+      "actor": "China",
+      "topic": "electronic warfare",
+      "fact": "PLA exercises routinely jam space-based comms, radars and GPS; may be developing jammers against SATCOM including U.S. protected EHF"
+    },
+    {
+      "id": "RUS-launch-2024",
+      "actor": "Russia",
+      "topic": "launch",
+      "fact": "17 launches in 2024, vs a 26+/yr average from 1995-2015; only 5 foreign payloads placed"
+    },
+    {
+      "id": "RUS-da-asat-2021",
+      "actor": "Russia",
+      "topic": "DA-ASAT",
+      "fact": "Nov 2021 Nudol DA-ASAT test created 1,500 trackable debris pieces and tens of thousands of non-trackable objects, endangering the ISS and Tiangong"
+    },
+    {
+      "id": "RUS-coorbital",
+      "actor": "Russia",
+      "topic": "co-orbital ASAT",
+      "fact": "probable orbital ASAT prototypes deployed into LEO in 2017, 2019, 2022, 2024 and 2025; the four most recent in orbits matching U.S. national security satellites; one ejected an object near a Russian satellite while testing a space-based ASAT"
+    },
+    {
+      "id": "RUS-rpo-2025",
+      "actor": "Russia",
+      "topic": "on-orbit / RPO",
+      "fact": "3 satellites launched Feb 2025 made close approaches under 1 km; Jun 2025 a satellite in a peculiar high-altitude orbit passed near numerous U.S. and allied GEO satellites and released an object it repeatedly approaches"
+    },
+    {
+      "id": "RUS-peresvet",
+      "actor": "Russia",
+      "topic": "directed energy",
+      "fact": "Peresvet lasers deployed to 5 strategic missile divisions since 2018 to blind satellite sensors; more powerful lasers possible by 2030"
+    },
+    {
+      "id": "RUS-nuclear-asat",
+      "actor": "Russia",
+      "topic": "nuclear ASAT",
+      "fact": "developing a satellite designed to carry a nuclear weapon, a threat to all satellites and space-enabled services; as of Apr 2025 a satellite believed tied to the program was tumbling"
+    },
+    {
+      "id": "RUS-commercial",
+      "actor": "Russia",
+      "topic": "commercial space / cyber / EW",
+      "fact": "says 'quasi-civilian' commercial satellites may be legitimate targets; used cyber attacks on commercial space in Ukraine; in 2025 told regulators European satellites aiding Ukraine are 'legitimate targets'; ongoing GPS and SATCOM electronic attacks across Europe"
+    },
+    {
+      "id": "PRC-quantum",
+      "actor": "China",
+      "topic": "quantum comms",
+      "fact": "continues testing space-based quantum key distribution toward a global ultra-secure comms network"
+    },
+    {
+      "id": "PRC-reusable",
+      "actor": "China",
+      "topic": "launch",
+      "fact": "reusable launch progress, incl. a 12 km vertical takeoff and landing test in 2024, key to its pLEO plans"
+    },
+    {
+      "id": "RUS-burevestnik",
+      "actor": "Russia",
+      "topic": "air-launched ASAT",
+      "fact": "a large missile seen on a MiG-31 in 2018 may be the Burevestnik air-launched ASAT"
+    }
   ]
 }

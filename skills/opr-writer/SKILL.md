@@ -59,6 +59,7 @@ You are drafting a promotion-record document. **Accuracy beats flourish.**
 **Resume check:** if `_opr_work/draft.json` exists, read it, summarize where it stands, and continue from the first unfinished step.
 
 ### 0. Setup
+- If `<skill>/scripts/opr.py` is missing, the installed copy is a pre-release: stop and tell the user to run `python install.py update` from the repository.
 - `python -m pip install -r <skill>/scripts/requirements.txt` (ask first).
 - `python <skill>/scripts/opr.py measure "- Test line"` proves the font (Times New Roman, or Liberation Serif via `--font`/`OPR_FONT`).
 - `python <skill>/scripts/data_check.py --report-thru <period end>`. Tell the user which datasets are stale and where to refresh them. User overrides go in `_opr_work/`. If it prints **STALE INSTALL**, stop and tell the user to run `python install.py update` from the repository first.
@@ -80,11 +81,11 @@ Ask, batched in the structured prompt:
 - **Ratee block:** name, grade, DAFSC/DSFSC, organization/location, period, duty title, SRID, last feedback date.
 - **Fitness score, always:** score or category and test date → `draft.ratee.fitness_score`. It prints as a Box I line by default (`fitness_placement`).
 - **Author mode:** ratee drafting for the rater (default) or rater writing.
-- **Rating chain:** reviewer? rater also reviewer? each evaluator's peer pools.
+- **Rating chain:** reviewer? rater also reviewer? a **functional** reviewer or additional rater (e.g. PAE for 63A, senior chief engineer for 62E) whose strat may override or shift the others (`writing-rules.md` §3)? each evaluator's peer pools → `draft.rating_chain`.
 - **Strats are placeholders by default** (`#[N]/[M] <grade group>`, `#[N]/[M] <duty group>`). No bottom-half strat, **except** a primary that a strong secondary requires; the secondary must be strong enough for the board to overlook it. Keep strats consistent with `career_review.md`.
-- **Push targets:** a command push and a DE push in every OPR, consistent with prior OPRs; the Additional Rater's is the strongest. Tailor to grade and career field (`career_review.md` → Development).
-- **Unit policies** (ask; never assume) → `draft.settings.policies`: `degree_completion` allow | warn | forbid; special spaces; exclamation points.
-- **Awards and nominations** with level. Civilian/other-service sources may state a grade equivalent.
+- **Push targets:** a next-rank job push (command, ML, staff, or PEM for acquisition officers; see `writing-rules.md` §3) and a DE push in every OPR, consistent with prior OPRs; the Additional Rater's is the strongest. Tailor to grade and career field (`career_review.md` → Development).
+- **Unit policies** (ask; never assume) → `draft.settings.policies`: `degree_completion` allow | warn | forbid; `small_numbers` flexible | strict | off (use the writing guide's rule if it states one, otherwise ask); special spaces; exclamation points.
+- **Awards and nominations** with level. Civilian/other-service sources may state a grade equivalent. Outside-organization awards (NSC, American Legion, SFA) flow through HQSF, so a unit, higher-unit or FLDCOM nomination counts at that echelon.
 - **Space mode:** `adjusted` (default) or `normal`.
 - **Board-priority experience, confirmed by the ratee, never inferred from OPR wording:** joint/CCMD staff, HQSF/HAF, Pentagon, Indo-Pacific, deployments, with years → `_opr_work/career_profile.json`. Supporting work may show joint *impact* but never implies an assignment.
 
@@ -128,7 +129,7 @@ Research the programs, units and systems in the draft, write `research.md` with 
 - Never silence a rule by editing data files unless the user changes a policy; save overrides in `_opr_work/`.
 
 ### 8. Board review pass
-Read as a board member (`bullet-style.md` §H): weak "so what?", overreaching impacts, acronym soup, repeated buzzwords. Block V's last line must be the best in the report. Refit and relint after changes.
+Read as a board member (`bullet-style.md` §H): weak "so what?", overreaching impacts, acronym soup, repeated buzzwords. Block V's last line must be the best in the report. Rerun `career_review.py` so its "THIS OPR" row reflects the draft's strats and pushes. Refit and relint after changes.
 
 ### 9. Export
 `opr.py build <draft.json>`. Report: the file paths, lines fitted, lint errors (must be 0), decisions the rating chain still owns (placeholders, push options), and flagged policy conflicts.

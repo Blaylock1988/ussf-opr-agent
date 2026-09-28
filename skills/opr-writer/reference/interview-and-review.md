@@ -27,6 +27,7 @@ A routine item earns a line only if one of these answers gives it a measurable i
 ## 3. Forward-dated and long-horizon work
 - Drafts are written months before closeout. Accomplishments with a **strong likelihood of finishing before closeout** are fair game; confirm the expected date with the user and flag them in the ledger (`forward_dated: true`).
 - Nothing outside the rating period, ever. Check `career_review.md` → Close-out dates for the grade's accountability date and SCOD.
+- **Multi-segment programs** can pass milestones on different dates (e.g. ground segment accepted one year, space segment the next). Confirm which segment's milestone the bullet claims and that it falls inside the period; public release dates often name only one segment.
 - **Acquisition programs run for years.** Don't claim completion. Show genuine contribution and measurable progress instead: milestones passed, risks retired, decisions enabled, schedule recovered, dollars protected.
 
 ## 4. Record review (last 3–5 OPRs + AMS SURF)

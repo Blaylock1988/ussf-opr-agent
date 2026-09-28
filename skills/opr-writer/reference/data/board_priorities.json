@@ -129,26 +129,65 @@
     "source": "rating-chain knowledge (user), Sep 2026 - re-verify each board cycle",
     "fields": {
       "acquisition": {
-        "specialties": ["62E", "63A"],
+        "specialties": [
+          "62E",
+          "63A"
+        ],
         "notes": [
           "Materiel Leader (ML) jobs open only at Lt Col, and Senior Materiel Leader (SML) at Col.",
-          "Acquisition has fewer competitively boarded leadership positions than operations, so pushes should name the ML/SML path and the staff jobs that lead to it."
+          "Acquisition has fewer competitively boarded leadership positions than operations, so pushes should name the ML/SML path and the staff jobs that lead to it.",
+          "Program Element Monitor (PEM): manages, advocates for and oversees one Program Element's budget and capability line. Always a Pentagon job (HQSF or HAF), so it also meets the Pentagon priority. Highly desirable for acquisition officers (USSF and USAF equally) as a Maj, or as a Lt Col not yet done. Acquisition only; never an operations push."
         ],
-        "push_by_grade": {"O-4": "ML next (opens at Lt Col)", "O-5": "ML; SML next (opens at Col)", "O-6": "SML"}
+        "push_by_grade": {
+          "O-4": "PEM (HQSF/HAF, Pentagon) or ML next (ML opens at Lt Col)",
+          "O-5": "ML; PEM if not yet done; SML next (opens at Col)",
+          "O-6": "SML"
+        }
       },
       "operations": {
-        "specialties": ["13S", "13A", "14N", "17X"],
-        "notes": ["Operations has more boarded command: Det CC at Maj, Deputy Sq CC at senior Maj, Sq CC at Lt Col."],
-        "push_by_grade": {"O-4": "Det CC; Deputy Sq CC (senior Maj); Sq CC next (at Lt Col)", "O-5": "Sq CC"}
+        "specialties": [
+          "13S",
+          "13A",
+          "14N",
+          "17X"
+        ],
+        "notes": [
+          "Operations has more boarded command: Det CC at Maj, Deputy Sq CC at senior Maj, Sq CC at Lt Col."
+        ],
+        "push_by_grade": {
+          "O-4": "Det CC; Deputy Sq CC (senior Maj); Sq CC next (at Lt Col)",
+          "O-5": "Sq CC"
+        }
       }
     },
     "boarded_programs": {
-      "strong_at": ["O-3", "O-4"],
-      "items": ["Space Test Course / Space Test Program", "Acquisitions Instructor Course", "Weapons Instructor Course (USAF Weapons School)", "USSF Targeting Analyst", "other competitively boarded schools and programs"]
+      "strong_at": [
+        "O-3",
+        "O-4"
+      ],
+      "items": [
+        "Space Test Course / Space Test Program",
+        "Acquisitions Instructor Course",
+        "Weapons Instructor Course (USAF Weapons School)",
+        "USSF Targeting Analyst",
+        "other competitively boarded schools and programs"
+      ]
     },
     "education_gates": [
-      {"for_grade": "O-5", "applies_to": ["O-4"], "requirement": "IDE (as a Maj select or Maj) and an Advanced Academic Degree are required to be competitive for Lt Col."},
-      {"for_grade": "O-6", "applies_to": ["O-5"], "requirement": "SDE (as a Lt Col select or Lt Col) is required to be competitive for Col."}
+      {
+        "for_grade": "O-5",
+        "applies_to": [
+          "O-4"
+        ],
+        "requirement": "IDE (as a Maj select or Maj) and an Advanced Academic Degree are required to be competitive for Lt Col."
+      },
+      {
+        "for_grade": "O-6",
+        "applies_to": [
+          "O-5"
+        ],
+        "requirement": "SDE (as a Lt Col select or Lt Col) is required to be competitive for Col."
+      }
     ],
     "note": "Education gates guide development advice and DE pushes only. Completion of DE or a degree is still prohibited OPR content (unit policy decides degree mentions)."
   }

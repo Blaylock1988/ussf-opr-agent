@@ -2463,6 +2463,13 @@
         "source": "SpOC"
       }
     ],
+    "PEM": [
+      {
+        "long": "Program Element Monitor",
+        "type": "acronym",
+        "source": "user"
+      }
+    ],
     "pers": [
       {
         "long": "person or personal",

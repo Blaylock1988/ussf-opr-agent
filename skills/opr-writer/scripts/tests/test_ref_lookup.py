@@ -14,6 +14,9 @@ class RefLookupTests(unittest.TestCase):
         out = "\n".join(lookup_tq(terms_of("ordinal numbers"), 80))
         self.assertRegex(out, r"## Ch 2[68]")
 
+    def test_tq_finds_ordinal_rule(self):
+        self.assertIn("2d, 3d", "\n".join(lookup_tq(terms_of("ordinal numbers"), 80)))
+
     def test_cso_returns_cnote_with_quote(self):
         out = "\n".join(lookup_cso(terms_of("space control"), 80, "cnote"))
         self.assertIn("C-Note #34", out)

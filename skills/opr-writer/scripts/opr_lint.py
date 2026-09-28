@@ -16,15 +16,18 @@ from pathlib import Path
 from common import (DATA_DIR, Ruler, iter_lines, load_form, load_json, load_verbs, normalize_spaces, text_hash,
                     utf8_stdout)
 from audience import load_terms
-from opr_acronyms import build_remarks
+from opr_acronyms import build_remarks, used_acronyms
 from rules import (GRADE_GROUP, STANDOUT_STOPWORDS, SYMBOLS, VAGUE_GROUPS, Approvals, acronym_core, is_acronym,
-                   numbers_in, round_numbers, tokens)
+                   mask_placeholders, numbers_in, round_numbers, small_number_issues, tokens)
 
 
 IRREGULAR_BASES = {"lead", "drive", "build", "write", "run", "oversee", "teach", "win", "make", "keep", "hold", "bring",
                    "seek", "undertake", "overcome", "fight", "sell", "grow", "find", "give", "set", "cut", "draw",
                    "begin", "choose", "meet", "sweep", "rebuild", "rewrite", "uphold", "stand"}
 REFIT = "run `opr.py fit <draft.json> --write`"
+# "NSC Schriever awd nominee", "Schriever nom", "FGOY": award names for the text-based double-credit check
+AWARD_NAME = re.compile(r"\b((?:[A-Z][A-Za-z0-9&]*\s+){0,2}[A-Z][A-Za-z0-9&]*)\s+(?:awd|award|nom|nominee|nomination)s?\b")
+AWARD_ACRONYM = re.compile(r"\b((?:[A-Z]{2,4})O[YQ])\b")
 
 
 def stale_fits(draft, form):
@@ -71,7 +74,8 @@ class Linter:
         self.history = history or []
         self.ruler = ruler
         self.proper = set(" ".join(draft.get("proper_nouns", [])).split())
-        self.lines = [(k, i, normalize_spaces(line["text"]), line) for k, i, line in iter_lines(draft, form)]
+        # [placeholders] are masked so no scan reads "[2,5xx]" as a number or "xxx" as an abbreviation
+        self.lines = [(k, i, mask_placeholders(normalize_spaces(line["text"])), line) for k, i, line in iter_lines(draft, form)]
         self.sections = {s["key"]: s for s in form["sections"]}
         # a strat/push line with the (weak) strat omitted: push only, no opening verb expected
         last = {k: (i, t) for k, i, t, _ in self.lines if self.sections[k].get("strat_line") == "last"}
@@ -90,6 +94,7 @@ class Linter:
             self.banned_phrases(where, text)
             self.style_conventions(where, text)
         self.duplicate_numbers()
+        self.small_numbers()
         self.buzzwords()
         self.repeated_standouts()
         self.adjacent_numbers()
@@ -123,7 +128,8 @@ class Linter:
             for i, line in enumerate(lines):
                 st = line.get("status")
                 if st and st != "fits":
-                    self.add("error", "fit", f"{key}[{i + 1}]", f"line {st.replace('_', ' ')} ({line.get('delta_mm', 0):+.2f} mm); {REFIT}")
+                    self.add("error", "fit", f"{key}[{i + 1}]", f"line {st.replace('_', ' ')} ({line.get('delta_mm', 0):+.2f} mm); "
+                             "spacing can't close it: reword (compression ladder, bullet-style.md §D, or add content), then refit")
                 elif not st:
                     self.add("warning", "fit", f"{key}[{i + 1}]", f"not yet fitted; {REFIT}")
         for sev, rule, where, msg in stale_fits(self.d, self.form):
@@ -265,6 +271,22 @@ class Linter:
                 self.add("warning", "buzzword", ", ".join(hits[1:]),
                          f"'{term}' used {len(hits)} times ({', '.join(hits)}); a standout buzzword should appear once per OPR")
 
+    def small_numbers(self):
+        """T&Q ch 28: words for one-nine, figures for 10+ with commas. Unit policy: flexible (judgment) | strict | off."""
+        policy = self.settings.get("policies", {}).get("small_numbers", "flexible")
+        if policy == "off":
+            return
+        sev = "warning" if policy == "strict" else "judgment"
+        for key, i, text, _ in self.lines:
+            if (key, i) in self.push_only or text[2:].lstrip().startswith("#"):
+                continue  # strat/push lines: strats and grades are figures by rule
+            small, no_comma = small_number_issues(text[2:])
+            if small:
+                self.add(sev, "numbers", f"{key}[{i + 1}]", f"spell out {', '.join(repr(s) for s in small)} (T&Q ch 28: one-nine in words) "
+                         f"[unit policy 'small_numbers' = {policy}]")
+            for raw in no_comma:
+                self.add(sev, "numbers", f"{key}[{i + 1}]", f"'{raw}' needs the thousands separator ({int(raw):,})")
+
     def repeated_standouts(self):
         """The two strat/push lines are the most-read lines; a descriptor used in both ('planner') reads as a repeat."""
         def words(text):
@@ -272,7 +294,8 @@ class Linter:
             out = {}
             for w in re.findall(r"[A-Za-z]+", body):
                 low = w.lower()
-                if len(w) < 5 or low in STANDOUT_STOPWORDS or is_acronym(w) or w in self.proper or self.ap.abbreviation_status(w)[0]:
+                abbr = len(w) >= 3 and self.ap.abbreviation_status(w)[0] == "approved"  # "ldr" echoes as loudly as "leader"
+                if (len(w) < 5 and not abbr) or low in STANDOUT_STOPWORDS or is_acronym(w) or w in self.proper:
                     continue
                 out.setdefault(re.sub(r"(ers|er|ing|ed|s)$", "", low), w)
             return out
@@ -318,6 +341,19 @@ class Linter:
                              f"ledger {lid} also backs {k0}[{i0 + 1}]; one accomplishment must not earn credit twice. Several "
                              "items may feed one larger impact, but each line must stand on its own")
                 used.setdefault(lid, (key, i))
+        # the same award or nomination named in two performance lines, even when the ledger tags differ
+        named = {}
+        for key, i, text, _ in self.lines:
+            if self.sections[key]["kind"] == "job_description":
+                continue
+            # key on the name's last word ("Won NSC Schriever awd" and "MD 8 NSC Schriever nom" are both "Schriever")
+            names = {m.group(1).split()[-1] for m in AWARD_NAME.finditer(text)} | set(AWARD_ACRONYM.findall(text))
+            for name in names:
+                if name in named and named[name][0] != (key, i):
+                    k0, i0 = named[name][0]
+                    self.add("warning", "double_credit", f"{key}[{i + 1}]", f"award/nomination '{name}' also named in {k0}[{i0 + 1}]; "
+                             "claim it once, in the strongest spot (usually a strat line)")
+                named.setdefault(name, [(key, i)])
 
     def coverage(self):
         """Alternates for at least half the lines (the JD and strat/push lines first), and 4 fitted spare bullets."""
@@ -336,7 +372,9 @@ class Linter:
             self.add("warning", "spares", "spares", f"{len(spares)}/4 spare performance bullets; page 2 carries 4 fitted, lint-clean swap-ins")
         for n, sp in enumerate(spares):
             if sp.get("status") != "fits":
-                self.add("error", "fit", f"spares[{n + 1}]", f"spare {sp.get('status', 'unfitted').replace('_', ' ')}; {REFIT}")
+                st = sp.get("status", "unfitted")
+                self.add("error", "fit", f"spares[{n + 1}]", f"spare {st.replace('_', ' ')}; "
+                         + (REFIT if st == "unfitted" else "reword (compression ladder or add content), then refit"))
 
     def fitness(self):
         if not self.d.get("ratee", {}).get("fitness_score"):
@@ -519,13 +557,33 @@ class Linter:
                 if m:
                     dens[key] = int(m.group(1))
         if len(dens) == 2 and dens["additional_rater"] < dens["rater"]:
-            self.add("warning", "strat", "additional_rater", "additional rater's strat pool is smaller than the rater's; Block V should be the strongest strat/push")
+            # a functional reviewer can reshuffle which evaluator carries which strat, so the rule is advisory then
+            functional = (self.d.get("rating_chain") or {}).get("functional")
+            self.add("info" if functional else "warning", "strat", "additional_rater",
+                     "additional rater's strat pool is smaller than the rater's; Block V should be the strongest strat/push"
+                     + (" (functional in the chain: confirm the intended strat placement)" if functional else ""))
+        # both strat lines are read side by side: name the grade the same way ("O-4s" in both, not "Majors" in one)
+        grades = {}
+        for key in ("rater", "additional_rater"):
+            lines = [(i, t) for k, i, t, _ in self.lines if k == key]
+            if lines:
+                m = re.search(r"#(?:\d+|\[N\])/(?:\d+|\[M\])\s+(?:\S+\s+){0,2}?(O-\d+s?|Majs?|Majors?|Capts?|Captains?|Lt ?Cols?|Cols?|Colonels?)\b",
+                              lines[-1][1])
+                if m:
+                    g = m.group(1).lower()
+                    grades[key] = (lines[-1][0], m.group(1), "o" if g.startswith("o-") else g.rstrip("s").replace("major", "maj"))
+        if len(grades) == 2 and grades["rater"][2] != grades["additional_rater"][2]:
+            (ri, rg, _), (ai, ag, _) = grades["rater"], grades["additional_rater"]
+            self.add("judgment", "strat", f"additional_rater[{ai + 1}]",
+                     f"grade group '{ag}' differs from rater[{ri + 1}]'s '{rg}'; use the same wording in both strat lines")
 
     def sec_x(self):
         remarks, missing, statuses = build_remarks(self.d, self.form, self.ap)
+        used = used_acronyms(self.d, self.form)
         for acr, hint in missing:
-            self.add("error", "acronyms", "remarks", f"'{acr}' is not approved for this use: define it in draft['acronyms'] ({hint}), or, if it fits an AFPC "
-                                                    f"category (organization, platform, office symbol...), record it in draft['acronym_categories']")
+            where = ", ".join(dict.fromkeys(used.get(acr, ["remarks"])))
+            self.add("error", "acronyms", where, f"'{acr}' is not approved for this use: define it in draft['acronyms'] ({hint}), or, if it fits an AFPC "
+                                                 f"category (organization, platform, office symbol...), record it in draft['acronym_categories']")
         for acr, (st, detail) in statuses.items():
             if st == "media":
                 self.add("judgment", "acronyms", "remarks", f"'{acr}' treated as widely known; confirm it need not be defined")
@@ -623,23 +681,31 @@ def guard_candidates(draft, form, work_dir, ruler=None):
         d = dict(d, _candidate=True)
         return Counter((f["severity"], f["rule"], shifted(f["where"], shift), shifted(f["message"], shift))
                        for f in Linter(d, form, work_dir, None, ruler).run()
-                       if f["severity"] in ("error", "warning") and f["rule"] not in GUARD_SKIP)
+                       if (f["severity"] in ("error", "warning") or f["rule"] == "board_read") and f["rule"] not in GUARD_SKIP)
 
     def shifted(s, shift):
         """Undo the renumbering caused by inserting spares, so a base finding at rater[6] that moved to
-        rater[7] is recognized as pre-existing instead of blamed on the spare."""
+        rater[7] is recognized as pre-existing instead of blamed on the spare; the inserted lines themselves
+        are named after the candidate."""
         if not shift:
             return s
-        key, at, n = shift  # n lines inserted before 0-based index `at`
-        return re.sub(rf"\b{key}\[(\d+)\]", lambda m: f"{key}[{int(m.group(1)) - n if int(m.group(1)) > at + n else m.group(1)}]", s)
+        key, at, n, label = shift  # n lines inserted before 0-based index `at`
+
+        def ref(m):
+            k = int(m.group(1))
+            return f"{key}[{k - n}]" if k > at + n else (label if k > at else m.group(0))
+        return re.sub(rf"\b{key}\[(\d+)\]", ref, s)
 
     base = findings_of(draft)
     out = []
 
     def check(label, mutated, shift=None):
+        # strict on purpose: a candidate must never be offered if it breaks compliance anywhere, so an error or
+        # warning it introduces is an error here. Board-read judgments stay judgments (taste, not compliance).
         for (sev, rule, where, msg), _ in (findings_of(mutated, shift) - base).items():
-            out.append({"severity": "error", "rule": "guard", "where": label,
-                        "message": f"would break whole-OPR compliance at {where}: {msg}. Rewrite this candidate; never edit other lines to make room"})
+            at = "in the candidate itself" if where == label else f"at {where}"
+            out.append({"severity": "judgment" if sev == "judgment" else "error", "rule": "guard", "where": label,
+                        "message": f"would break whole-OPR compliance {at}: {msg}. Rewrite this candidate; never edit other lines to make room"})
 
     secs = draft.get("sections", {})
     for key, i, line in iter_lines(draft, form):
@@ -658,9 +724,9 @@ def guard_candidates(draft, form, work_dir, ruler=None):
             return mutated
         at = len(secs[target]["lines"]) - 1
         for n, sp in enumerate(spares):
-            check(f"spares[{n + 1}]", with_spares([sp]), (target, at, 1))
+            check(f"spares[{n + 1}]", with_spares([sp]), (target, at, 1, f"spares[{n + 1}]"))
         if len(spares) > 1:
-            check("spares (together)", with_spares(spares), (target, at, len(spares)))
+            check("spares (together)", with_spares(spares), (target, at, len(spares), "spares (together)"))
     return out
 
 

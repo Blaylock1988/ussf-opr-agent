@@ -51,13 +51,13 @@ The format is more flexible than the performance lines. The usual order is:
 ```
 - The grade strat always comes first, **even when it is #1/1**. Then an optional duty strat, e.g. "#1/11 Flt/CCs".
 - **Praise** can use the ratee's first name ("Alex is a brilliant ldr"), plus awards and nominations at their level.
-- **Push:** name the job one rank up, e.g. "sq CC next" or "Del staff ldrship next". Never write "promote" or "in-res".
+- **Push:** name a job one rank up, e.g. "sq CC next", "Del staff ldrship next", "HQSF staff next", or for acquisition officers "PEM next, then ML". It need not be a command, but it must suit the next grade and build the record (`writing-rules.md` §3). Never write "promote" or "in-res".
 - **DE push** (IDE or SDE) is allowed. Completion of DE is not.
 - **Block V** must beat Block IV: a bigger pool, the higher push, the best award.
 - **Placeholders are the default:**
   - Write `#[N]/[M] O-4s` for the primary strat and `#[N]/[M] <duty group>` for the secondary.
   - Use real numbers only when the user gives them, and **never include a bottom-half strat**.
-  - Offer 2–3 push options per evaluator in `draft.push_options`. Each option should include a command push and a DE push that stay consistent with prior OPRs (`career_review.md`).
+  - Offer 2–3 push options per evaluator in `draft.push_options`. Each option should include a next-rank job push and a DE push that stay consistent with prior OPRs (`career_review.md`).
 - **Compliant example:**
   `- #1/6 Del O-4s, #1/11 Flt/CCs; hand-picked exercise planning lead f/USEUCOM--sq CC next, SDE soonest`
   USEUCOM goes in Sec X.

@@ -10,6 +10,24 @@ from pathlib import Path
 from common import load_json, load_verbs, normalize_spaces, utf8_stdout
 
 
+SYNONYMS = {
+    "build": {"construct", "create", "forg", "engineer", "architect", "develop", "establish"},
+    "creat": {"build", "forg", "establish", "develop", "design", "author"},
+    "plan": {"design", "orchestrat", "architect", "chart", "devis", "map"},
+    "integrat": {"fus", "unifi", "synchroniz", "merg", "consolidat", "link"},
+    "moderniz": {"transform", "revamp", "overhaul", "upgrad", "retool", "transit"},
+    "transit": {"migrat", "shift", "transfer", "moderniz", "convert"},
+    "exercis": {"plan", "rehears", "test", "train", "orchestrat"},
+    "system": {"engineer", "field", "deploy", "integrat"},
+    "new": {"pioneer", "launch", "found", "establish", "introduc"},
+}
+
+
+def stem(word):
+    s = re.sub(r"(ation|ing|ed|es|e|s)$", "", word)
+    return re.sub(r"([bdgklmnprt])\1$", r"\1", s)  # planned/planning -> plan
+
+
 def used_openers(draft_path):
     if not draft_path or not Path(draft_path).is_file():
         return set()
@@ -34,6 +52,8 @@ def main():
     verbs = load_verbs()
     used = used_openers(args.draft)
     words = [w for w in re.findall(r"[a-z]+", args.topic.lower()) if len(w) > 2]
+    # topic words also match verb names by stem, plus a few everyday synonyms the bucket labels don't use
+    stems = {stem(w) for w in words} | {s for w in words for s in SYNONYMS.get(stem(w), ())}
     rows = []
     for v in verbs:
         if args.tier != "any" and v["tier"] != args.tier:
@@ -44,7 +64,7 @@ def main():
         if args.max_chars and v["chars"] > args.max_chars and not any(len(f) <= args.max_chars for f in v["approved_forms"]):
             continue
         hay = " ".join(v["buckets"] + v["skills"]).lower()
-        score = sum(w in hay for w in words) if words else 1
+        score = (sum(w in hay for w in words) + 2 * (stem(v["verb"].lower()) in stems)) if words else 1
         if score:
             rows.append((score, v))
     rows.sort(key=lambda r: (-r[0], r[1]["chars"]))

@@ -2,7 +2,7 @@
 
 Reads _opr_work/history.json (prior OPRs) and, if present, _opr_work/draft.json (this OPR). It writes
 _opr_work/career_review.md, which has three parts:
-  - a year-by-year table of strats, DE pushes and command pushes (the "Top OPR" and "Overall OPRs" rows);
+  - a year-by-year table of strats, DE pushes and next-rank job pushes (the "Top OPR" and "Overall OPRs" rows);
   - Strong/Average/Weak ratings for the factors that can be derived from the text;
   - questions for the factors the OPR text cannot show (commander time, JDAL, staff, awards, education...).
 
@@ -16,7 +16,11 @@ from common import DATA_DIR, load_json, normalize_spaces, utf8_stdout, write_tex
 
 STRAT = re.compile(r"#(\d+|\[N\])/(\d+|\[M\])\s+(.+?)(?=,|;|--|!|$)")
 DE_PUSH = re.compile(r"\b(SDE|IDE|ILE|SLE|PDE|IDE/SDE|Senior Developmental|Intermediate Developmental|War College|ACSC|AWC|NWC|SOS)\b", re.I)
-CMD_PUSH = re.compile(r"(\b\w+/CC\b|\bCC next\b|\bcommand\b|\bcmd\b|\bsq (?:ldrs?hi?p|leadership|CC)\b|\bDel(?:ta)? (?:ldrs?hi?p|leadership|CC)\b|\bSquadron Commander\b|\bSq/CC\b|\bML\b|\bmateriel leader\b|\bSML\b)", re.I)
+# Next-rank job push: the worksheet calls it the "command push", but any job suited to the next grade counts
+# (command, ML/SML, DO, division chief, HQSF/HAF/joint staff, PEM).
+JOB_PUSH = re.compile(r"\b(\w+/CC|CC next|command|cmd|sq (?:ldrs?hi?p|leadership|CC)|Del(?:ta)? (?:ldrs?hi?p|leadership|CC)|"
+                      r"Squadron Commander|ML|materiel leader|SML|PEM|staff|HQSF|HAF|Pentagon|Jt|joint|CCMD|DO|"
+                      r"Div(?:ision)? Ch(?:ief)?|Branch Chief|deputy|dir(?:ector)?|ldrs?hi?p|leadership)\b", re.I)
 
 
 # Rough duty-title ladder (higher = more responsibility). Heuristic only: unknown titles are left for judgment.
@@ -156,7 +160,7 @@ def rows_from(lines, year):
         last = lines[-1] if lines else ""  # the strat/push line is always the block's last line
         push = push_of(last)
         row[sec] = {"line": last, "strats": strat_list(last), "push": push,
-                    "de": bool(DE_PUSH.search(push)), "cmd": bool(CMD_PUSH.search(push))}
+                    "de": bool(DE_PUSH.search(push)), "job": bool(JOB_PUSH.search(push))}
     return row
 
 
@@ -184,14 +188,14 @@ def main():
            f"{', '.join(board.get('board_specialty_names', []))}. Write for these readers.") if board.get("category") else         "**Board audience:** unknown; run audience.py to set the competitive category."
     out = ["# Career Review (board worksheet view)", "", who, "",
            "This mirrors the USSF Assessment Worksheet - Career Review. Boards read the **top (most recent) OPR** and the "
-           "**consistency across all OPRs**: stratification, DE push and command push. Strong means present, high and "
+           "**consistency across all OPRs**: stratification, DE push and next-rank job push (the worksheet's 'command push': any job suited to the next grade, not only command). Strong means present, high and "
            "consistent every year, with the Additional Rater at least as strong as the Rater.", "",
-           "| Year | Rater strat | Addl Rater strat | DE push | Command push | Addl Rater push |",
+           "| Year | Rater strat | Addl Rater strat | DE push | Next-job push | Addl Rater push |",
            "|---|---|---|---|---|---|"]
     for r in rows:
         a, b = r["rater"], r["additional_rater"]
         out.append(f"| {r['year']} | {fmt_strats(a['strats'])} | {fmt_strats(b['strats'])} | "
-                   f"{'yes' if a['de'] or b['de'] else 'NO'} | {'yes' if a['cmd'] or b['cmd'] else 'NO'} | {b['push'] or '-'} |")
+                   f"{'yes' if a['de'] or b['de'] else 'NO'} | {'yes' if a['job'] or b['job'] else 'NO'} | {b['push'] or '-'} |")
 
     findings = []
     if rows:
@@ -199,18 +203,18 @@ def main():
         top_strats = top["rater"]["strats"] + top["additional_rater"]["strats"]
         findings.append(f"**Top OPR - Stratification:** {rate_strat(top_strats)}")
         findings.append(f"**Top OPR - DE push:** {'Strong' if top['additional_rater']['de'] else ('Average (Rater only)' if top['rater']['de'] else 'Weak/Missing')}")
-        findings.append(f"**Top OPR - Command push:** {'Strong' if top['additional_rater']['cmd'] else ('Average (Rater only)' if top['rater']['cmd'] else 'Weak/Missing')}")
+        findings.append(f"**Top OPR - Next-job push:** {'Strong' if top['additional_rater']['job'] else ('Average (Rater only)' if top['rater']['job'] else 'Weak/Missing')}")
         n = len(rows)
         with_strat = sum(1 for r in rows if r["rater"]["strats"] or r["additional_rater"]["strats"])
         with_de = sum(1 for r in rows if r["rater"]["de"] or r["additional_rater"]["de"])
-        with_cmd = sum(1 for r in rows if r["rater"]["cmd"] or r["additional_rater"]["cmd"])
+        with_job = sum(1 for r in rows if r["rater"]["job"] or r["additional_rater"]["job"])
 
         def consistency(k):
             return "Strong/Consistent" if k == n else ("Average/Inconsistent" if k else "Weak/Missing")
 
         findings.append(f"**Overall OPRs - Stratifications:** {consistency(with_strat)} ({with_strat}/{n} OPRs)")
         findings.append(f"**Overall OPRs - DE push:** {consistency(with_de)} ({with_de}/{n})")
-        findings.append(f"**Overall OPRs - Command push:** {consistency(with_cmd)} ({with_cmd}/{n})")
+        findings.append(f"**Overall OPRs - Next-job push:** {consistency(with_job)} ({with_job}/{n})")
         pcts = [(r["year"], min((s["score"] for s in r["additional_rater"]["strats"] + r["rater"]["strats"] if s["score"] is not None), default=None)) for r in rows]
         real = [(y, p) for y, p in pcts if p is not None]
         for (y1, p1), (y2, p2) in zip(real, real[1:]):
@@ -295,7 +299,7 @@ def main():
             "| Competence: Depth in specialty | Years and levels in core SFSC? Certification level? | Bullets proving mastery; certs in strat line (if unit allows) |",
             "| Competence: Breadth of experience | Different mission areas, ops vs acq vs staff? | Highlight cross-functional/joint scope |",
             "| Competence: Selective assignment | LL, assignment hire, FAO, Olmstead, SAASS, etc.? | 'Hand-picked/selected f/...' hooks (allowed on OPRs) |",
-            "| Leadership: Commander | Sq/ML/Gp, Det/Flt/HQ Sq command, or none? | Command push every OPR; 'led N-mbr' scope |",
+            "| Leadership: Commander | Sq/ML/Gp, Det/Flt/HQ Sq command, or none? | Next-rank job push every OPR (command, ML, staff, PEM for acquisition); 'led N-mbr' scope |",
             "| Leadership: Joint (JDAL) | JDAL billet held/now/none? | Joint impacts, CCMD/exercise support, JPME-relevant work |",
             "| Leadership: Space/Air Staff, HHQ, Intermediate HQ | Staff tours at HQSF/HAF, FLDCOM, Delta? | Staff-level impact; next-assignment push to staff |",
             "| Achievements: Special awards/DG | Wing/Delta+, FLDCOM, USSF/DAF-level awards? | Awards in strat line; overflow to line 1 |",
@@ -306,7 +310,7 @@ def main():
             "| Promotions | Due course or late? | - |",
             "| Quality-force eliminators | Referral OPR, UIF/Art 15, LOR/LOA? | (never in the OPR; affects overall record) |"]
     write_text(work / "career_review.md", "\n".join(out) + "\n")
-    table = out.index("| Year | Rater strat | Addl Rater strat | DE push | Command push | Addl Rater push |")
+    table = out.index("| Year | Rater strat | Addl Rater strat | DE push | Next-job push | Addl Rater push |")
     print("\n".join(out[table:table + 2 + len(rows)]))
     print("\n".join(f"- {f}" for f in findings))
     print("\n".join(n for n in out if n.startswith(("**REGRESSION", "**UNRATED", "**No visible growth"))))

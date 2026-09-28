@@ -257,6 +257,67 @@ class LintTests(unittest.TestCase):
         self.assertIn("planner", text)
         self.assertIn("'100%' sits next to '100'", text)
 
+    # ---- 2026-09-27 2254 test report + user guidance
+    def test_placeholders_are_not_linted_as_text(self):
+        d = draft(["- Cleared [2,5xx] HHQ comments; won $[5.x]B--armed [33x,xxx] users", "- Moved 5 ops ctrs; synced 12 orgs--cut 3 wks",
+                   "- #1/3 Del O-4s; sharp--sq CC next"])
+        f = run(d)
+        text = " ".join(x["message"] for x in f if x["severity"] in ("error", "warning"))
+        self.assertNotIn("xxx", text)
+        self.assertNotIn("'5' also", text)
+        self.assertFalse([m for m in msgs(f, "numbers") if "repeats" in m])
+
+    def test_small_numbers_policy(self):
+        rows = ["- Forged 4 pacts; linked 3 ctrs--armed six units", "- #1/3 Del O-4s; sharp--sq CC next"]
+        f = run(draft(rows))
+        self.assertTrue(any("spell out" in m for m in msgs(f, "numbers", "judgment")))  # default: flexible
+        d = draft(rows)
+        d["settings"] = {"policies": {"small_numbers": "strict"}}
+        self.assertTrue(any("spell out" in m for m in msgs(run(d), "numbers", "warning")))
+        d["settings"] = {"policies": {"small_numbers": "off"}}
+        self.assertFalse([m for m in msgs(run(d), "numbers", "judgment") if "spell out" in m])
+        # exempt: money, units, multipliers, series with a 10+ count
+        f = run(draft(["- Saved $4M in 5-wk push; 8x capacity--armed 4 teams & 24 ctrs", "- #1/3 Del O-4s; sharp--sq CC next"]))
+        self.assertFalse([x for x in f if x["rule"] == "numbers" and x["where"].startswith("rater") and "spell out" in x["message"]])
+        self.assertTrue(any("1,055" in m for m in msgs(run(draft(["- Moved 1055 radios; synced 12 orgs--cut risk",
+                                                                   "- #1/3 Del O-4s; sharp--sq CC next"])), "numbers", "judgment")))
+
+    def test_spelled_numbers_count_for_repeats(self):
+        f = run(draft(["- Forged four pacts; linked 12 ctrs--armed 4 units", "- #1/3 Del O-4s; sharp--sq CC next"]))
+        self.assertTrue(any("repeats" in m for m in msgs(f, "numbers")))
+
+    def test_guard_flags_board_read_in_alternates(self):
+        d = draft(["- Forged 4 pacts; linked 3 ctrs--armed 9 units", "- #1/3 Del O-4s; top planner--sq CC next"],
+                  additional=["- #1/7 Dir O-4s; elite ldr--Del staff next"])
+        d["sections"]["additional_rater"]["lines"][0]["alternates"] = ["- #1/7 Dir O-4s; superb planner--Del staff next"]
+        guard = [x for x in run(d) if x["rule"] == "guard"]
+        self.assertTrue(any(x["severity"] == "judgment" and "planner" in x["message"] for x in guard))
+
+    def test_abbreviated_descriptor_repeat(self):
+        f = run(draft(["- Forged 4 pacts; linked 3 ctrs--armed 9 units", "- #1/3 Del O-4s; proven ldr--sq CC next"],
+                      additional=["- #1/7 Dir O-4s; superb ldr--Del staff next"]))
+        self.assertTrue(any("ldr" in m for m in msgs(f, "board_read", "judgment")))
+
+    def test_award_named_twice_is_double_credit(self):
+        f = run(draft(["- Won NSC Schriever awd nominee spot; linked 3 ctrs--armed 9 units", "- #1/3 Del O-4s; sharp--sq CC next"],
+                      additional=["- #1/7 Dir O-4s; MD 8 NSC Schriever nom--Del staff next"]))
+        self.assertTrue(any("Schriever" in m for m in msgs(f, "double_credit", "warning")))
+
+    def test_strat_grade_group_wording(self):
+        f = run(draft(["- Forged 4 pacts; linked 3 ctrs--armed 9 units", "- #1/3 Majors; sharp--sq CC next"],
+                      additional=["- #1/7 Dir O-4s; top FGO--Del staff next"]))
+        self.assertTrue(any("grade group" in m for m in msgs(f, "strat", "judgment")))
+
+    def test_unapproved_acronym_names_its_line(self):
+        f = run(draft(["- Built ZQX plan; synced 4 ctrs--armed 12 units", "- #1/3 Del O-4s; sharp--sq CC next"]))
+        self.assertTrue(any(x["rule"] == "acronyms" and x["where"] == "rater[1]" and "ZQX" in x["message"] for x in f))
+
+    def test_next_job_push_recognized(self):
+        from career_review import JOB_PUSH
+        for push in ("HQSF staff next, then ML; SDE soonest", "PEM next, SDE ASAP", "sq CC next"):
+            self.assertTrue(JOB_PUSH.search(push), push)
+        self.assertFalse(JOB_PUSH.search("SDE soonest"))
+
     def test_docx_highlights_any_bracket_placeholder(self):
         from opr_docx import PLACEHOLDER
         for ph in ("[2,5xx]", "[N]", "[test date]", "#[N]/[M]"):

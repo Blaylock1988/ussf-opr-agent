@@ -19,6 +19,7 @@ These rules are distilled from four sources:
 
 Known conflicts:
 - **Numbers:** T&Q wants exact numbers, and so do boards: precise figures (517) read as measured, round ones (500+, 1,000, "over 300") read as made up. To break a duplicate, reword first, use a different precise figure second, and use "over N"/"N+" only as a last resort. Lint warns on round counts.
+- **Small numbers:** T&Q spells out one through nine and uses figures for 10 and up, with commas from 1,000 (ch 28). Money, percents, units of measure (5-wk), multipliers (8x), strats, ratios, designators and any number in a series with a 10+ figure stay as figures. How strictly to apply it is **unit policy** `settings.policies.small_numbers`: follow the command or user writing guide if it states a rule; otherwise ask the user whether to keep it `flexible` (figures allowed to save space; lint judgment) or `strict` (lint warning). `off` disables it.
 - **Sub-bullets:** T&Q allows `--` sub-bullets. On the 707 every bullet is one line, and `--` is the inline connector before the impact.
 - **Adverb intensifiers:** T&Q likes them. They cost width, so use them rarely and only as a hook.
 - **Degree completion:** the user's policy allows it in the strat line, but the 707 and SpOC 1.2.4.10 forbid it. Lint warns, and the rating chain decides.
@@ -46,6 +47,7 @@ Known conflicts:
   | USSF/DAF | the best possible |
 
   Give the level, not the period: "Dir FGOQ", not "FGOQ 2Q25" (SpOC 1.5.3.8). Quote rating and award titles when helpful, e.g. "Outstanding Performer" (1.5.3.9).
+- **Outside-organization awards** (National Space Club's Schriever award, American Legion, Space Force Association and similar) are awarded to the USSF and distributed by HQSF to its units. Being the nominee of one's unit, higher unit or field command is credible and desirable, and the nominating echelon sets the level: "MD 8 NSC Schriever nom" (the Delta's nominee) is correct. Don't rewrite it as a bare national nomination.
 - **Team or subordinate awards:** claim leading the team to them ("led tm to 7 FLDCOM awds"), never the awards themselves.
 - **Schools that produce a training report** (in-residence DE or courses) never appear. Never write "in-res" (SpOC 1.5.2.4).
 - **Significant completions** such as an online or correspondence master's or a certification level may go in the strat/push line or as line 1 overflow (user policy).
@@ -60,7 +62,11 @@ Known conflicts:
   - **Exception:** a strong secondary strat requires a primary strat, **even a bottom-half one**. The secondary must be strong enough for the board to overlook the primary. Lint marks this as judgment; a bottom-half primary with no secondary is a warning; a bottom-half secondary or a secondary without a primary is an error.
   - **Strat omitted:** the last line keeps its place and becomes award + push only, with no `#`, e.g. `- SD 7 FGOY! My top planner--Del staff next, then sq CC; SDE soonest`. It needs no opening verb. Lint marks it judgment (confirm the omission is intentional).
 - **Consistency across OPRs is critical**, especially for Lt Col boards and above. Compare against `_opr_work/career_review.md` before accepting a strat. Block V's strat should be at least as strong as Block IV's.
-- **Every OPR carries a command push and a DE push** that stay consistent year to year. The Additional Rater's push is the strongest.
+- **Every OPR carries a next-rank job push and a DE push** that stay consistent year to year. The Additional Rater's push is the strongest.
+  - The Career Review worksheet calls it a "command push", but it need not name a command. It must push a **job suited to the next grade** that builds a strong record against the worksheet and current board priorities: command, ML/SML, DO, division chief, HQSF/HAF or joint staff, or PEM.
+  - Use the same peer-group wording in both strat lines (e.g. "O-4s" in both, not "Majors" in one); a board reads them side by side.
+- **Program Element Monitor (PEM):** an action officer who manages, advocates for and oversees one Program Element's budget and capability line. It is always a Pentagon job (HQSF or HAF), so it also meets the Pentagon board priority. For **acquisition officers only** (USSF LSF-F / 62E-63A, and USAF acquisition officers equally), it is a highly desirable push as a Maj, or as a Lt Col not yet done. Never use it as an operations push. Define PEM in Sec X.
+- **Functional reviewer.** When the rater and additional rater aren't in the ratee's career field, or the field command directs it, a functional may sign as additional rater or reviewer: e.g. a Portfolio Acquisition Executive for a 63A, or a field-command- or PAE-appointed senior chief engineer for a 62E. The functional's strat may override the additional rater's; the additional rater's strat may then move to the rater's line, and the rater's strat drops off. This depends on the chain of command, so ask the user who signs where and which strats appear; never assume it. Lint's "Block V must beat Block IV" check is then advisory.
 - Only a **signatory** evaluator may stratify, and only within their own rating chain. The one exception is quoting a deployed LOE stratification.
 - An evaluator never quotes a higher evaluator's stratification. A senior rater's stratification may be quoted only when that senior rater signs without comment.
 - The format must be quantitative, with a qualified peer group:

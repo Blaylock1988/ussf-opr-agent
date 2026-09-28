@@ -149,7 +149,7 @@ Page numbers are the printed page numbers. Command guidance and the user's rules
 
 ## Ch 28: Numbers (pp. 355-362)
 - **Figures emphasize; words de-emphasize** (p. 355).
-- **The organization's preferred style overrides the general rules** (p. 355). The general rule is words for one through nine and figures for 10 and up; the OPR convention is figures throughout, per command guidance.
+- **The organization's preferred style overrides the general rules** (p. 355). The general rule is **words for one through nine and figures for 10 and up**, with commas from 1,000 (pp. 355, 359). Money, percents, units of measure, multipliers, ratios and designators stay as figures. How strictly an OPR follows it is unit policy (`settings.policies.small_numbers`, see `writing-rules.md` §1).
 - **Related series:** if any number in the series is 10 or more, all of them are figures (p. 358).
 - **Money** (p. 356): omit ".00" unless other amounts in the line have cents; use commas in 4-digit and larger numbers (5,280). "$300,000", **not "$300 thousand"** (p. 360). K, M and B follow command guidance (the T&Q's own bullet example uses "$3.4K", p. 255).
 - **Percent:** "6 percent" in text (p. 357); OPRs use % by command convention.

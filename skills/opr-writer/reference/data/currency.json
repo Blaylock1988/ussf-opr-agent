@@ -95,12 +95,12 @@
     {
       "id": "space_threats",
       "file": "space_threats.json",
-      "review_months": 12,
+      "review_months": 6,
       "volatility": "high",
-      "source": "S2 Space Threat Fact Sheet (v8, 16 May 2025); canonical page spaceforce.mil Article 4297159",
+      "source": "S2 Space Threat Fact Sheet (v9, updated 29 Aug 2025); canonical page spaceforce.mil Article 4297159",
       "refresh": "search for a newer edition each run; transcribe new metrics into space_threats.json with its edition and date",
-      "published": "2025-05-16",
-      "verified": "2026-09"
+      "published": "2025-08-29",
+      "verified": "2026-09-28"
     },
     {
       "id": "tongue_and_quill",
