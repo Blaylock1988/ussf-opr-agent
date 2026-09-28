@@ -2,6 +2,8 @@
 
 This skill (a Claude Code plugin that also works in Google Antigravity) writes a complete **DAF Form 707 Officer Performance Report** (Lt thru Col, USSF or USAF) from a folder of your own material. It works for any officer: it knows nothing about you until you point it at your folder.
 
+![How the OPR writer works: your folder, then interview, research, draft, and a fit-and-check loop, producing a Word document laid out like the 707](docs/how-it-works.png)
+
 - **Reads** the guidance, prior OPRs and accomplishment notes in your folder, and builds a **fact ledger** for you to confirm.
 - **Researches** public, sourced context for joint and warfighter impacts: exercise scale, users served, CSO C-Notes, doctrine.
 - **Drafts** the Job Description, Rater, Additional Rater and Reviewer blocks in OPR bullet language (`Action; Result--Impact`), with strat and push lines. When the ratee writes the draft, the stratifications become placeholders for the rater to fill in.
